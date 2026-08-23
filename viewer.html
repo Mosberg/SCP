@@ -2,38 +2,48 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>SCP Document Viewer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SCP Document File</title>
+
+    <meta
+      name="description"
+      content="SCP Document File — Level 4 Clearance Required"
+    />
+    <meta property="og:title" content="SCP Document File" />
+    <meta property="og:image" content="assets/icon/scp.webp" />
+
+    <link rel="icon" type="image/png" href="assets/icon/scp.webp" />
     <link rel="stylesheet" href="styles/styles.css" />
     <script defer src="scripts/main.js"></script>
   </head>
 
   <body class="page page-viewer">
-    <div class="header">
+    <header class="header">
       <div class="header-left">
-        <h1>SCP POKÉMON FILE</h1>
+        <h1>SCP DOCUMENT FILE</h1>
         <p>Foundation Secure Database — Level 4 Clearance Required</p>
       </div>
       <div class="header-right">
         <button id="settings-toggle" class="settings-btn">⚙ Settings</button>
       </div>
-    </div>
+    </header>
 
-    <div id="settings-panel" class="settings-panel hidden">
+    <aside id="settings-panel" class="settings-panel hidden">
       <h2>Viewer Settings</h2>
-      <label>
-        <input type="checkbox" id="setting-sounds" />
-        Enable terminal sounds
-      </label>
-      <label>
-        <input type="checkbox" id="setting-overlay" />
-        Enable terminal overlay warnings
-      </label>
-      <label>
-        <input type="checkbox" id="setting-redactions" />
-        Allow redactions to reveal on hover
-      </label>
+      <label
+        ><input type="checkbox" id="setting-sounds" /> Enable terminal
+        sounds</label
+      >
+      <label
+        ><input type="checkbox" id="setting-overlay" /> Enable terminal overlay
+        warnings</label
+      >
+      <label
+        ><input type="checkbox" id="setting-redactions" /> Reveal redactions on
+        hover</label
+      >
       <button id="settings-close" class="settings-close-btn">Close</button>
-    </div>
+    </aside>
 
     <div id="scp-doc" class="scp-doc fade-in"></div>
 

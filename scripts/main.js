@@ -1,435 +1,307 @@
-// ------------------------------
-// CONFIG
-// ------------------------------
-const DATA_FILES = [
-  "pokemon_scp_1_10.json",
-  "pokemon_scp_11_20.json",
-  "pokemon_scp_21_30.json",
-  "pokemon_scp_31_40.json",
-  "pokemon_scp_41_50.json",
-  "pokemon_scp_51_60.json",
-  "pokemon_scp_61_70.json",
-  "pokemon_scp_71_80.json",
-  "pokemon_scp_81_90.json",
-  "pokemon_scp_91_100.json",
-  "pokemon_scp_101_110.json",
-  "pokemon_scp_111_120.json",
-  "pokemon_scp_121_130.json",
-  "pokemon_scp_131_140.json",
-  "pokemon_scp_141_151.json",
-];
+/* ============================================================
+   SCP POKÉMON ARCHIVE — main.js
+   Handles:
+   - Settings (sounds, overlay, redactions)
+   - Terminal overlay
+   - Home page: list, search, filters, navigation
+   - Viewer page: single SCP file rendering
+============================================================ */
 
-const DATA_PATH = "data";
-
-let ALL_SCP = [];
-
-const SETTINGS_KEY = "scp_pokemon_settings";
-
-let SETTINGS = {
+let SCP_DATA = [];
+const SETTINGS = {
   sounds: false,
-  overlay: true,
-  redactionsReveal: true,
+  overlay: false,
+  redactions: false,
 };
 
-// ------------------------------
-// COLOR MAPS
-// ------------------------------
-const CLASS_COLORS = {
-  Safe: "#4CAF50",
-  Euclid: "#FFC107",
-  Keter: "#F44336",
-  Apollyon: "#9C27B0",
-  Thaumiel: "#03A9F4",
-  Unknown: "#777",
-};
+/* ============================================================
+   ENTRY POINT
+============================================================ */
 
-const THREAT_COLORS = {
-  Green: "#4CAF50",
-  Yellow: "#FFEB3B",
-  Orange: "#FF9800",
-  Red: "#F44336",
-  Crimson: "#B71C1C",
-  Black: "#000000",
-  Blue: "#2196F3",
-  Unknown: "#777",
-};
+document.addEventListener("DOMContentLoaded", () => {
+  loadSettings();
+  setupSettingsPanel();
+  setupTerminalOverlay();
 
-function badgeColor(value, map) {
-  return map[value] || "#555";
-}
+  const body = document.body;
 
-// ------------------------------
-// IMAGE HELPERS
-// ------------------------------
-function imagePath(id, variant, side) {
-  return `assets/${variant}/${side}/${id}.png`;
-}
+  if (body.classList.contains("page-home")) {
+    initHomePage();
+  } else if (body.classList.contains("page-viewer")) {
+    initViewerPage();
+  }
+});
 
-function typeIcon(type) {
-  return type ? `assets/types/${type}.png` : "";
-}
+/* ============================================================
+   SETTINGS
+============================================================ */
 
-// ------------------------------
-// SETTINGS
-// ------------------------------
 function loadSettings() {
-  try {
-    const raw = localStorage.getItem(SETTINGS_KEY);
-    if (raw) {
-      const parsed = JSON.parse(raw);
-      SETTINGS = { ...SETTINGS, ...parsed };
-    }
-  } catch (e) {}
-}
+  SETTINGS.sounds = localStorage.getItem("scp_sounds") === "true";
+  SETTINGS.overlay = localStorage.getItem("scp_overlay") === "true";
+  SETTINGS.redactions = localStorage.getItem("scp_redactions") === "true";
 
-function saveSettings() {
-  localStorage.setItem(SETTINGS_KEY, JSON.stringify(SETTINGS));
-}
-
-function applySettingsToUI() {
   const sounds = document.getElementById("setting-sounds");
   const overlay = document.getElementById("setting-overlay");
   const redactions = document.getElementById("setting-redactions");
 
   if (sounds) sounds.checked = SETTINGS.sounds;
   if (overlay) overlay.checked = SETTINGS.overlay;
-  if (redactions) redactions.checked = SETTINGS.redactionsReveal;
-
-  document.body.classList.toggle(
-    "reveal-redactions",
-    SETTINGS.redactionsReveal,
-  );
+  if (redactions) redactions.checked = SETTINGS.redactions;
 }
 
-function initSettingsPanel() {
-  const toggle = document.getElementById("settings-toggle");
+function setupSettingsPanel() {
   const panel = document.getElementById("settings-panel");
+  const toggle = document.getElementById("settings-toggle");
   const close = document.getElementById("settings-close");
 
-  if (!toggle || !panel || !close) return;
+  if (!panel || !toggle || !close) return;
 
-  toggle.addEventListener("click", () => {
-    panel.classList.toggle("hidden");
-  });
-
-  close.addEventListener("click", () => {
-    panel.classList.add("hidden");
-  });
+  toggle.addEventListener("click", () => panel.classList.remove("hidden"));
+  close.addEventListener("click", () => panel.classList.add("hidden"));
 
   const sounds = document.getElementById("setting-sounds");
   const overlay = document.getElementById("setting-overlay");
   const redactions = document.getElementById("setting-redactions");
 
   if (sounds) {
-    sounds.addEventListener("change", () => {
-      SETTINGS.sounds = sounds.checked;
-      saveSettings();
+    sounds.addEventListener("change", (e) => {
+      SETTINGS.sounds = e.target.checked;
+      localStorage.setItem("scp_sounds", SETTINGS.sounds);
     });
   }
 
   if (overlay) {
-    overlay.addEventListener("change", () => {
-      SETTINGS.overlay = overlay.checked;
-      saveSettings();
+    overlay.addEventListener("change", (e) => {
+      SETTINGS.overlay = e.target.checked;
+      localStorage.setItem("scp_overlay", SETTINGS.overlay);
     });
   }
 
   if (redactions) {
-    redactions.addEventListener("change", () => {
-      SETTINGS.redactionsReveal = redactions.checked;
-      document.body.classList.toggle(
-        "reveal-redactions",
-        SETTINGS.redactionsReveal,
-      );
-      saveSettings();
+    redactions.addEventListener("change", (e) => {
+      SETTINGS.redactions = e.target.checked;
+      localStorage.setItem("scp_redactions", SETTINGS.redactions);
+      document.body.classList.toggle("redactions-enabled", SETTINGS.redactions);
     });
   }
 }
 
-// ------------------------------
-// TERMINAL OVERLAY
-// ------------------------------
-function showUnauthorizedOverlay(duration = 5000) {
-  if (!SETTINGS.overlay) return;
+/* ============================================================
+   TERMINAL OVERLAY
+============================================================ */
 
+function setupTerminalOverlay() {
   const overlay = document.getElementById("terminal-overlay");
+  const beep = document.getElementById("terminal-beep");
+
   if (!overlay) return;
 
-  overlay.classList.remove("hidden");
-
-  if (SETTINGS.sounds) {
-    const beep = document.getElementById("terminal-beep");
-    if (beep) {
-      beep.currentTime = 0;
-      beep.play().catch(() => {});
+  if (SETTINGS.overlay) {
+    overlay.classList.remove("hidden");
+    if (SETTINGS.sounds && beep) {
+      try {
+        beep.currentTime = 0;
+        beep.play();
+      } catch (_) {}
     }
+    setTimeout(() => overlay.classList.add("hidden"), 4000);
+  } else {
+    overlay.classList.add("hidden");
   }
-
-  setTimeout(() => overlay.classList.add("hidden"), duration);
 }
 
-// ------------------------------
-// LOAD ALL JSON FILES (MULTI-ENTITY)
-// ------------------------------
-async function loadAllSCP() {
-  const results = [];
+/* ============================================================
+   DATA LOADING
+============================================================ */
 
-  for (const file of DATA_FILES) {
-    try {
-      const res = await fetch(`${DATA_PATH}/${file}`);
-      const json = await res.json();
-      if (Array.isArray(json.pokemon_scp)) {
-        results.push(...json.pokemon_scp);
-      }
-    } catch (err) {
-      console.warn("Error loading file:", file, err);
-    }
+async function loadSCPData() {
+  if (SCP_DATA.length) return SCP_DATA;
+
+  try {
+    const res = await fetch("data/scp_pokemon.json");
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    const json = await res.json();
+    SCP_DATA = Array.isArray(json) ? json : json.scp_pokemon || [];
+  } catch (err) {
+    console.error("Failed to load SCP data:", err);
   }
 
-  results.sort((a, b) => a.id - b.id);
-  ALL_SCP = results;
-  return results;
+  return SCP_DATA;
 }
 
-// ------------------------------
-// HOMEPAGE RENDER + SEARCH/FILTER
-// ------------------------------
-async function renderHome() {
-  const listEl = document.getElementById("scp-list");
+/* ============================================================
+   HOME PAGE
+============================================================ */
+
+async function initHomePage() {
   const loader = document.getElementById("loader");
+  const list = document.getElementById("scp-list");
+
+  if (!loader || !list) return;
+
+  loader.textContent = "Loading SCP files...";
+
+  await loadSCPData();
+
+  loader.style.display = "none";
+  setupSearchFilters();
+  renderSCPList();
+}
+
+function setupSearchFilters() {
   const searchInput = document.getElementById("search-input");
   const filterClass = document.getElementById("filter-class");
   const filterThreat = document.getElementById("filter-threat");
 
-  const data = await loadAllSCP();
-  loader.style.display = "none";
-
-  function applyFilters() {
-    const q = searchInput.value.trim().toLowerCase();
-    const cls = filterClass.value;
-    const thr = filterThreat.value;
-
-    const filtered = data.filter((entry) => {
-      const matchesSearch =
-        !q ||
-        entry.name.toLowerCase().includes(q) ||
-        entry.scp_item_number.toLowerCase().includes(q);
-
-      const matchesClass = !cls || entry.object_class === cls;
-      const matchesThreat = !thr || entry.threat_level === thr;
-
-      return matchesSearch && matchesClass && matchesThreat;
-    });
-
-    if (!filtered.length) {
-      showUnauthorizedOverlay(3000);
-    }
-
-    renderList(filtered);
-  }
-
-  function renderList(entries) {
-    listEl.innerHTML = "";
-    entries.forEach((entry) => {
-      const item = document.createElement("div");
-      item.className = "scp-item";
-
-      const classColor = badgeColor(entry.object_class, CLASS_COLORS);
-      const threatColor = badgeColor(entry.threat_level, THREAT_COLORS);
-
-      item.innerHTML = `
-        <div class="scp-item-header">
-          <span class="scp-item-number">${entry.scp_item_number}</span>
-          <span class="scp-item-name">${entry.name}</span>
-        </div>
-        <p>
-          Object Class:
-          <span class="badge" style="background:${classColor}">
-            ${entry.object_class}
-          </span>
-        </p>
-        <p>
-          Threat Level:
-          <span class="badge" style="background:${threatColor}">
-            ${entry.threat_level}
-          </span>
-        </p>
-        <button onclick="openDoc(${entry.id})">Open Classified File</button>
-      `;
-
-      listEl.appendChild(item);
-    });
-  }
-
-  searchInput.addEventListener("input", applyFilters);
-  filterClass.addEventListener("change", applyFilters);
-  filterThreat.addEventListener("change", applyFilters);
-
-  applyFilters();
+  if (searchInput) searchInput.addEventListener("input", renderSCPList);
+  if (filterClass) filterClass.addEventListener("change", renderSCPList);
+  if (filterThreat) filterThreat.addEventListener("change", renderSCPList);
 }
 
-function openDoc(id) {
-  document.body.classList.add("page-transition-out");
-  setTimeout(() => {
-    window.location.href = `viewer.html?id=${id}`;
-  }, 250);
+function renderSCPList() {
+  const list = document.getElementById("scp-list");
+  if (!list) return;
+
+  list.innerHTML = "";
+
+  const search = (
+    document.getElementById("search-input")?.value || ""
+  ).toLowerCase();
+  const classFilter = document.getElementById("filter-class")?.value || "";
+  const threatFilter = document.getElementById("filter-threat")?.value || "";
+
+  SCP_DATA.forEach((entry) => {
+    const nameMatch =
+      !search ||
+      entry.name?.toLowerCase().includes(search) ||
+      entry.scp_item_number?.toLowerCase().includes(search);
+
+    const classMatch = !classFilter || entry.object_class === classFilter;
+    const threatMatch = !threatFilter || entry.threat_level === threatFilter;
+
+    if (!nameMatch || !classMatch || !threatMatch) return;
+
+    const card = document.createElement("article");
+    card.className = "scp-card";
+
+    const objectClass = entry.object_class || "Unknown";
+    const threatLevel = entry.threat_level || "Unknown";
+
+    card.innerHTML = `
+      <h3>${entry.scp_item_number || "SCP-????"} — ${entry.name || "Unknown Entity"}</h3>
+      <p>
+        <span class="badge" data-class="${objectClass}">${objectClass}</span>
+        <span class="badge" data-threat="${threatLevel}">${threatLevel}</span>
+      </p>
+      <p class="scp-summary">${entry.description || "No description available."}</p>
+    `;
+
+    card.addEventListener("click", () => {
+      const id = entry.id || entry.scp_item_number;
+      if (id) window.location.href = `viewer.html?id=${encodeURIComponent(id)}`;
+    });
+
+    list.appendChild(card);
+  });
+
+  if (!list.children.length) {
+    const empty = document.createElement("p");
+    empty.textContent = "No SCP files match the current filters.";
+    list.appendChild(empty);
+  }
 }
 
-// ------------------------------
-// DOCUMENT VIEWER RENDER
-// ------------------------------
-async function renderDocument() {
-  if (!ALL_SCP.length) {
-    await loadAllSCP();
-  }
+/* ============================================================
+   VIEWER PAGE
+============================================================ */
+
+async function initViewerPage() {
+  const doc = document.getElementById("scp-doc");
+  if (!doc) return;
+
+  await loadSCPData();
 
   const params = new URLSearchParams(window.location.search);
-  const id = Number(params.get("id"));
+  const idParam = params.get("id");
 
-  const entryIndex = ALL_SCP.findIndex((e) => e.id === id);
-  const entry = ALL_SCP[entryIndex];
-  const doc = document.getElementById("scp-doc");
-
-  if (!entry) {
-    doc.innerHTML = `<p>FILE NOT FOUND — ID ${id}</p>`;
-    showUnauthorizedOverlay(4000);
+  if (!idParam) {
+    doc.textContent = "No SCP ID specified.";
     return;
   }
 
-  const classColor = badgeColor(entry.object_class, CLASS_COLORS);
-  const threatColor = badgeColor(entry.threat_level, THREAT_COLORS);
+  const entry =
+    SCP_DATA.find((e) => e.id === idParam) ||
+    SCP_DATA.find((e) => e.scp_item_number === idParam);
 
-  const prevId =
-    entryIndex > 0
-      ? ALL_SCP[entryIndex - 1].id
-      : ALL_SCP[ALL_SCP.length - 1].id;
-  const nextId =
-    entryIndex < ALL_SCP.length - 1
-      ? ALL_SCP[entryIndex + 1].id
-      : ALL_SCP[0].id;
+  if (!entry) {
+    doc.textContent = `SCP file not found for ID: ${idParam}`;
+    return;
+  }
+
+  renderViewer(entry);
+}
+
+function renderViewer(entry) {
+  const doc = document.getElementById("scp-doc");
+  if (!doc) return;
+
+  const objectClass = entry.object_class || "Unknown";
+  const threatLevel = entry.threat_level || "Unknown";
+
+  const abilities = Array.isArray(entry.abilities) ? entry.abilities : [];
+  const logs = Array.isArray(entry.addendum_logs) ? entry.addendum_logs : [];
 
   doc.innerHTML = `
-    <div class="doc-nav">
-      <button class="nav-btn" onclick="navigateTo(${prevId})">◀ Previous</button>
-      <button class="nav-btn" onclick="navigateTo(${nextId})">Next ▶</button>
-    </div>
-    <div class="doc-header">
-      <div class="doc-title-row">
-        <h1>${entry.scp_item_number}</h1>
-        <span class="doc-tag">CLASSIFIED</span>
-      </div>
-      <h2>${entry.name}</h2>
-      <p>
-        Object Class:
-        <span class="badge" style="background:${classColor}">
-          ${entry.object_class}
-        </span>
-      </p>
-      <p>
-        Threat Level:
-        <span class="badge" style="background:${threatColor}">
-          ${entry.threat_level}
-        </span>
-      </p>
+    <h2>${entry.scp_item_number || "SCP-????"} — ${entry.name || "Unknown Entity"}</h2>
 
-      <div class="type-icons">
-        ${
-          entry.types?.type_1
-            ? `<img src="${typeIcon(entry.types.type_1)}" alt="${entry.types.type_1}">`
-            : ""
-        }
-        ${
-          entry.types?.type_2
-            ? `<img src="${typeIcon(entry.types.type_2)}" alt="${entry.types.type_2}">`
-            : ""
-        }
-      </div>
-    </div>
+    <p>
+      <strong>Object Class:</strong>
+      <span class="badge" data-class="${objectClass}">${objectClass}</span>
+    </p>
+    <p>
+      <strong>Threat Level:</strong>
+      <span class="badge" data-threat="${threatLevel}">${threatLevel}</span>
+    </p>
 
-    <div class="doc-section">
-      <h3>Special Containment Procedures</h3>
-      <p class="${entry.special_containment_procedures ? "redacted" : "redacted"}">
-        ${entry.special_containment_procedures || "REDACTED"}
-      </p>
-    </div>
+    ${
+      entry.classification
+        ? `<p><strong>Classification:</strong> ${entry.classification}</p>`
+        : ""
+    }
 
-    <div class="doc-section">
-      <h3>Description</h3>
-      <p class="${entry.description ? "redacted" : "redacted"}">
-        ${entry.description || "REDACTED"}
-      </p>
-    </div>
+    ${
+      entry.description ? `<h3>Description</h3><p>${entry.description}</p>` : ""
+    }
 
-    <div class="doc-section">
-      <h3>Behavior Notes</h3>
-      <p>${entry.behavior_notes || "No behavioral notes recorded."}</p>
-    </div>
+    ${
+      entry.containment_advisories
+        ? `<h3>Containment Advisories</h3><p>${entry.containment_advisories}</p>`
+        : ""
+    }
 
-    <div class="doc-section">
-      <h3>Addendum Logs</h3>
-      <ul>
-        ${
-          (entry.addendum_logs || [])
-            .map((log) => `<li class="redacted">${log}</li>`)
-            .join("") || "<li>No addenda on file.</li>"
-        }
-      </ul>
-    </div>
+    ${
+      entry.behavior_notes
+        ? `<h3>Behavior Notes</h3><p>${entry.behavior_notes}</p>`
+        : ""
+    }
 
-    <div class="doc-images">
-      <h3>Images</h3>
-      <div class="img-row">
-        <div>
-          <h4>Normal — Front</h4>
-          <img src="${imagePath(entry.id, "normal", "front")}" alt="${entry.name} Normal Front">
-        </div>
-        <div>
-          <h4>Normal — Back</h4>
-          <img src="${imagePath(entry.id, "normal", "back")}" alt="${entry.name} Normal Back">
-        </div>
+    ${
+      abilities.length
+        ? `<h3>Abilities</h3><ul>${abilities
+            .map((a) => `<li>${a}</li>`)
+            .join("")}</ul>`
+        : ""
+    }
 
-        <div>
-          <h4>Shiny — Front</h4>
-          <img src="${imagePath(entry.id, "shiny", "front")}" alt="${entry.name} Shiny Front">
-        </div>
-        <div>
-          <h4>Shiny — Back</h4>
-          <img src="${imagePath(entry.id, "shiny", "back")}" alt="${entry.name} Shiny Back">
-        </div>
-      </div>
-    </div>
+    ${
+      logs.length
+        ? `<h3>Addendum Logs</h3><ul>${logs
+            .map((l) => `<li>${l}</li>`)
+            .join("")}</ul>`
+        : ""
+    }
 
-    <div class="doc-nav">
-      <button class="nav-btn" onclick="navigateTo(${prevId})">◀ Previous</button>
-      <button class="nav-btn" onclick="navigateTo(${nextId})">Next ▶</button>
-    </div>
-
-    <button class="back-btn" onclick="goBack()">Return to Archive</button>
+    <p><a href="index.html">&larr; Return to Archive</a></p>
   `;
 }
-
-function navigateTo(id) {
-  document.body.classList.add("page-transition-out");
-  setTimeout(() => {
-    window.location.href = `viewer.html?id=${id}`;
-  }, 250);
-}
-
-function goBack() {
-  document.body.classList.add("page-transition-out");
-  setTimeout(() => {
-    window.location.href = "index.html";
-  }, 250);
-}
-
-// ------------------------------
-// ROUTING
-// ------------------------------
-window.onload = () => {
-  loadSettings();
-  applySettingsToUI();
-  initSettingsPanel();
-
-  if (document.querySelector(".page-home")) renderHome();
-  if (document.querySelector(".page-viewer")) renderDocument();
-};
