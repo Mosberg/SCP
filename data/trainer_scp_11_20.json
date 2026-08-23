@@ -1,0 +1,206 @@
+{
+  "trainer_scp": [
+    {
+      "id": "T011",
+      "name": "Giovanni",
+      "scp_item_number": "SCP-T011",
+      "classification": "Parahuman — High-Risk Strategic Threat Entity",
+      "object_class": "Keter",
+      "threat_level": "Black",
+      "abilities": [
+        "tactical manipulation of high-threat anomalies",
+        "enhanced psychological influence",
+        "extreme resistance to fear-based psychic attacks",
+        "strategic coordination of hostile parahuman groups"
+      ],
+      "containment_advisories": "SCP-T011 must not be engaged directly. All interactions require Level-4 clearance and remote communication protocols. SCP-T011’s access to SCP-0034 (Nidoking) and SCP-0038 (Ninetales) presents catastrophic risk.",
+      "description": "SCP-T011 is the leader of a hostile parahuman organization responsible for multiple SCP containment breaches. Displays exceptional strategic intelligence and anomalous resistance to psychic interrogation.",
+      "behavior_notes": "Cold, calculating, and highly disciplined. Shows no emotional vulnerability.",
+      "addendum_logs": [
+        "Addendum T011-A: SCP-T011 orchestrated a coordinated breach involving three Keter-class anomalies.",
+        "Addendum T011-B: SCP-T011 resisted SCP-0097 (Hypno)’s hypnosis with no measurable effect."
+      ]
+    },
+    {
+      "id": "T012",
+      "name": "Lorelei",
+      "scp_item_number": "SCP-T012",
+      "classification": "Parahuman — Cryokinetic Specialist",
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "abilities": [
+        "resistance to extreme cold",
+        "limited cryokinesis",
+        "synchronization with ice-type anomalies"
+      ],
+      "containment_advisories": "Personnel must avoid prolonged exposure to SCP-T012’s cryogenic field. SCP-T012 may assist in containment of SCP-0144 (Articuno) under supervision.",
+      "description": "SCP-T012 displays anomalous affinity for cryogenic environments and can manipulate ice formation within a limited radius. Frequently collaborates with SCP-0087 (Dewgong) and SCP-0091 (Cloyster).",
+      "behavior_notes": "Calm, focused, and emotionally reserved. Shows preference for cold environments.",
+      "addendum_logs": [
+        "Addendum T012-A: SCP-T012 lowered ambient temperature by 18°C during stress.",
+        "Addendum T012-B: SCP-0144’s behavior stabilized in SCP-T012’s presence."
+      ]
+    },
+    {
+      "id": "T013",
+      "name": "Bruno",
+      "scp_item_number": "SCP-T013",
+      "classification": "Parahuman — Enhanced Physical Combatant",
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "abilities": [
+        "superhuman strength",
+        "extreme physical durability",
+        "combat synergy with fighting-type anomalies"
+      ],
+      "containment_advisories": "SCP-T013 must not be engaged physically. Personnel must maintain a minimum distance of 15 meters during training sessions.",
+      "description": "SCP-T013 exhibits physical strength exceeding human limits and can withstand impacts from SCP-0068 (Machamp). Displays combat instincts comparable to high-threat anomalies.",
+      "behavior_notes": "Disciplined, stoic, and intensely focused. Shows unwavering loyalty to allied personnel.",
+      "addendum_logs": [
+        "Addendum T013-A: SCP-T013 endured a direct four-arm strike from SCP-0068.",
+        "Addendum T013-B: SCP-T013 shattered reinforced training equipment during routine exercise."
+      ]
+    },
+    {
+      "id": "T014",
+      "name": "Agatha",
+      "scp_item_number": "SCP-T014",
+      "classification": "Parahuman — Spectral Manipulation Specialist",
+      "object_class": "Keter",
+      "threat_level": "Black",
+      "abilities": [
+        "communication with spectral anomalies",
+        "resistance to ectoplasmic influence",
+        "limited spectral projection"
+      ],
+      "containment_advisories": "Personnel must maintain spectral shielding during interaction. SCP-T014 must not be allowed near SCP-0094 (Gengar) without supervision.",
+      "description": "SCP-T014 displays anomalous affinity for ghost-type SCP entities, capable of communicating with and influencing spectral anomalies. Shows partial ectoplasmic signatures during stress.",
+      "behavior_notes": "Cryptic, sharp-witted, and unpredictable. Displays fascination with death-related anomalies.",
+      "addendum_logs": [
+        "Addendum T014-A: SCP-T014 suppressed SCP-0093 (Haunter)’s paralysis effect.",
+        "Addendum T014-B: Ectoplasmic residue detected on SCP-T014’s clothing after containment breach."
+      ]
+    },
+    {
+      "id": "T015",
+      "name": "Lance",
+      "scp_item_number": "SCP-T015",
+      "classification": "Parahuman — Draconic Combat Specialist",
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "abilities": [
+        "resistance to high-impact force",
+        "limited atmospheric manipulation",
+        "combat synergy with draconic anomalies"
+      ],
+      "containment_advisories": "SCP-T015 must not be allowed near SCP-0149 (Dragonite) during agitation cycles. Personnel must avoid aerial zones during SCP-T015’s training.",
+      "description": "SCP-T015 displays anomalous resilience and limited atmospheric manipulation, likely influenced by prolonged exposure to draconic SCP entities. Shows exceptional combat coordination with SCP-0148 (Dragonair).",
+      "behavior_notes": "Charismatic, intense, and highly disciplined. Displays strong protective instincts.",
+      "addendum_logs": [
+        "Addendum T015-A: SCP-T015 redirected a high-speed dive attack from SCP-0149.",
+        "Addendum T015-B: Atmospheric pressure dropped by 6% during SCP-T015’s combat demonstration."
+      ]
+    },
+    {
+      "id": "T016",
+      "name": "Jessie",
+      "scp_item_number": "SCP-T016",
+      "classification": "Parahuman — High-Instability Rogue Agent",
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "abilities": [
+        "enhanced agility",
+        "extreme emotional volatility",
+        "anomalous survival capability"
+      ],
+      "containment_advisories": "SCP-T016 must be monitored during interactions with SCP-T017. Personnel must avoid provoking SCP-T016’s emotional instability.",
+      "description": "SCP-T016 is a rogue parahuman affiliated with SCP-T011’s organization. Displays anomalous survivability and unpredictable behavior patterns.",
+      "behavior_notes": "Dramatic, impulsive, and emotionally reactive. Displays strong attachment to SCP-T017.",
+      "addendum_logs": [
+        "Addendum T016-A: SCP-T016 survived a fall from a 40-meter height with minor injuries.",
+        "Addendum T016-B: SCP-T016 attempted unauthorized access to SCP-0098 (Krabby)."
+      ]
+    },
+    {
+      "id": "T017",
+      "name": "James",
+      "scp_item_number": "SCP-T017",
+      "classification": "Parahuman — High-Instability Rogue Agent",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "high pain tolerance",
+        "anomalous luck in escape scenarios",
+        "rapid adaptation to environmental hazards"
+      ],
+      "containment_advisories": "SCP-T017 must be monitored during joint operations with SCP-T016. Personnel must avoid exposing SCP-T017 to high-threat anomalies.",
+      "description": "SCP-T017 is a rogue parahuman with anomalous luck and resilience. Frequently participates in failed operations with SCP-T016, yet consistently survives.",
+      "behavior_notes": "Polite, anxious, and easily influenced. Displays strong loyalty to SCP-T016.",
+      "addendum_logs": [
+        "Addendum T017-A: SCP-T017 survived SCP-0100 (Voltorb) detonation at close range.",
+        "Addendum T017-B: SCP-T017 escaped containment using improvised tools."
+      ]
+    },
+    {
+      "id": "T018",
+      "name": "Meowth",
+      "scp_item_number": "SCP-T018",
+      "classification": "Anomalous Creature — Parahuman-Level Intelligence",
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "abilities": [
+        "human speech",
+        "advanced problem-solving",
+        "stealth infiltration",
+        "anomalous social manipulation"
+      ],
+      "containment_advisories": "SCP-T018 must be monitored for escape attempts. Personnel must secure all valuables.",
+      "description": "SCP-T018 is a feline anomaly possessing human-level intelligence and speech capability. Displays advanced infiltration skills and manipulative behavior.",
+      "behavior_notes": "Clever, opportunistic, and highly social. Displays strong attachment to SCP-T016 and SCP-T017.",
+      "addendum_logs": [
+        "Addendum T018-A: SCP-T018 bypassed biometric locks using improvised tools.",
+        "Addendum T018-B: SCP-T018 convinced a guard to open a containment door."
+      ]
+    },
+    {
+      "id": "T019",
+      "name": "Bill",
+      "scp_item_number": "SCP-T019",
+      "classification": "Anomalous Human — Technological Parahuman",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "advanced computational intuition",
+        "anomalous affinity for digital anomalies",
+        "partial data-phase shifting"
+      ],
+      "containment_advisories": "Personnel must avoid allowing SCP-T019 direct access to SCP-0137 (Porygon) without supervision.",
+      "description": "SCP-T019 is a technological parahuman capable of interfacing with digital anomalies. Displays partial data-phase shifting during stress events.",
+      "behavior_notes": "Friendly, eccentric, and highly curious. Displays obsessive interest in anomalous data structures.",
+      "addendum_logs": [
+        "Addendum T019-A: SCP-T019 partially phased into a digital containment console.",
+        "Addendum T019-B: SCP-0137 (Porygon) displayed unusual obedience toward SCP-T019."
+      ]
+    },
+    {
+      "id": "T020",
+      "name": "Nurse Joy",
+      "scp_item_number": "SCP-T020",
+      "classification": "Parahuman — Biological Restoration Specialist",
+      "object_class": "Thaumiel",
+      "threat_level": "Green",
+      "abilities": [
+        "accelerated healing induction",
+        "anomalous biological stabilization",
+        "rapid medical triage"
+      ],
+      "containment_advisories": "SCP-T020 is not to be contained. SCP-T020 may assist in emergency medical response for SCP-related injuries.",
+      "description": "SCP-T020 displays anomalous healing capabilities, able to stabilize injured personnel and anomalies far beyond normal medical limits. Multiple identical instances of SCP-T020 exist, origin unknown.",
+      "behavior_notes": "Calm, nurturing, and highly professional. Displays no memory of other SCP-T020 instances.",
+      "addendum_logs": [
+        "Addendum T020-A: SCP-T020 stabilized a researcher injured by SCP-0038 (Ninetales) in under 30 seconds.",
+        "Addendum T020-B: Genetic scans show identical structure across all SCP-T020 instances."
+      ]
+    }
+  ]
+}

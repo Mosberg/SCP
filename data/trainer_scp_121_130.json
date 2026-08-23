@@ -1,0 +1,204 @@
+{
+  "trainer_scp": [
+    {
+      "id": "T121",
+      "name": "Pokémon Plateau Logistics Officer",
+      "scp_item_number": "SCP-T121",
+      "classification": "Parahuman — High-Efficiency Operations Specialist",
+      "object_class": "Safe",
+      "threat_level": "Green",
+      "abilities": [
+        "rapid supply chain coordination",
+        "enhanced spatial organization",
+        "anomalous reduction of operational delays"
+      ],
+      "containment_advisories": "SCP-T121 may assist in large-scale SCP transport operations.",
+      "description": "SCP-T121 displays anomalous logistical efficiency, capable of coordinating multi-wing supply operations with near-perfect accuracy.",
+      "behavior_notes": "Organized, calm, and highly reliable.",
+      "addendum_logs": [
+        "Addendum T121-A: SCP-T121 reduced a 4-hour supply backlog to 22 minutes.",
+        "Addendum T121-B: SCP-T121 reorganized containment storage to increase capacity by 18%."
+      ]
+    },
+    {
+      "id": "T122",
+      "name": "Pokémon Plateau Medical Specialist",
+      "scp_item_number": "SCP-T122",
+      "classification": "Parahuman — Advanced Biological Stabilizer",
+      "object_class": "Thaumiel",
+      "threat_level": "Green",
+      "abilities": [
+        "accelerated biological triage",
+        "anomalous stabilization of injured anomalies",
+        "rapid medical hazard assessment"
+      ],
+      "containment_advisories": "SCP-T122 may assist in emergency SCP medical response.",
+      "description": "SCP-T122 displays anomalous medical intuition and stabilization capability, frequently assisting during Elite Four containment breaches.",
+      "behavior_notes": "Calm, nurturing, and highly focused.",
+      "addendum_logs": [
+        "Addendum T122-A: SCP-T122 stabilized SCP-0038 (Ninetales) after a flame surge.",
+        "Addendum T122-B: SCP-T122 restored a researcher’s vitals after SCP-0092 exposure."
+      ]
+    },
+    {
+      "id": "T123",
+      "name": "Pokémon Plateau Hazard Scout",
+      "scp_item_number": "SCP-T123",
+      "classification": "Parahuman — Environmental Recon Specialist",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "enhanced environmental awareness",
+        "rapid hazard detection",
+        "resistance to mild elemental anomalies"
+      ],
+      "containment_advisories": "SCP-T123 must not be exposed to SCP-0146 (Moltres).",
+      "description": "SCP-T123 displays anomalous hazard detection capability, frequently scouting terrain before Elite Four operations.",
+      "behavior_notes": "Quiet, observant, and highly adaptive.",
+      "addendum_logs": [
+        "Addendum T123-A: SCP-T123 detected SCP-0087’s cryogenic pulse before sensors.",
+        "Addendum T123-B: SCP-T123 mapped SCP-0095’s tunnel network with 97% accuracy."
+      ]
+    },
+    {
+      "id": "T124",
+      "name": "Pokémon Plateau Combat Medic",
+      "scp_item_number": "SCP-T124",
+      "classification": "Parahuman — High-Risk Medical Response Entity",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "rapid combat-zone triage",
+        "resistance to physical trauma",
+        "enhanced mobility under stress"
+      ],
+      "containment_advisories": "SCP-T124 must not be exposed to SCP-0149 (Dragonite).",
+      "description": "SCP-T124 displays anomalous resilience and mobility, capable of performing medical triage in active SCP combat zones.",
+      "behavior_notes": "Brave, focused, and highly dedicated.",
+      "addendum_logs": [
+        "Addendum T124-A: SCP-T124 treated three injured guards during SCP-0142’s breach.",
+        "Addendum T124-B: SCP-T124 resisted SCP-0074’s shockwave with minor injuries."
+      ]
+    },
+    {
+      "id": "T125",
+      "name": "Pokémon Plateau Hazard Trainer",
+      "scp_item_number": "SCP-T125",
+      "classification": "Parahuman — Multi-Hazard Combat Instructor",
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "abilities": [
+        "rapid hazard adaptation",
+        "enhanced combat intuition",
+        "multi-type anomaly coordination"
+      ],
+      "containment_advisories": "SCP-T125 must not be exposed to SCP-0149 (Dragonite).",
+      "description": "SCP-T125 trains personnel in multi-type hazard combat and displays exceptional adaptation to unpredictable SCP behavior.",
+      "behavior_notes": "Disciplined, intense, and highly strategic.",
+      "addendum_logs": [
+        "Addendum T125-A: SCP-T125 neutralized SCP-0067 during a training breach.",
+        "Addendum T125-B: SCP-T125 resisted SCP-0077’s flame surge with minimal injury."
+      ]
+    },
+    {
+      "id": "T126",
+      "name": "Pokémon Plateau Tactical Commander",
+      "scp_item_number": "SCP-T126",
+      "classification": "Parahuman — Elite Crisis Commander",
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "abilities": [
+        "rapid multi-team command",
+        "enhanced crisis prediction",
+        "anomalous morale stabilization"
+      ],
+      "containment_advisories": "SCP-T126 must not be exposed to SCP-0146 (Moltres).",
+      "description": "SCP-T126 displays elite-level crisis command capability, frequently leading multi-wing responses during SCP breaches.",
+      "behavior_notes": "Authoritative, calm, and highly strategic.",
+      "addendum_logs": [
+        "Addendum T126-A: SCP-T126 coordinated a full-wing lockdown during SCP-0142’s breach.",
+        "Addendum T126-B: SCP-T126 stabilized personnel morale during SCP-0146’s wildfire event."
+      ]
+    },
+    {
+      "id": "T127",
+      "name": "Pokémon Plateau Senior Researcher",
+      "scp_item_number": "SCP-T127",
+      "classification": "Parahuman — High-Level Anomaly Scientist",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "accelerated anomaly classification",
+        "advanced behavioral prediction",
+        "rapid adaptation to new SCP data"
+      ],
+      "containment_advisories": "SCP-T127 must not be exposed to cognitohazardous SCPs.",
+      "description": "SCP-T127 displays advanced analytical ability and rapid adaptation to new SCP data, frequently assisting Elite Four containment operations.",
+      "behavior_notes": "Calm, analytical, and highly dedicated.",
+      "addendum_logs": [
+        "Addendum T127-A: SCP-T127 predicted SCP-0148’s atmospheric surge.",
+        "Addendum T127-B: SCP-T127 identified a new behavioral trigger in SCP-0049."
+      ]
+    },
+    {
+      "id": "T128",
+      "name": "Pokémon Plateau Senior Technician",
+      "scp_item_number": "SCP-T128",
+      "classification": "Parahuman — Elite Containment Engineer",
+      "object_class": "Safe",
+      "threat_level": "Green",
+      "abilities": [
+        "rapid repair of advanced containment systems",
+        "enhanced technical intuition",
+        "resistance to mild electrical hazards"
+      ],
+      "containment_advisories": "SCP-T128 may assist in maintaining high-level containment infrastructure.",
+      "description": "SCP-T128 displays exceptional technical intuition and rapid repair capability, frequently assisting in Indigo Plateau containment maintenance.",
+      "behavior_notes": "Focused, methodical, and highly reliable.",
+      "addendum_logs": [
+        "Addendum T128-A: SCP-T128 repaired a damaged Faraday vault in record time.",
+        "Addendum T128-B: SCP-T128 stabilized EM fluctuations caused by SCP-0082."
+      ]
+    },
+    {
+      "id": "T129",
+      "name": "Pokémon Plateau Senior Analyst",
+      "scp_item_number": "SCP-T129",
+      "classification": "Parahuman — Elite Tactical Analyst",
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "abilities": [
+        "advanced combat prediction",
+        "rapid anomaly behavior modeling",
+        "enhanced situational awareness"
+      ],
+      "containment_advisories": "SCP-T129 must not be exposed to SCP-0149 (Dragonite).",
+      "description": "SCP-T129 displays exceptional combat prediction and anomaly behavior modeling, frequently advising Elite Four containment operations.",
+      "behavior_notes": "Calm, analytical, and highly perceptive.",
+      "addendum_logs": [
+        "Addendum T129-A: SCP-T129 predicted SCP-0148’s atmospheric surge.",
+        "Addendum T129-B: SCP-T129 identified a new behavioral pattern in SCP-0065."
+      ]
+    },
+    {
+      "id": "T130",
+      "name": "Pokémon Plateau Senior Coordinator",
+      "scp_item_number": "SCP-T130",
+      "classification": "Parahuman — Elite Operations Coordinator",
+      "object_class": "Thaumiel",
+      "threat_level": "Green",
+      "abilities": [
+        "rapid multi-team coordination",
+        "enhanced crisis management",
+        "anomalous stabilization of group morale"
+      ],
+      "containment_advisories": "SCP-T130 may assist in large-scale containment operations.",
+      "description": "SCP-T130 displays exceptional coordination ability and crisis management skill, capable of stabilizing multi-team operations during SCP breaches.",
+      "behavior_notes": "Confident, charismatic, and highly organized.",
+      "addendum_logs": [
+        "Addendum T130-A: SCP-T130 coordinated a multi-wing evacuation during SCP-0142’s breach.",
+        "Addendum T130-B: SCP-T130 stabilized morale during SCP-0146’s wildfire event."
+      ]
+    }
+  ]
+}

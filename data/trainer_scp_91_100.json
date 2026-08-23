@@ -1,0 +1,205 @@
+{
+  "trainer_scp": [
+    {
+      "id": "T091",
+      "name": "Pokémon Veteran (Kanto Variant)",
+      "scp_item_number": "SCP-T091",
+      "classification": "Parahuman — High-Experience Combat Specialist",
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "abilities": [
+        "advanced combat intuition",
+        "rapid adaptation to multi-type anomalies",
+        "enhanced resilience"
+      ],
+      "containment_advisories": "SCP-T091 must not be allowed near high-threat SCPs without supervision.",
+      "description": "SCP-T091 displays exceptional combat experience and adaptability, capable of coordinating multiple SCP entities with precision.",
+      "behavior_notes": "Calm, disciplined, and highly strategic.",
+      "addendum_logs": [
+        "Addendum T091-A: SCP-T091 predicted SCP-0068 (Machamp)’s attack pattern with 93% accuracy.",
+        "Addendum T091-B: SCP-T091 resisted SCP-0077 (Ponyta)’s flame surge with minimal injury."
+      ]
+    },
+    {
+      "id": "T092",
+      "name": "Pokémon Ace Trainer (Victory Road Variant)",
+      "scp_item_number": "SCP-T092",
+      "classification": "Parahuman — High-Risk Multi-Type Combatant",
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "abilities": [
+        "rapid hazard adaptation",
+        "enhanced reflexes",
+        "multi-type anomaly coordination"
+      ],
+      "containment_advisories": "Personnel must avoid engaging SCP-T092 in combat drills. SCP-T092 must not be exposed to SCP-0149 (Dragonite).",
+      "description": "SCP-T092 displays elite combat capability and rapid adaptation to unpredictable SCP behavior, making them highly effective but dangerous in containment zones.",
+      "behavior_notes": "Focused, intense, and highly competitive.",
+      "addendum_logs": [
+        "Addendum T092-A: SCP-T092 neutralized SCP-0054 (Psyduck)’s psychic burst using improvised tactics.",
+        "Addendum T092-B: SCP-T092 resisted SCP-0087 (Dewgong)’s freezing mist with minimal impairment."
+      ]
+    },
+    {
+      "id": "T093",
+      "name": "Pokémon Cooltrainer (Victory Road Variant)",
+      "scp_item_number": "SCP-T093",
+      "classification": "Parahuman — Multi-Type Hazard Specialist",
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "abilities": [
+        "enhanced tactical reasoning",
+        "rapid elemental hazard adaptation",
+        "resistance to multi-type anomaly attacks"
+      ],
+      "containment_advisories": "SCP-T093 must not be exposed to SCP-0142 (Aerodactyl) or SCP-0146 (Moltres).",
+      "description": "SCP-T093 displays exceptional tactical reasoning and multi-type coordination, frequently used in advanced containment simulations.",
+      "behavior_notes": "Calm, analytical, and highly skilled.",
+      "addendum_logs": [
+        "Addendum T093-A: SCP-T093 predicted SCP-0068 (Machamp)’s attack pattern with 95% accuracy.",
+        "Addendum T093-B: SCP-T093 resisted SCP-0077 (Ponyta)’s flame output with minimal injury."
+      ]
+    },
+    {
+      "id": "T094",
+      "name": "Pokémon Blackbelt (Victory Road Variant)",
+      "scp_item_number": "SCP-T094",
+      "classification": "Parahuman — Enhanced Martial Combat Entity",
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "abilities": [
+        "superhuman striking force",
+        "enhanced reflexes",
+        "combat synergy with fighting-type anomalies"
+      ],
+      "containment_advisories": "Personnel must avoid physical confrontation with SCP-T094. SCP-T094 must not be allowed near SCP-0068 (Machamp).",
+      "description": "SCP-T094 displays extreme physical strength and reflexes, capable of matching mid-level fighting-type SCP entities in combat.",
+      "behavior_notes": "Disciplined, intense, and highly competitive.",
+      "addendum_logs": [
+        "Addendum T094-A: SCP-T094 shattered reinforced training equipment during a demonstration.",
+        "Addendum T094-B: SCP-T094 resisted SCP-0067 (Machoke)’s strike with minimal injury."
+      ]
+    },
+    {
+      "id": "T095",
+      "name": "Pokémon Psychic (Victory Road Variant)",
+      "scp_item_number": "SCP-T095",
+      "classification": "Parahuman — Mid-Level Psychic Hazard",
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "abilities": [
+        "telepathy",
+        "limited telekinesis",
+        "precognitive flashes",
+        "psychic suppression of low-level anomalies"
+      ],
+      "containment_advisories": "Personnel must maintain cognitive shielding. SCP-T095 must not be exposed to SCP-T009 (Sabrina).",
+      "description": "SCP-T095 displays mid-level psychic abilities capable of suppressing low-threat psychic SCP entities and predicting short-term events.",
+      "behavior_notes": "Detached, sensitive, and easily overwhelmed.",
+      "addendum_logs": [
+        "Addendum T095-A: SCP-T095 suppressed SCP-0064 (Kadabra)’s psychic pulse.",
+        "Addendum T095-B: SCP-T095 predicted a containment breach 6 minutes before occurrence."
+      ]
+    },
+    {
+      "id": "T096",
+      "name": "Pokémon Medium (Victory Road Variant)",
+      "scp_item_number": "SCP-T096",
+      "classification": "Parahuman — Advanced Spectral Hazard Entity",
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "abilities": [
+        "communication with mid-level spectral anomalies",
+        "spectral projection",
+        "resistance to ectoplasmic corruption"
+      ],
+      "containment_advisories": "Personnel must maintain spectral shielding. SCP-T096 must not be exposed to SCP-0094 (Gengar).",
+      "description": "SCP-T096 displays advanced spectral communication and projection capabilities, capable of interacting with mid-level ghost-type SCP entities.",
+      "behavior_notes": "Eerie, distant, and emotionally detached.",
+      "addendum_logs": [
+        "Addendum T096-A: SCP-T096 communicated with SCP-0093 (Haunter) during a breach.",
+        "Addendum T096-B: SCP-T096’s spectral projection disrupted containment sensors."
+      ]
+    },
+    {
+      "id": "T097",
+      "name": "Pokémon Dragon Tamer (Victory Road Variant)",
+      "scp_item_number": "SCP-T097",
+      "classification": "Parahuman — Draconic Hazard Combatant",
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "abilities": [
+        "resistance to high-impact force",
+        "limited atmospheric manipulation",
+        "combat synergy with draconic anomalies"
+      ],
+      "containment_advisories": "SCP-T097 must not be allowed near SCP-0149 (Dragonite) during agitation cycles.",
+      "description": "SCP-T097 displays anomalous resilience and limited atmospheric manipulation, likely influenced by prolonged exposure to draconic SCP entities.",
+      "behavior_notes": "Intense, disciplined, and highly focused.",
+      "addendum_logs": [
+        "Addendum T097-A: SCP-T097 redirected SCP-0148 (Dragonair)’s electrical discharge.",
+        "Addendum T097-B: SCP-T097 survived SCP-0149’s tail strike with moderate injuries."
+      ]
+    },
+    {
+      "id": "T098",
+      "name": "Pokémon Veteran (Elite Variant)",
+      "scp_item_number": "SCP-T098",
+      "classification": "Parahuman — High-Experience Elite Combat Specialist",
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "abilities": [
+        "advanced combat intuition",
+        "rapid adaptation to multi-type anomalies",
+        "enhanced resilience"
+      ],
+      "containment_advisories": "SCP-T098 must not be allowed near high-threat SCPs without supervision.",
+      "description": "SCP-T098 displays exceptional combat experience and adaptability, capable of coordinating multiple SCP entities with precision.",
+      "behavior_notes": "Calm, disciplined, and highly strategic.",
+      "addendum_logs": [
+        "Addendum T098-A: SCP-T098 predicted SCP-0068 (Machamp)’s attack pattern with 96% accuracy.",
+        "Addendum T098-B: SCP-T098 resisted SCP-0077 (Ponyta)’s flame surge with minimal injury."
+      ]
+    },
+    {
+      "id": "T099",
+      "name": "Pokémon Ace Trainer (Elite Variant)",
+      "scp_item_number": "SCP-T099",
+      "classification": "Parahuman — High-Risk Multi-Type Elite Combatant",
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "abilities": [
+        "rapid hazard adaptation",
+        "enhanced reflexes",
+        "multi-type anomaly coordination"
+      ],
+      "containment_advisories": "Personnel must avoid engaging SCP-T099 in combat drills. SCP-T099 must not be exposed to SCP-0149 (Dragonite).",
+      "description": "SCP-T099 displays elite combat capability and rapid adaptation to unpredictable SCP behavior, making them highly effective but dangerous in containment zones.",
+      "behavior_notes": "Focused, intense, and highly competitive.",
+      "addendum_logs": [
+        "Addendum T099-A: SCP-T099 neutralized SCP-0054 (Psyduck)’s psychic burst using improvised tactics.",
+        "Addendum T099-B: SCP-T099 resisted SCP-0087 (Dewgong)’s freezing mist with minimal impairment."
+      ]
+    },
+    {
+      "id": "T100",
+      "name": "Pokémon Champion’s Aide",
+      "scp_item_number": "SCP-T100",
+      "classification": "Parahuman — High-Level Strategic Support Entity",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "advanced anomaly documentation",
+        "rapid tactical analysis",
+        "enhanced coordination with elite parahumans"
+      ],
+      "containment_advisories": "SCP-T100 must not be exposed to cognitohazardous SCPs.",
+      "description": "SCP-T100 serves as a strategic aide to high-level parahumans such as SCP-T029 (Red) and SCP-T015 (Lance). Displays exceptional analytical ability and coordination.",
+      "behavior_notes": "Calm, intelligent, and highly organized.",
+      "addendum_logs": [
+        "Addendum T100-A: SCP-T100 identified a containment flaw in SCP-0076’s vault.",
+        "Addendum T100-B: SCP-T100 predicted SCP-0142 (Aerodactyl)’s flight path with 91% accuracy."
+      ]
+    }
+  ]
+}

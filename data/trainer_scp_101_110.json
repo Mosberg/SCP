@@ -1,0 +1,204 @@
+{
+  "trainer_scp": [
+    {
+      "id": "T101",
+      "name": "Indigo Plateau Receptionist",
+      "scp_item_number": "SCP-T101",
+      "classification": "Parahuman — Administrative Coordination Specialist",
+      "object_class": "Safe",
+      "threat_level": "Green",
+      "abilities": [
+        "rapid anomaly documentation",
+        "enhanced multitasking",
+        "behavioral stabilization of stressed personnel"
+      ],
+      "containment_advisories": "SCP-T101 may assist in administrative containment operations. Personnel must avoid exposing SCP-T101 to cognitohazardous SCPs.",
+      "description": "SCP-T101 displays exceptional administrative coordination and can stabilize stressed personnel through anomalous calming influence.",
+      "behavior_notes": "Polite, organized, and highly efficient.",
+      "addendum_logs": [
+        "Addendum T101-A: SCP-T101 processed 47 emergency reports in under 10 minutes.",
+        "Addendum T101-B: SCP-T101 stabilized a panicked researcher exposed to SCP-0092 (Gastly)."
+      ]
+    },
+    {
+      "id": "T102",
+      "name": "Indigo Plateau Nurse",
+      "scp_item_number": "SCP-T102",
+      "classification": "Parahuman — Advanced Biological Restoration Specialist",
+      "object_class": "Thaumiel",
+      "threat_level": "Green",
+      "abilities": [
+        "accelerated healing induction",
+        "anomalous biological stabilization",
+        "rapid medical triage"
+      ],
+      "containment_advisories": "SCP-T102 may assist in emergency medical response for SCP-related injuries.",
+      "description": "SCP-T102 displays anomalous healing capabilities far beyond normal medical limits. Multiple identical instances exist, origin unknown.",
+      "behavior_notes": "Calm, nurturing, and highly professional.",
+      "addendum_logs": [
+        "Addendum T102-A: SCP-T102 stabilized a researcher injured by SCP-0038 (Ninetales).",
+        "Addendum T102-B: Genetic scans show identical structure across all SCP-T102 instances."
+      ]
+    },
+    {
+      "id": "T103",
+      "name": "Indigo Plateau Security Officer",
+      "scp_item_number": "SCP-T103",
+      "classification": "Parahuman — High-Risk Security Specialist",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "enhanced situational awareness",
+        "rapid hazard response",
+        "resistance to physical trauma"
+      ],
+      "containment_advisories": "SCP-T103 must not be exposed to SCP-0142 (Aerodactyl) or SCP-0146 (Moltres).",
+      "description": "SCP-T103 displays anomalous resilience and rapid hazard response capability, frequently deployed during containment breaches.",
+      "behavior_notes": "Disciplined, vigilant, and highly reliable.",
+      "addendum_logs": [
+        "Addendum T103-A: SCP-T103 evacuated personnel during SCP-0142’s aerial breach.",
+        "Addendum T103-B: SCP-T103 resisted SCP-0074 (Geodude)’s shockwave with minor injuries."
+      ]
+    },
+    {
+      "id": "T104",
+      "name": "Indigo Plateau Elite Guard",
+      "scp_item_number": "SCP-T104",
+      "classification": "Parahuman — High-Level Combat Specialist",
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "abilities": [
+        "superhuman reflexes",
+        "enhanced physical strength",
+        "rapid adaptation to multi-type anomalies"
+      ],
+      "containment_advisories": "Personnel must avoid engaging SCP-T104 in combat drills. SCP-T104 must not be exposed to SCP-0149 (Dragonite).",
+      "description": "SCP-T104 displays elite combat capability and extreme resilience, capable of confronting mid-level SCP entities directly.",
+      "behavior_notes": "Stoic, disciplined, and highly focused.",
+      "addendum_logs": [
+        "Addendum T104-A: SCP-T104 neutralized SCP-0067 (Machoke) during a breach.",
+        "Addendum T104-B: SCP-T104 resisted SCP-0077 (Ponyta)’s flame surge with minimal injury."
+      ]
+    },
+    {
+      "id": "T105",
+      "name": "Pokémon Researcher (Indigo Plateau)",
+      "scp_item_number": "SCP-T105",
+      "classification": "Parahuman — High-Level Anomaly Analyst",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "accelerated anomaly classification",
+        "behavioral prediction",
+        "rapid adaptation to new SCP data"
+      ],
+      "containment_advisories": "SCP-T105 must not be exposed to cognitohazardous SCPs.",
+      "description": "SCP-T105 displays advanced analytical ability and rapid adaptation to new SCP data, frequently assisting Elite Four containment operations.",
+      "behavior_notes": "Curious, analytical, and highly dedicated.",
+      "addendum_logs": [
+        "Addendum T105-A: SCP-T105 predicted SCP-0142 (Aerodactyl)’s dive pattern.",
+        "Addendum T105-B: SCP-T105 identified a new behavioral trigger in SCP-0049 (Venomoth)."
+      ]
+    },
+    {
+      "id": "T106",
+      "name": "Pokémon Champion’s Strategist",
+      "scp_item_number": "SCP-T106",
+      "classification": "Parahuman — High-Level Tactical Analyst",
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "abilities": [
+        "advanced tactical reasoning",
+        "rapid hazard prediction",
+        "enhanced coordination with elite parahumans"
+      ],
+      "containment_advisories": "SCP-T106 must not be exposed to SCP-0149 (Dragonite).",
+      "description": "SCP-T106 serves as a tactical advisor to SCP-T029 (Red) and SCP-T015 (Lance), displaying exceptional predictive ability and strategic insight.",
+      "behavior_notes": "Calm, intelligent, and highly analytical.",
+      "addendum_logs": [
+        "Addendum T106-A: SCP-T106 predicted SCP-0142’s aerial breach trajectory.",
+        "Addendum T106-B: SCP-T106 improved containment strategy for SCP-0068 (Machamp)."
+      ]
+    },
+    {
+      "id": "T107",
+      "name": "Pokémon Champion’s Technician",
+      "scp_item_number": "SCP-T107",
+      "classification": "Parahuman — Advanced Technical Specialist",
+      "object_class": "Safe",
+      "threat_level": "Green",
+      "abilities": [
+        "rapid repair of containment systems",
+        "enhanced technical intuition",
+        "resistance to mild electrical hazards"
+      ],
+      "containment_advisories": "SCP-T107 may assist in maintaining containment infrastructure.",
+      "description": "SCP-T107 displays exceptional technical intuition and rapid repair capability, frequently assisting in Indigo Plateau containment maintenance.",
+      "behavior_notes": "Focused, methodical, and highly reliable.",
+      "addendum_logs": [
+        "Addendum T107-A: SCP-T107 repaired a damaged Faraday vault in record time.",
+        "Addendum T107-B: SCP-T107 stabilized EM fluctuations caused by SCP-0082 (Magneton)."
+      ]
+    },
+    {
+      "id": "T108",
+      "name": "Pokémon Champion’s Archivist",
+      "scp_item_number": "SCP-T108",
+      "classification": "Parahuman — Cognitive Archival Specialist",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "photographic memory",
+        "rapid data organization",
+        "anomalous recall of SCP incident logs"
+      ],
+      "containment_advisories": "SCP-T108 must not be exposed to cognitohazardous SCP documents.",
+      "description": "SCP-T108 displays anomalous memory retention and organizational capability, maintaining extensive archives of SCP-related combat data.",
+      "behavior_notes": "Quiet, meticulous, and highly focused.",
+      "addendum_logs": [
+        "Addendum T108-A: SCP-T108 recalled a forgotten SCP-0142 incident with perfect accuracy.",
+        "Addendum T108-B: SCP-T108 reorganized 12 years of Elite Four combat logs in under 48 hours."
+      ]
+    },
+    {
+      "id": "T109",
+      "name": "Pokémon Champion’s Analyst",
+      "scp_item_number": "SCP-T109",
+      "classification": "Parahuman — High-Level Combat Analyst",
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "abilities": [
+        "advanced combat prediction",
+        "rapid anomaly behavior modeling",
+        "enhanced situational awareness"
+      ],
+      "containment_advisories": "SCP-T109 must not be exposed to SCP-0149 (Dragonite).",
+      "description": "SCP-T109 displays exceptional combat prediction and anomaly behavior modeling, frequently advising SCP-T029 (Red).",
+      "behavior_notes": "Calm, analytical, and highly perceptive.",
+      "addendum_logs": [
+        "Addendum T109-A: SCP-T109 predicted SCP-0148 (Dragonair)’s atmospheric surge.",
+        "Addendum T109-B: SCP-T109 identified a new behavioral pattern in SCP-0065 (Alakazam)."
+      ]
+    },
+    {
+      "id": "T110",
+      "name": "Pokémon Champion’s Coordinator",
+      "scp_item_number": "SCP-T110",
+      "classification": "Parahuman — Elite Operations Coordinator",
+      "object_class": "Thaumiel",
+      "threat_level": "Green",
+      "abilities": [
+        "rapid multi-team coordination",
+        "enhanced crisis management",
+        "anomalous stabilization of group morale"
+      ],
+      "containment_advisories": "SCP-T110 may assist in large-scale containment operations.",
+      "description": "SCP-T110 displays exceptional coordination ability and crisis management skill, capable of stabilizing multi-team operations during SCP breaches.",
+      "behavior_notes": "Confident, charismatic, and highly organized.",
+      "addendum_logs": [
+        "Addendum T110-A: SCP-T110 coordinated a multi-wing evacuation during SCP-0142’s breach.",
+        "Addendum T110-B: SCP-T110 stabilized morale during SCP-0146’s wildfire event."
+      ]
+    }
+  ]
+}

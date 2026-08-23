@@ -1,0 +1,206 @@
+{
+  "trainer_scp": [
+    {
+      "id": "T001",
+      "name": "Professor Oak",
+      "scp_item_number": "SCP-T001",
+      "classification": "Anomalous Human — Cognitive Specialist",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "hyper-cognitive pattern recognition",
+        "accelerated biological analysis",
+        "anomalous rapport with parahuman creatures"
+      ],
+      "containment_advisories": "Professor Oak is not to be contained forcibly. Interaction requires Level-3 clearance. Personnel must avoid providing unrestricted access to anomalous specimens.",
+      "description": "SCP-T001 is a senior biological researcher with anomalous cognitive abilities allowing rapid classification and behavioral prediction of anomalous creatures. SCP-T001’s research output exceeds normal human capacity.",
+      "behavior_notes": "Calm, analytical, and cooperative. Displays paternal behavior toward younger parahumans.",
+      "addendum_logs": [
+        "Addendum T001-A: SCP-T001 identified behavioral anomalies in SCP-0004 (Charmander) before sensors detected them.",
+        "Addendum T001-B: SCP-T001 claims to have 'felt' SCP-0151 (Mew) before visual confirmation."
+      ]
+    },
+    {
+      "id": "T002",
+      "name": "Ash Ketchum",
+      "scp_item_number": "SCP-T002",
+      "classification": "Parahuman-Level Entity — Anomalous Bond Specialist",
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "abilities": [
+        "anomalous luck",
+        "rapid trust formation with hostile anomalies",
+        "resistance to psychic influence",
+        "survival of extreme environmental hazards"
+      ],
+      "containment_advisories": "SCP-T002 is not to be contained unless compromised. Personnel must avoid exposing SCP-T002 to high-threat anomalies without supervision.",
+      "description": "SCP-T002 is a juvenile parahuman exhibiting anomalous affinity toward dangerous SCP creatures. SCP-T002 forms emotional bonds with entities typically hostile to humans, reducing aggression levels.",
+      "behavior_notes": "Optimistic, impulsive, and highly resilient. Displays extreme loyalty toward bonded anomalies.",
+      "addendum_logs": [
+        "Addendum T002-A: SCP-T002 calmed SCP-0059 (Arcanine) during a rage event without protective gear.",
+        "Addendum T002-B: SCP-T002 survived a lightning strike from SCP-0145 (Zapdos) with minor injuries."
+      ]
+    },
+    {
+      "id": "T003",
+      "name": "Gary Oak",
+      "scp_item_number": "SCP-T003",
+      "classification": "Parahuman — Competitive Cognitive Specialist",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "enhanced strategic reasoning",
+        "accelerated learning",
+        "dominance influence over certain anomalies"
+      ],
+      "containment_advisories": "SCP-T003 requires psychological monitoring during competitive events. Personnel must avoid provoking SCP-T003’s ego-driven behavior.",
+      "description": "SCP-T003 exhibits heightened cognitive performance and competitive aggression. Displays anomalous influence over certain SCP creatures, increasing their combat efficiency.",
+      "behavior_notes": "Confident, prideful, and occasionally confrontational. Responds strongly to perceived rivalry.",
+      "addendum_logs": [
+        "Addendum T003-A: SCP-T003’s presence increased SCP-0034 (Nidoking)’s aggression output by 18%.",
+        "Addendum T003-B: SCP-T003 solved a complex containment puzzle in under 40 seconds."
+      ]
+    },
+    {
+      "id": "T004",
+      "name": "Brock",
+      "scp_item_number": "SCP-T004",
+      "classification": "Parahuman — Geological Combat Specialist",
+      "object_class": "Safe",
+      "threat_level": "Green",
+      "abilities": [
+        "enhanced physical durability",
+        "anomalous resistance to blunt force",
+        "tactical coordination with rock-type anomalies"
+      ],
+      "containment_advisories": "No containment required. SCP-T004 may assist in geological anomaly containment.",
+      "description": "SCP-T004 is a parahuman with anomalous physical resilience and deep understanding of mineral-based SCP entities. Frequently assists in containment of SCP-0076 (Golem) and related anomalies.",
+      "behavior_notes": "Calm, disciplined, and protective. Displays strong leadership traits.",
+      "addendum_logs": [
+        "Addendum T004-A: SCP-T004 endured a direct impact from SCP-0074 (Geodude) with no injury.",
+        "Addendum T004-B: SCP-T004 identified structural weaknesses in SCP-0075 (Graveler)’s shell."
+      ]
+    },
+    {
+      "id": "T005",
+      "name": "Misty",
+      "scp_item_number": "SCP-T005",
+      "classification": "Parahuman — Hydrokinesis-Resistant Specialist",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "resistance to hydrokinesis",
+        "enhanced aquatic mobility",
+        "rapid adaptation to water pressure changes"
+      ],
+      "containment_advisories": "SCP-T005 is not to be contained. Personnel must avoid exposing SCP-T005 to high-threat aquatic anomalies without escort.",
+      "description": "SCP-T005 displays anomalous resistance to hydrokinesis-based attacks and can operate efficiently in aquatic environments. Frequently interacts with SCP-0131 (Lapras) and SCP-0055 (Golduck).",
+      "behavior_notes": "Confident, assertive, and emotionally reactive. Displays strong protective instincts.",
+      "addendum_logs": [
+        "Addendum T005-A: SCP-T005 resisted SCP-0055’s hydrokinesis blast with minimal displacement.",
+        "Addendum T005-B: SCP-T005 navigated a flooded containment wing without equipment."
+      ]
+    },
+    {
+      "id": "T006",
+      "name": "Lt. Surge",
+      "scp_item_number": "SCP-T006",
+      "classification": "Parahuman — Electrokinesis Conductor",
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "abilities": [
+        "partial electrokinesis",
+        "resistance to high-voltage discharge",
+        "amplification of electric-type anomalies"
+      ],
+      "containment_advisories": "Personnel must avoid direct contact during electrical surges. SCP-T006 must not be allowed near SCP-0125 (Electabuzz) or SCP-0101 (Electrode) during instability.",
+      "description": "SCP-T006 is a parahuman capable of conducting and redirecting electrical energy. Displays anomalous synergy with electric-type SCP entities, increasing their output.",
+      "behavior_notes": "Aggressive, confident, and militaristic. Displays thrill-seeking behavior during electrical storms.",
+      "addendum_logs": [
+        "Addendum T006-A: SCP-T006 absorbed a 40,000-volt discharge with minor burns.",
+        "Addendum T006-B: Electrical output of SCP-0135 (Jolteon) increased by 27% in SCP-T006’s presence."
+      ]
+    },
+    {
+      "id": "T007",
+      "name": "Erika",
+      "scp_item_number": "SCP-T007",
+      "classification": "Parahuman — Botanical Empath",
+      "object_class": "Safe",
+      "threat_level": "Green",
+      "abilities": [
+        "anomalous calming influence on plant anomalies",
+        "accelerated botanical growth induction",
+        "resistance to mild toxins"
+      ],
+      "containment_advisories": "SCP-T007 may assist in containment of plant-based anomalies. Personnel must avoid exposing SCP-T007 to SCP-0045 (Vileplume) without respirators.",
+      "description": "SCP-T007 displays empathic influence over botanical SCP entities, reducing aggression and accelerating growth. Shows mild resistance to airborne toxins.",
+      "behavior_notes": "Calm, gentle, and introspective. Prefers quiet environments.",
+      "addendum_logs": [
+        "Addendum T007-A: SCP-T007 neutralized SCP-0044’s toxic emissions through sustained contact.",
+        "Addendum T007-B: SCP-0043 (Oddish) displayed unusual attachment to SCP-T007."
+      ]
+    },
+    {
+      "id": "T008",
+      "name": "Koga",
+      "scp_item_number": "SCP-T008",
+      "classification": "Parahuman — Toxicity Manipulator",
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "abilities": [
+        "resistance to high-grade toxins",
+        "limited toxin manipulation",
+        "enhanced stealth and mobility"
+      ],
+      "containment_advisories": "Personnel must avoid inhaling airborne compounds near SCP-T008. SCP-T008 must not be allowed near SCP-0089 (Muk) without containment gear.",
+      "description": "SCP-T008 is a parahuman with anomalous resistance to toxins and limited ability to manipulate airborne compounds. Displays stealth capabilities beyond normal human limits.",
+      "behavior_notes": "Calm, disciplined, and secretive. Shows preference for low-light environments.",
+      "addendum_logs": [
+        "Addendum T008-A: SCP-T008 traversed a toxin-filled chamber without protective gear.",
+        "Addendum T008-B: Airborne toxin density decreased in SCP-T008’s presence."
+      ]
+    },
+    {
+      "id": "T009",
+      "name": "Sabrina",
+      "scp_item_number": "SCP-T009",
+      "classification": "Parahuman — Psychic-Class Entity",
+      "object_class": "Keter",
+      "threat_level": "Black",
+      "abilities": [
+        "telepathy",
+        "telekinesis",
+        "precognition",
+        "psychic suppression of hostile anomalies"
+      ],
+      "containment_advisories": "SCP-T009 cannot be reliably contained. Personnel must maintain cognitive shielding during interaction.",
+      "description": "SCP-T009 is a high-level psychic parahuman capable of telepathic communication, telekinetic force, and limited precognition. Displays power levels approaching SCP-0065 (Alakazam).",
+      "behavior_notes": "Detached, calm, and enigmatic. Displays minimal emotional expression.",
+      "addendum_logs": [
+        "Addendum T009-A: SCP-T009 suppressed SCP-0064 (Kadabra)’s psychic output effortlessly.",
+        "Addendum T009-B: SCP-T009 predicted a containment breach 14 minutes before sensors detected it."
+      ]
+    },
+    {
+      "id": "T010",
+      "name": "Blaine",
+      "scp_item_number": "SCP-T010",
+      "classification": "Parahuman — Thermal Manipulator",
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "abilities": [
+        "resistance to extreme heat",
+        "limited pyrokinesis",
+        "thermal amplification of fire-type anomalies"
+      ],
+      "containment_advisories": "Personnel must avoid proximity during thermal surges. SCP-T010 must not be allowed near SCP-0146 (Moltres) under any circumstances.",
+      "description": "SCP-T010 displays anomalous resistance to high temperatures and limited pyrokinesis. Frequently collaborates with fire-type anomalies, amplifying their output.",
+      "behavior_notes": "Intense, eccentric, and unpredictable. Displays fascination with volcanic environments.",
+      "addendum_logs": [
+        "Addendum T010-A: SCP-T010 walked through a 600°C chamber unharmed.",
+        "Addendum T010-B: SCP-0126 (Magmar)’s flame output increased by 32% in SCP-T010’s presence."
+      ]
+    }
+  ]
+}

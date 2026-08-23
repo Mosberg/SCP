@@ -1,0 +1,204 @@
+{
+  "trainer_scp": [
+    {
+      "id": "T081",
+      "name": "Pokémon Ranger (Kanto Variant)",
+      "scp_item_number": "SCP-T081",
+      "classification": "Parahuman — Environmental Hazard Specialist",
+      "object_class": "Thaumiel",
+      "threat_level": "Green",
+      "abilities": [
+        "rapid environmental hazard assessment",
+        "enhanced mobility in natural terrain",
+        "anomalous calming influence over wild anomalies"
+      ],
+      "containment_advisories": "SCP-T081 may assist in field containment operations. Personnel must avoid exposing SCP-T081 to SCP-0146 (Moltres).",
+      "description": "SCP-T081 displays anomalous affinity for natural environments and can calm wild SCP entities through vocal command and gesture.",
+      "behavior_notes": "Calm, focused, and highly empathetic toward wildlife.",
+      "addendum_logs": [
+        "Addendum T081-A: SCP-T081 neutralized SCP-0058 (Growlithe)’s aggression during a field breach.",
+        "Addendum T081-B: SCP-T081 detected SCP-0116 (Horsea) migration patterns before sensors."
+      ]
+    },
+    {
+      "id": "T082",
+      "name": "Pokémon Boarder",
+      "scp_item_number": "SCP-T082",
+      "classification": "Parahuman — Cryogenic Mobility Specialist",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "enhanced mobility on ice surfaces",
+        "resistance to cold",
+        "rapid adaptation to cryogenic anomalies"
+      ],
+      "containment_advisories": "SCP-T082 must not be exposed to SCP-0144 (Articuno).",
+      "description": "SCP-T082 displays anomalous mobility on ice and resistance to cryogenic hazards. Frequently operates in frozen containment zones.",
+      "behavior_notes": "Energetic, athletic, and thrill-seeking.",
+      "addendum_logs": [
+        "Addendum T082-A: SCP-T082 navigated SCP-0087 (Dewgong)’s frozen chamber without slipping.",
+        "Addendum T082-B: SCP-T082 resisted SCP-0091 (Cloyster)’s freezing mist."
+      ]
+    },
+    {
+      "id": "T083",
+      "name": "Pokémon Skier",
+      "scp_item_number": "SCP-T083",
+      "classification": "Parahuman — Cryogenic Terrain Specialist",
+      "object_class": "Safe",
+      "threat_level": "Green",
+      "abilities": [
+        "enhanced balance",
+        "resistance to cold",
+        "rapid traversal of cryogenic terrain"
+      ],
+      "containment_advisories": "SCP-T083 may assist in cryogenic containment zones. Personnel must avoid exposing SCP-T083 to SCP-0144 (Articuno).",
+      "description": "SCP-T083 displays anomalous mobility and balance on cryogenic terrain, capable of traversing unstable ice surfaces safely.",
+      "behavior_notes": "Calm, athletic, and highly coordinated.",
+      "addendum_logs": [
+        "Addendum T083-A: SCP-T083 traversed SCP-0144’s frost zone without injury.",
+        "Addendum T083-B: SCP-T083 resisted SCP-0087 (Dewgong)’s freezing mist."
+      ]
+    },
+    {
+      "id": "T084",
+      "name": "Pokémon Boarder (Elite Variant)",
+      "scp_item_number": "SCP-T084",
+      "classification": "Parahuman — Advanced Cryogenic Hazard Entity",
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "abilities": [
+        "extreme resistance to cold",
+        "enhanced mobility on unstable ice",
+        "limited cryokinetic influence"
+      ],
+      "containment_advisories": "Personnel must avoid exposing SCP-T084 to SCP-0144 (Articuno) or SCP-0121 (Starmie).",
+      "description": "SCP-T084 displays advanced cryogenic mobility and mild cryokinetic influence, capable of stabilizing ice surfaces through anomalous resonance.",
+      "behavior_notes": "Focused, disciplined, and highly skilled.",
+      "addendum_logs": [
+        "Addendum T084-A: SCP-T084 stabilized a collapsing ice platform during containment testing.",
+        "Addendum T084-B: SCP-T084 resisted SCP-0091 (Cloyster)’s cryogenic pulse."
+      ]
+    },
+    {
+      "id": "T085",
+      "name": "Pokémon Skier (Elite Variant)",
+      "scp_item_number": "SCP-T085",
+      "classification": "Parahuman — Cryogenic Combat Specialist",
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "abilities": [
+        "enhanced cryogenic mobility",
+        "resistance to extreme cold",
+        "rapid adaptation to ice-based anomalies"
+      ],
+      "containment_advisories": "SCP-T085 must not be exposed to SCP-0144 (Articuno).",
+      "description": "SCP-T085 displays elite-level cryogenic mobility and resilience, capable of navigating hazardous frozen terrain during containment operations.",
+      "behavior_notes": "Calm, precise, and highly athletic.",
+      "addendum_logs": [
+        "Addendum T085-A: SCP-T085 avoided SCP-0087 (Dewgong)’s ice blast with perfect timing.",
+        "Addendum T085-B: SCP-T085 stabilized a cryogenic breach zone using improvised tools."
+      ]
+    },
+    {
+      "id": "T086",
+      "name": "Pokémon Scientist (Safari Zone)",
+      "scp_item_number": "SCP-T086",
+      "classification": "Parahuman — Exotic Anomaly Researcher",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "rapid analysis of exotic anomalies",
+        "behavioral prediction of wild SCP entities",
+        "resistance to environmental hazards"
+      ],
+      "containment_advisories": "SCP-T086 must not be exposed to SCP-0149 (Dragonite) or SCP-0130 (Gyarados).",
+      "description": "SCP-T086 specializes in exotic anomaly research within hazardous environments. Displays exceptional predictive ability regarding wild SCP behavior.",
+      "behavior_notes": "Curious, analytical, and highly adaptive.",
+      "addendum_logs": [
+        "Addendum T086-A: SCP-T086 predicted SCP-0118 (Goldeen)’s migration pattern with 96% accuracy.",
+        "Addendum T086-B: SCP-T086 resisted SCP-0098 (Krabby)’s claw strike with minimal injury."
+      ]
+    },
+    {
+      "id": "T087",
+      "name": "Pokémon Safari Zone Warden",
+      "scp_item_number": "SCP-T087",
+      "classification": "Parahuman — High-Risk Wildlife Control Specialist",
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "abilities": [
+        "dominance influence over wild anomalies",
+        "enhanced physical resilience",
+        "rapid hazard suppression"
+      ],
+      "containment_advisories": "SCP-T087 must not be allowed near SCP-0149 (Dragonite) or SCP-0130 (Gyarados).",
+      "description": "SCP-T087 displays anomalous control over wild SCP entities, capable of suppressing aggression through vocal command and physical presence.",
+      "behavior_notes": "Dominant, fearless, and highly assertive.",
+      "addendum_logs": [
+        "Addendum T087-A: SCP-T087 suppressed SCP-0034 (Nidoking)’s rage state.",
+        "Addendum T087-B: SCP-T087 resisted SCP-0077 (Ponyta)’s flame surge with minor injuries."
+      ]
+    },
+    {
+      "id": "T088",
+      "name": "Pokémon Safari Zone Hunter",
+      "scp_item_number": "SCP-T088",
+      "classification": "Parahuman — High-Risk Capture Specialist",
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "abilities": [
+        "enhanced tracking",
+        "rapid hazard response",
+        "anomalous capture efficiency"
+      ],
+      "containment_advisories": "Personnel must avoid allowing SCP-T088 near SCP-0142 (Aerodactyl) or SCP-0146 (Moltres).",
+      "description": "SCP-T088 displays anomalous tracking and capture ability, capable of locating and securing wild SCP entities with extreme efficiency.",
+      "behavior_notes": "Focused, intense, and highly skilled.",
+      "addendum_logs": [
+        "Addendum T088-A: SCP-T088 tracked SCP-0116 (Horsea) across 3 km of flooded terrain.",
+        "Addendum T088-B: SCP-T088 captured SCP-0098 (Krabby) during a breach with no injuries."
+      ]
+    },
+    {
+      "id": "T089",
+      "name": "Pokémon Safari Zone Researcher (Elite Variant)",
+      "scp_item_number": "SCP-T089",
+      "classification": "Parahuman — Advanced Exotic Anomaly Analyst",
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "abilities": [
+        "accelerated exotic anomaly analysis",
+        "behavioral prediction of high-risk SCP entities",
+        "resistance to environmental hazards"
+      ],
+      "containment_advisories": "SCP-T089 must not be exposed to SCP-0149 (Dragonite).",
+      "description": "SCP-T089 displays advanced analytical ability regarding exotic SCP entities, capable of predicting high-risk behavior patterns.",
+      "behavior_notes": "Calm, analytical, and highly adaptive.",
+      "addendum_logs": [
+        "Addendum T089-A: SCP-T089 predicted SCP-0130 (Gyarados)’s emergence 4 minutes before sensors.",
+        "Addendum T089-B: SCP-T089 resisted SCP-0091 (Cloyster)’s cryogenic pulse."
+      ]
+    },
+    {
+      "id": "T090",
+      "name": "Pokémon Safari Zone Explorer",
+      "scp_item_number": "SCP-T090",
+      "classification": "Parahuman — Hazardous Terrain Specialist",
+      "object_class": "Safe",
+      "threat_level": "Green",
+      "abilities": [
+        "enhanced mobility in hazardous terrain",
+        "resistance to environmental anomalies",
+        "rapid adaptation to wild SCP encounters"
+      ],
+      "containment_advisories": "SCP-T090 may assist in field containment operations. Personnel must avoid exposing SCP-T090 to SCP-0149 (Dragonite).",
+      "description": "SCP-T090 displays anomalous mobility and resilience in hazardous environments, capable of navigating unstable terrain safely.",
+      "behavior_notes": "Adventurous, confident, and highly resilient.",
+      "addendum_logs": [
+        "Addendum T090-A: SCP-T090 traversed SCP-0095 (Onix)’s tunnel collapse zone unharmed.",
+        "Addendum T090-B: SCP-T090 resisted SCP-0117 (Seadra)’s hydrokinesis blast."
+      ]
+    }
+  ]
+}

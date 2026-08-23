@@ -1,0 +1,226 @@
+{
+  "trainer_scp": [
+    {
+      "id": "T141",
+      "name": "Pokémon Plateau Senior Field Commander",
+      "scp_item_number": "SCP-T141",
+      "classification": "Parahuman — Elite Field Operations Commander",
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "abilities": [
+        "rapid multi-team field coordination",
+        "enhanced crisis prediction",
+        "anomalous morale stabilization"
+      ],
+      "containment_advisories": "SCP-T141 must not be exposed to SCP-0146 (Moltres).",
+      "description": "SCP-T141 commands field operations during high-risk SCP breaches, displaying elite-level coordination and hazard prediction.",
+      "behavior_notes": "Authoritative, calm, and highly strategic.",
+      "addendum_logs": [
+        "Addendum T141-A: SCP-T141 coordinated a full-field lockdown during SCP-0142’s breach.",
+        "Addendum T141-B: SCP-T141 stabilized personnel morale during SCP-0146’s wildfire event."
+      ]
+    },
+    {
+      "id": "T142",
+      "name": "Pokémon Plateau Senior Recon Commander",
+      "scp_item_number": "SCP-T142",
+      "classification": "Parahuman — Elite Reconnaissance Commander",
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "abilities": [
+        "enhanced environmental awareness",
+        "rapid hazard detection",
+        "resistance to mild elemental anomalies"
+      ],
+      "containment_advisories": "SCP-T142 must not be exposed to SCP-0146 (Moltres).",
+      "description": "SCP-T142 leads reconnaissance teams and displays anomalous hazard detection capability.",
+      "behavior_notes": "Quiet, observant, and highly adaptive.",
+      "addendum_logs": [
+        "Addendum T142-A: SCP-T142 detected SCP-0087’s cryogenic pulse before sensors.",
+        "Addendum T142-B: SCP-T142 mapped SCP-0095’s tunnel network with 98% accuracy."
+      ]
+    },
+    {
+      "id": "T143",
+      "name": "Pokémon Plateau Senior Medical Commander",
+      "scp_item_number": "SCP-T143",
+      "classification": "Parahuman — Elite Medical Response Commander",
+      "object_class": "Thaumiel",
+      "threat_level": "Green",
+      "abilities": [
+        "accelerated biological triage",
+        "anomalous stabilization of injured anomalies",
+        "rapid medical hazard assessment"
+      ],
+      "containment_advisories": "SCP-T143 may assist in emergency SCP medical response.",
+      "description": "SCP-T143 leads medical teams during SCP breaches, displaying anomalous stabilization capability.",
+      "behavior_notes": "Calm, nurturing, and highly focused.",
+      "addendum_logs": [
+        "Addendum T143-A: SCP-T143 stabilized SCP-0038 after a flame surge.",
+        "Addendum T143-B: SCP-T143 restored a researcher’s vitals after SCP-0092 exposure."
+      ]
+    },
+    {
+      "id": "T144",
+      "name": "Pokémon Plateau Senior Tactical Instructor",
+      "scp_item_number": "SCP-T144",
+      "classification": "Parahuman — Elite Tactical Combat Instructor",
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "abilities": [
+        "enhanced combat intuition",
+        "rapid adaptation to multi-type anomalies",
+        "superior tactical instruction"
+      ],
+      "containment_advisories": "SCP-T144 must not be exposed to SCP-0149 (Dragonite).",
+      "description": "SCP-T144 trains elite parahumans and displays exceptional combat intuition.",
+      "behavior_notes": "Disciplined, intense, and highly focused.",
+      "addendum_logs": [
+        "Addendum T144-A: SCP-T144 neutralized SCP-0067 during a training breach.",
+        "Addendum T144-B: SCP-T144 resisted SCP-0077’s flame surge with minimal injury."
+      ]
+    },
+    {
+      "id": "T145",
+      "name": "Pokémon Plateau Senior Hazard Analyst",
+      "scp_item_number": "SCP-T145",
+      "classification": "Parahuman — Elite Hazard Prediction Specialist",
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "abilities": [
+        "advanced hazard prediction",
+        "rapid anomaly behavior modeling",
+        "enhanced situational awareness"
+      ],
+      "containment_advisories": "SCP-T145 must not be exposed to SCP-0149 (Dragonite).",
+      "description": "SCP-T145 displays exceptional hazard prediction and anomaly behavior modeling.",
+      "behavior_notes": "Calm, analytical, and highly perceptive.",
+      "addendum_logs": [
+        "Addendum T145-A: SCP-T145 predicted SCP-0148’s atmospheric surge.",
+        "Addendum T145-B: SCP-T145 identified a new behavioral pattern in SCP-0065."
+      ]
+    },
+    {
+      "id": "T146",
+      "name": "Pokémon Plateau Senior Operations Commander",
+      "scp_item_number": "SCP-T146",
+      "classification": "Parahuman — Elite Multi-Wing Commander",
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "abilities": [
+        "rapid multi-team coordination",
+        "enhanced crisis management",
+        "anomalous stabilization of group morale"
+      ],
+      "containment_advisories": "SCP-T146 may assist in large-scale containment operations.",
+      "description": "SCP-T146 displays elite-level coordination ability and crisis management skill.",
+      "behavior_notes": "Confident, charismatic, and highly organized.",
+      "addendum_logs": [
+        "Addendum T146-A: SCP-T146 coordinated a multi-wing evacuation during SCP-0142’s breach.",
+        "Addendum T146-B: SCP-T146 stabilized morale during SCP-0146’s wildfire event."
+      ]
+    },
+    {
+      "id": "T147",
+      "name": "Pokémon Plateau Senior Combat Strategist",
+      "scp_item_number": "SCP-T147",
+      "classification": "Parahuman — Elite Combat Strategy Specialist",
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "abilities": [
+        "advanced tactical reasoning",
+        "rapid hazard prediction",
+        "enhanced coordination with elite parahumans"
+      ],
+      "containment_advisories": "SCP-T147 must not be exposed to SCP-0149 (Dragonite).",
+      "description": "SCP-T147 advises elite parahumans such as SCP-T029 (Red) and SCP-T015 (Lance).",
+      "behavior_notes": "Calm, intelligent, and highly analytical.",
+      "addendum_logs": [
+        "Addendum T147-A: SCP-T147 predicted SCP-0142’s aerial breach trajectory.",
+        "Addendum T147-B: SCP-T147 improved containment strategy for SCP-0068."
+      ]
+    },
+    {
+      "id": "T148",
+      "name": "Pokémon Plateau Senior Recon Veteran",
+      "scp_item_number": "SCP-T148",
+      "classification": "Parahuman — Elite Reconnaissance Veteran",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "enhanced environmental awareness",
+        "rapid hazard detection",
+        "resistance to mild elemental anomalies"
+      ],
+      "containment_advisories": "SCP-T148 must not be exposed to SCP-0146 (Moltres).",
+      "description": "SCP-T148 displays anomalous hazard detection capability and extensive field experience.",
+      "behavior_notes": "Quiet, observant, and highly adaptive.",
+      "addendum_logs": [
+        "Addendum T148-A: SCP-T148 detected SCP-0087’s cryogenic pulse before sensors.",
+        "Addendum T148-B: SCP-T148 mapped SCP-0095’s tunnel network with 99% accuracy."
+      ]
+    },
+    {
+      "id": "T149",
+      "name": "Pokémon Plateau Senior Medical Veteran",
+      "scp_item_number": "SCP-T149",
+      "classification": "Parahuman — Elite Medical Stabilization Entity",
+      "object_class": "Thaumiel",
+      "threat_level": "Green",
+      "abilities": [
+        "accelerated biological triage",
+        "anomalous stabilization of injured anomalies",
+        "rapid medical hazard assessment"
+      ],
+      "containment_advisories": "SCP-T149 may assist in emergency SCP medical response.",
+      "description": "SCP-T149 displays anomalous medical intuition and stabilization capability.",
+      "behavior_notes": "Calm, nurturing, and highly focused.",
+      "addendum_logs": [
+        "Addendum T149-A: SCP-T149 stabilized SCP-0038 after a flame surge.",
+        "Addendum T149-B: SCP-T149 restored a researcher’s vitals after SCP-0092 exposure."
+      ]
+    },
+    {
+      "id": "T150",
+      "name": "Pokémon Plateau Senior Combat Commander",
+      "scp_item_number": "SCP-T150",
+      "classification": "Parahuman — Apex Combat Commander",
+      "object_class": "Keter",
+      "threat_level": "Black",
+      "abilities": [
+        "superhuman reflexes",
+        "enhanced physical strength",
+        "rapid adaptation to multi-type anomalies",
+        "command-level combat intuition"
+      ],
+      "containment_advisories": "Personnel must avoid engaging SCP-T150 in combat drills.",
+      "description": "SCP-T150 displays apex-level combat capability and extreme resilience, rivaling SCP-T029 (Red) in tactical execution.",
+      "behavior_notes": "Stoic, disciplined, and highly focused.",
+      "addendum_logs": [
+        "Addendum T150-A: SCP-T150 neutralized SCP-0067 during a breach.",
+        "Addendum T150-B: SCP-T150 resisted SCP-0077’s flame surge with minimal injury."
+      ]
+    },
+    {
+      "id": "T151",
+      "name": "Pokémon Plateau Grandmaster",
+      "scp_item_number": "SCP-T151",
+      "classification": "Parahuman — Apex Strategic Entity",
+      "object_class": "Thaumiel",
+      "threat_level": "Black",
+      "abilities": [
+        "extreme tactical prediction",
+        "anomalous hazard foresight",
+        "multi-wing command capability",
+        "psychological stabilization of elite parahumans"
+      ],
+      "containment_advisories": "SCP-T151 cannot be contained and must remain available for strategic oversight.",
+      "description": "SCP-T151 is the apex strategic overseer of Indigo Plateau operations, displaying unmatched predictive capability and anomalous influence over team cohesion.",
+      "behavior_notes": "Calm, enigmatic, and profoundly intelligent.",
+      "addendum_logs": [
+        "Addendum T151-A: SCP-T151 predicted SCP-0142’s breach 11 minutes before sensors.",
+        "Addendum T151-B: SCP-T151 stabilized SCP-T029’s emotional state during a critical event."
+      ]
+    }
+  ]
+}

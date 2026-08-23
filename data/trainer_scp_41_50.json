@@ -1,0 +1,204 @@
+{
+  "trainer_scp": [
+    {
+      "id": "T041",
+      "name": "Pokémon Scientist (Generic)",
+      "scp_item_number": "SCP-T041",
+      "classification": "Parahuman — Experimental Anomaly Engineer",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "rapid assimilation of anomalous data",
+        "creation of experimental containment devices",
+        "limited hazard prediction"
+      ],
+      "containment_advisories": "SCP-T041 must not be allowed to test prototypes on live SCPs without Level-3 approval.",
+      "description": "SCP-T041 is a research specialist capable of designing experimental containment tools with anomalous efficiency. Devices created by SCP-T041 often function beyond expected parameters.",
+      "behavior_notes": "Focused, obsessive, and prone to overwork.",
+      "addendum_logs": [
+        "Addendum T041-A: SCP-T041’s prototype neutralized SCP-0100 (Voltorb) detonation risk for 48 hours.",
+        "Addendum T041-B: SCP-T041 predicted a structural failure in SCP-0076’s vault 12 minutes before sensors detected it."
+      ]
+    },
+    {
+      "id": "T042",
+      "name": "Pokémon Engineer (Power Plant)",
+      "scp_item_number": "SCP-T042",
+      "classification": "Parahuman — Electromagnetic Systems Specialist",
+      "object_class": "Safe",
+      "threat_level": "Green",
+      "abilities": [
+        "electrical hazard prediction",
+        "rapid repair of EM containment systems",
+        "resistance to mild electrical discharge"
+      ],
+      "containment_advisories": "SCP-T042 may assist in maintaining Faraday vaults. Personnel must avoid exposing SCP-T042 to SCP-0145 (Zapdos).",
+      "description": "SCP-T042 is an engineer specializing in high-voltage anomalous systems. Displays mild resistance to electrical shocks and exceptional repair speed.",
+      "behavior_notes": "Calm, methodical, and highly technical.",
+      "addendum_logs": [
+        "Addendum T042-A: SCP-T042 restored power after SCP-0125 (Electabuzz) caused a blackout.",
+        "Addendum T042-B: SCP-T042 stabilized EM fluctuations caused by SCP-0082 (Magneton)."
+      ]
+    },
+    {
+      "id": "T043",
+      "name": "Pokémon Fisherman",
+      "scp_item_number": "SCP-T043",
+      "classification": "Parahuman — Aquatic Hazard Specialist",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "anomalous detection of aquatic SCPs",
+        "resistance to water pressure",
+        "enhanced grip strength"
+      ],
+      "containment_advisories": "SCP-T043 must not be allowed near SCP-0130 (Gyarados) without escort.",
+      "description": "SCP-T043 displays anomalous ability to detect aquatic anomalies at long distances. Frequently interacts with SCP-0116 (Horsea) and SCP-0098 (Krabby).",
+      "behavior_notes": "Patient, rugged, and highly experienced.",
+      "addendum_logs": [
+        "Addendum T043-A: SCP-T043 detected SCP-0130 approaching 2 km before sensors.",
+        "Addendum T043-B: SCP-T043 resisted SCP-0117 (Seadra)’s venomous spine attack."
+      ]
+    },
+    {
+      "id": "T044",
+      "name": "Pokémon Bug Catcher",
+      "scp_item_number": "SCP-T044",
+      "classification": "Parahuman — Entomological Handler",
+      "object_class": "Safe",
+      "threat_level": "Green",
+      "abilities": [
+        "rapid adaptation to insect anomalies",
+        "resistance to mild toxins",
+        "enhanced reflexes"
+      ],
+      "containment_advisories": "SCP-T044 may assist with low-threat bug-type anomalies. Personnel must avoid exposing SCP-T044 to SCP-0049 (Venomoth).",
+      "description": "SCP-T044 displays anomalous affinity for insectoid SCP entities and can handle them safely. Shows mild toxin resistance.",
+      "behavior_notes": "Enthusiastic, energetic, and occasionally reckless.",
+      "addendum_logs": [
+        "Addendum T044-A: SCP-T044 safely captured SCP-0010 (Caterpie) during a breach.",
+        "Addendum T044-B: SCP-T044 resisted SCP-0048 (Beedrill)’s mild toxin."
+      ]
+    },
+    {
+      "id": "T045",
+      "name": "Pokémon Bird Keeper",
+      "scp_item_number": "SCP-T045",
+      "classification": "Parahuman — Avian Synchronization Specialist",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "rapid synchronization with flying anomalies",
+        "enhanced balance",
+        "resistance to high-altitude pressure"
+      ],
+      "containment_advisories": "SCP-T045 must not be allowed near SCP-0142 (Aerodactyl) or SCP-0146 (Moltres).",
+      "description": "SCP-T045 displays anomalous coordination with avian SCP entities, allowing safe interaction with mid-threat flying anomalies.",
+      "behavior_notes": "Calm, observant, and highly agile.",
+      "addendum_logs": [
+        "Addendum T045-A: SCP-T045 synchronized flight patterns with SCP-0016 (Pidgeotto).",
+        "Addendum T045-B: SCP-T045 survived a fall from 30 meters with minor injuries."
+      ]
+    },
+    {
+      "id": "T046",
+      "name": "Pokémon Gambler",
+      "scp_item_number": "SCP-T046",
+      "classification": "Parahuman — Probability Instability Source",
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "abilities": [
+        "uncontrolled probability distortion",
+        "chaotic influence over random events",
+        "resistance to statistical prediction"
+      ],
+      "containment_advisories": "Personnel must avoid allowing SCP-T046 near volatile SCPs. All interactions require probability dampeners.",
+      "description": "SCP-T046 displays uncontrolled probability distortion, causing unpredictable outcomes in nearby systems. Effects intensify during emotional stress.",
+      "behavior_notes": "Erratic, impulsive, and thrill-seeking.",
+      "addendum_logs": [
+        "Addendum T046-A: SCP-T046 caused three simultaneous low-probability events during testing.",
+        "Addendum T046-B: SCP-0100 (Voltorb) detonated prematurely during SCP-T046’s presence."
+      ]
+    },
+    {
+      "id": "T047",
+      "name": "Pokémon Psychic (Saffron)",
+      "scp_item_number": "SCP-T047",
+      "classification": "Parahuman — Low-Level Psychic Entity",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "weak telepathy",
+        "limited telekinesis",
+        "precognitive flashes"
+      ],
+      "containment_advisories": "Personnel must maintain cognitive shielding. SCP-T047 must not be exposed to SCP-T009 (Sabrina).",
+      "description": "SCP-T047 displays mild psychic abilities, including weak telepathy and limited telekinesis. Capabilities fluctuate based on emotional state.",
+      "behavior_notes": "Nervous, sensitive, and easily overwhelmed.",
+      "addendum_logs": [
+        "Addendum T047-A: SCP-T047 predicted a minor containment breach 3 minutes before occurrence.",
+        "Addendum T047-B: SCP-T047 fainted after brief exposure to SCP-0065 (Alakazam)."
+      ]
+    },
+    {
+      "id": "T048",
+      "name": "Pokémon Medium (Lavender)",
+      "scp_item_number": "SCP-T048",
+      "classification": "Parahuman — Spectral Sensitivity Entity",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "communication with low-level spectral anomalies",
+        "detection of ectoplasmic residue",
+        "limited spectral projection"
+      ],
+      "containment_advisories": "Personnel must avoid exposing SCP-T048 to SCP-0094 (Gengar) due to risk of psychic overload.",
+      "description": "SCP-T048 displays anomalous sensitivity to spectral SCP entities and can detect ectoplasmic residue invisible to sensors.",
+      "behavior_notes": "Calm, eerie, and emotionally distant.",
+      "addendum_logs": [
+        "Addendum T048-A: SCP-T048 detected SCP-0092 (Gastly) before sensors registered its presence.",
+        "Addendum T048-B: SCP-T048 entered a trance state near SCP-0093 (Haunter)."
+      ]
+    },
+    {
+      "id": "T049",
+      "name": "Pokémon Sailor",
+      "scp_item_number": "SCP-T049",
+      "classification": "Parahuman — Maritime Hazard Specialist",
+      "object_class": "Safe",
+      "threat_level": "Green",
+      "abilities": [
+        "resistance to sea-based anomalies",
+        "enhanced balance",
+        "rapid adaptation to unstable environments"
+      ],
+      "containment_advisories": "SCP-T049 may assist in maritime SCP containment. Personnel must avoid exposing SCP-T049 to SCP-0130 (Gyarados).",
+      "description": "SCP-T049 displays anomalous resilience to maritime hazards and can operate safely in unstable aquatic environments.",
+      "behavior_notes": "Confident, rugged, and highly experienced.",
+      "addendum_logs": [
+        "Addendum T049-A: SCP-T049 stabilized a containment raft during SCP-0116’s agitation.",
+        "Addendum T049-B: SCP-T049 resisted SCP-0117 (Seadra)’s hydrokinesis blast."
+      ]
+    },
+    {
+      "id": "T050",
+      "name": "Pokémon Gentleman",
+      "scp_item_number": "SCP-T050",
+      "classification": "Parahuman — Social Influence Specialist",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "anomalous charisma",
+        "behavioral influence over docile anomalies",
+        "rapid rapport formation"
+      ],
+      "containment_advisories": "Personnel must avoid allowing SCP-T050 to negotiate with hostile anomalies.",
+      "description": "SCP-T050 displays anomalous charisma capable of influencing docile SCP entities and calming low-threat anomalies.",
+      "behavior_notes": "Polite, refined, and persuasive.",
+      "addendum_logs": [
+        "Addendum T050-A: SCP-T050 convinced SCP-0058 (Growlithe) to release a guard unharmed.",
+        "Addendum T050-B: SCP-0077 (Ponyta) displayed reduced flame output in SCP-T050’s presence."
+      ]
+    }
+  ]
+}

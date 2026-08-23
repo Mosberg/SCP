@@ -1,0 +1,204 @@
+{
+  "trainer_scp": [
+    {
+      "id": "T061",
+      "name": "Pokémon Ace Trainer (Male)",
+      "scp_item_number": "SCP-T061",
+      "classification": "Parahuman — Elite Multi-Type Combatant",
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "abilities": [
+        "rapid tactical adaptation",
+        "enhanced situational awareness",
+        "resistance to elemental hazards"
+      ],
+      "containment_advisories": "SCP-T061 must not be allowed near high-threat SCPs without supervision. Personnel must avoid engaging SCP-T061 in combat drills without authorization.",
+      "description": "SCP-T061 displays elite-level combat adaptability, capable of coordinating with multiple SCP types simultaneously. Frequently participates in mixed-type containment simulations.",
+      "behavior_notes": "Calm, confident, and highly disciplined.",
+      "addendum_logs": [
+        "Addendum T061-A: SCP-T061 neutralized SCP-0054 (Psyduck)’s psychic burst using improvised tactics.",
+        "Addendum T061-B: SCP-T061 resisted SCP-0077 (Ponyta)’s flame output with minimal injury."
+      ]
+    },
+    {
+      "id": "T062",
+      "name": "Pokémon Ace Trainer (Female)",
+      "scp_item_number": "SCP-T062",
+      "classification": "Parahuman — Multi-Type Strategic Combatant",
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "abilities": [
+        "advanced combat prediction",
+        "rapid elemental hazard adaptation",
+        "enhanced reflexes"
+      ],
+      "containment_advisories": "SCP-T062 must not be allowed near SCP-0142 (Aerodactyl) or SCP-0146 (Moltres).",
+      "description": "SCP-T062 displays exceptional combat prediction and multi-type coordination. Frequently used in containment drills involving unpredictable SCP entities.",
+      "behavior_notes": "Focused, analytical, and highly skilled.",
+      "addendum_logs": [
+        "Addendum T062-A: SCP-T062 predicted SCP-0068 (Machamp)’s attack pattern with 92% accuracy.",
+        "Addendum T062-B: SCP-T062 resisted SCP-0087 (Dewgong)’s freezing mist with minimal impairment."
+      ]
+    },
+    {
+      "id": "T063",
+      "name": "Pokémon Tamer",
+      "scp_item_number": "SCP-T063",
+      "classification": "Parahuman — High-Risk Beast Handler",
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "abilities": [
+        "anomalous influence over aggressive anomalies",
+        "enhanced physical resilience",
+        "rapid behavioral suppression"
+      ],
+      "containment_advisories": "SCP-T063 must not be allowed near SCP-0128 (Tauros) or SCP-0149 (Dragonite). Personnel must maintain a minimum distance of 10 meters during demonstrations.",
+      "description": "SCP-T063 displays anomalous influence over aggressive SCP entities, capable of suppressing rage states through physical presence and vocal command.",
+      "behavior_notes": "Dominant, fearless, and confrontational.",
+      "addendum_logs": [
+        "Addendum T063-A: SCP-T063 suppressed SCP-0077 (Ponyta)’s flame surge with a single command.",
+        "Addendum T063-B: SCP-T063 resisted SCP-0034 (Nidoking)’s charge with minor injuries."
+      ]
+    },
+    {
+      "id": "T064",
+      "name": "Pokémon Juggler",
+      "scp_item_number": "SCP-T064",
+      "classification": "Parahuman — Kinetic Manipulation Specialist",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "enhanced hand-eye coordination",
+        "limited kinetic redirection",
+        "rapid object manipulation"
+      ],
+      "containment_advisories": "Personnel must avoid exposing SCP-T064 to volatile SCPs such as SCP-0100 (Voltorb).",
+      "description": "SCP-T064 displays anomalous kinetic manipulation, capable of redirecting small projectiles and maintaining control over multiple moving objects simultaneously.",
+      "behavior_notes": "Playful, eccentric, and highly energetic.",
+      "addendum_logs": [
+        "Addendum T064-A: SCP-T064 redirected SCP-0025 (Pikachu)’s electric projectile mid-air.",
+        "Addendum T064-B: SCP-T064 juggled six containment spheres without error."
+      ]
+    },
+    {
+      "id": "T065",
+      "name": "Pokémon Rocker",
+      "scp_item_number": "SCP-T065",
+      "classification": "Parahuman — Sonic Hazard Entity",
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "abilities": [
+        "anomalous sonic projection",
+        "resistance to auditory hazards",
+        "amplification of sound-based SCP abilities"
+      ],
+      "containment_advisories": "Personnel must wear auditory protection during interaction. SCP-T065 must not be allowed near SCP-0121 (Starmie) or SCP-0094 (Gengar).",
+      "description": "SCP-T065 displays anomalous sonic projection capable of disrupting containment sensors and destabilizing spectral SCP entities.",
+      "behavior_notes": "Loud, energetic, and unpredictable.",
+      "addendum_logs": [
+        "Addendum T065-A: SCP-T065’s sonic output disrupted three containment monitors.",
+        "Addendum T065-B: SCP-0121’s gem pulse destabilized in SCP-T065’s presence."
+      ]
+    },
+    {
+      "id": "T066",
+      "name": "Pokémon Gentleman (Cruise Ship Variant)",
+      "scp_item_number": "SCP-T066",
+      "classification": "Parahuman — High-Society Influence Specialist",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "anomalous persuasion",
+        "rapid rapport formation",
+        "behavioral influence over docile anomalies"
+      ],
+      "containment_advisories": "Personnel must avoid allowing SCP-T066 to negotiate with SCP entities without supervision.",
+      "description": "SCP-T066 displays anomalous persuasive ability, capable of influencing docile SCP entities and calming low-threat anomalies.",
+      "behavior_notes": "Polite, refined, and socially dominant.",
+      "addendum_logs": [
+        "Addendum T066-A: SCP-T066 convinced SCP-0058 (Growlithe) to release a guard unharmed.",
+        "Addendum T066-B: SCP-0077 (Ponyta) displayed reduced flame output in SCP-T066’s presence."
+      ]
+    },
+    {
+      "id": "T067",
+      "name": "Pokémon Sailor (Cruise Ship Variant)",
+      "scp_item_number": "SCP-T067",
+      "classification": "Parahuman — Maritime Hazard Specialist",
+      "object_class": "Safe",
+      "threat_level": "Green",
+      "abilities": [
+        "resistance to sea-based anomalies",
+        "enhanced balance",
+        "rapid adaptation to unstable environments"
+      ],
+      "containment_advisories": "SCP-T067 may assist in maritime SCP containment. Personnel must avoid exposing SCP-T067 to SCP-0130 (Gyarados).",
+      "description": "SCP-T067 displays anomalous resilience to maritime hazards and can operate safely in unstable aquatic environments.",
+      "behavior_notes": "Confident, rugged, and highly experienced.",
+      "addendum_logs": [
+        "Addendum T067-A: SCP-T067 stabilized a containment raft during SCP-0116’s agitation.",
+        "Addendum T067-B: SCP-T067 resisted SCP-0117 (Seadra)’s hydrokinesis blast."
+      ]
+    },
+    {
+      "id": "T068",
+      "name": "Pokémon Firebreather",
+      "scp_item_number": "SCP-T068",
+      "classification": "Parahuman — Pyrokinetic Performer",
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "abilities": [
+        "limited pyrokinesis",
+        "resistance to high temperatures",
+        "controlled flame projection"
+      ],
+      "containment_advisories": "Personnel must maintain fire suppression systems during SCP-T068 demonstrations. SCP-T068 must not be allowed near SCP-0146 (Moltres).",
+      "description": "SCP-T068 displays limited pyrokinesis and flame projection capabilities. Frequently performs controlled fire displays that can destabilize nearby fire-type SCP entities.",
+      "behavior_notes": "Confident, theatrical, and thrill-seeking.",
+      "addendum_logs": [
+        "Addendum T068-A: SCP-T068 ignited containment padding during a demonstration.",
+        "Addendum T068-B: SCP-T068 resisted SCP-0126 (Magmar)’s heat output with minimal injury."
+      ]
+    },
+    {
+      "id": "T069",
+      "name": "Pokémon Medium (High-Level)",
+      "scp_item_number": "SCP-T069",
+      "classification": "Parahuman — Advanced Spectral Entity",
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "abilities": [
+        "communication with mid-level spectral anomalies",
+        "spectral projection",
+        "resistance to ectoplasmic corruption"
+      ],
+      "containment_advisories": "Personnel must maintain spectral shielding. SCP-T069 must not be exposed to SCP-0094 (Gengar).",
+      "description": "SCP-T069 displays advanced spectral communication and projection capabilities, capable of interacting with mid-level ghost-type SCP entities.",
+      "behavior_notes": "Detached, eerie, and emotionally distant.",
+      "addendum_logs": [
+        "Addendum T069-A: SCP-T069 communicated with SCP-0093 (Haunter) during a containment breach.",
+        "Addendum T069-B: SCP-T069’s spectral projection disrupted containment sensors."
+      ]
+    },
+    {
+      "id": "T070",
+      "name": "Pokémon Dragon Tamer",
+      "scp_item_number": "SCP-T070",
+      "classification": "Parahuman — Draconic Hazard Handler",
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "abilities": [
+        "resistance to high-impact force",
+        "limited atmospheric manipulation",
+        "combat synergy with draconic anomalies"
+      ],
+      "containment_advisories": "SCP-T070 must not be allowed near SCP-0149 (Dragonite) during agitation cycles. Personnel must avoid aerial zones during SCP-T070’s training.",
+      "description": "SCP-T070 displays anomalous resilience and limited atmospheric manipulation, likely influenced by prolonged exposure to draconic SCP entities.",
+      "behavior_notes": "Intense, disciplined, and highly focused.",
+      "addendum_logs": [
+        "Addendum T070-A: SCP-T070 redirected SCP-0148 (Dragonair)’s electrical discharge.",
+        "Addendum T070-B: SCP-T070 survived SCP-0149’s tail strike with moderate injuries."
+      ]
+    }
+  ]
+}

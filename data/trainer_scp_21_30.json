@@ -1,0 +1,206 @@
+{
+  "trainer_scp": [
+    {
+      "id": "T021",
+      "name": "Officer Jenny",
+      "scp_item_number": "SCP-T021",
+      "classification": "Parahuman — Tactical Response Specialist",
+      "object_class": "Thaumiel",
+      "threat_level": "Green",
+      "abilities": [
+        "enhanced situational awareness",
+        "rapid threat assessment",
+        "anomalous coordination with multiple Jenny instances",
+        "resistance to fear-based anomalies"
+      ],
+      "containment_advisories": "SCP-T021 is not to be contained. SCP-T021 may be deployed for emergency response to SCP breaches involving human casualties.",
+      "description": "SCP-T021 is one of many identical parahuman instances serving in law enforcement roles. All instances share identical genetic structure and display coordinated tactical behavior despite no known communication link.",
+      "behavior_notes": "Disciplined, authoritative, and calm under pressure. Shows no awareness of other SCP-T021 instances.",
+      "addendum_logs": [
+        "Addendum T021-A: Three SCP-T021 instances responded simultaneously to a breach despite being kilometers apart.",
+        "Addendum T021-B: SCP-T021 resisted SCP-0092 (Gastly)’s fear hallucinations with no measurable effect."
+      ]
+    },
+    {
+      "id": "T022",
+      "name": "Tracey Sketchit",
+      "scp_item_number": "SCP-T022",
+      "classification": "Parahuman — Visual Cognition Specialist",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "photographic memory",
+        "accelerated visual analysis",
+        "anomalous ability to detect hidden anomalies"
+      ],
+      "containment_advisories": "SCP-T022 must not be allowed to sketch restricted SCP entities without authorization.",
+      "description": "SCP-T022 possesses anomalous visual cognition, capable of identifying structural weaknesses and hidden features in SCP entities. Sketches produced by SCP-T022 contain details not visible to sensors.",
+      "behavior_notes": "Curious, observant, and highly focused. Displays compulsive sketching behavior.",
+      "addendum_logs": [
+        "Addendum T022-A: SCP-T022’s sketch revealed an unseen appendage on SCP-0049 (Venomoth).",
+        "Addendum T022-B: SCP-T022 identified a cloaked surveillance drone by sound alone."
+      ]
+    },
+    {
+      "id": "T023",
+      "name": "Ritchie",
+      "scp_item_number": "SCP-T023",
+      "classification": "Parahuman — Synchronization Specialist",
+      "object_class": "Safe",
+      "threat_level": "Green",
+      "abilities": [
+        "rapid emotional synchronization with anomalies",
+        "enhanced reflexes",
+        "anomalous calming influence"
+      ],
+      "containment_advisories": "SCP-T023 may assist in calming distressed anomalies. Personnel must avoid exposing SCP-T023 to high-threat SCPs without supervision.",
+      "description": "SCP-T023 displays anomalous synchronization with parahuman creatures, allowing coordinated movement and reduced aggression. Frequently forms stable bonds with volatile anomalies.",
+      "behavior_notes": "Friendly, empathetic, and highly cooperative.",
+      "addendum_logs": [
+        "Addendum T023-A: SCP-T023 synchronized movement with SCP-0054 (Psyduck) during a psychic burst.",
+        "Addendum T023-B: SCP-0121 (Starmie) reduced pulse frequency in SCP-T023’s presence."
+      ]
+    },
+    {
+      "id": "T024",
+      "name": "Duplica",
+      "scp_item_number": "SCP-T024",
+      "classification": "Parahuman — Mimicry Specialist",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "advanced physical mimicry",
+        "rapid costume transformation",
+        "anomalous vocal replication"
+      ],
+      "containment_advisories": "Personnel must verify identity when interacting with SCP-T024. SCP-T024 must not be allowed near SCP-0132 (Ditto) unsupervised.",
+      "description": "SCP-T024 is a parahuman capable of mimicking voices, mannerisms, and appearances with near-perfect accuracy. Mimicry extends to anomalous behavioral patterns.",
+      "behavior_notes": "Playful, theatrical, and mischievous. Displays compulsive impersonation tendencies.",
+      "addendum_logs": [
+        "Addendum T024-A: SCP-T024 impersonated a Level-3 researcher and bypassed two checkpoints.",
+        "Addendum T024-B: SCP-T024’s mimicry confused SCP-0132, causing unstable transformations."
+      ]
+    },
+    {
+      "id": "T025",
+      "name": "Todd Snap",
+      "scp_item_number": "SCP-T025",
+      "classification": "Parahuman — Anomalous Photographic Specialist",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "photographs reveal hidden spectral or psychic signatures",
+        "enhanced reflexes",
+        "anomalous ability to capture anomalies without distortion"
+      ],
+      "containment_advisories": "SCP-T025 must not photograph restricted SCPs without authorization. Cameras used by SCP-T025 must be monitored for anomalous output.",
+      "description": "SCP-T025’s photographs reveal details invisible to sensors, including spectral residue, psychic fields, and cloaked appendages. SCP-T025 displays extreme reflexes when capturing anomalies in motion.",
+      "behavior_notes": "Energetic, enthusiastic, and highly observant.",
+      "addendum_logs": [
+        "Addendum T025-A: SCP-T025 captured a clear image of SCP-0094 (Gengar) mid-phase.",
+        "Addendum T025-B: SCP-T025’s camera detected a hidden glyph on SCP-0065 (Alakazam)."
+      ]
+    },
+    {
+      "id": "T026",
+      "name": "Casey",
+      "scp_item_number": "SCP-T026",
+      "classification": "Parahuman — Emotional Resonance Amplifier",
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "abilities": [
+        "emotion-based amplification of anomaly behavior",
+        "rapid mood-induced energy projection",
+        "anomalous influence over crowd dynamics"
+      ],
+      "containment_advisories": "Personnel must avoid exposing SCP-T026 to large crowds or emotionally volatile anomalies.",
+      "description": "SCP-T026’s emotional state directly influences nearby anomalies, amplifying aggression, excitement, or fear. Displays energy projection during extreme emotional spikes.",
+      "behavior_notes": "Highly emotional, impulsive, and reactive.",
+      "addendum_logs": [
+        "Addendum T026-A: SCP-T026’s excitement caused SCP-0058 (Growlithe) to ignite containment padding.",
+        "Addendum T026-B: SCP-T026 unintentionally triggered a panic response in 14 personnel."
+      ]
+    },
+    {
+      "id": "T027",
+      "name": "Yellow",
+      "scp_item_number": "SCP-T027",
+      "classification": "Parahuman — Healing Empath",
+      "object_class": "Thaumiel",
+      "threat_level": "Green",
+      "abilities": [
+        "anomalous emotional healing",
+        "rapid stabilization of distressed anomalies",
+        "limited psychic empathy"
+      ],
+      "containment_advisories": "SCP-T027 may assist in calming or healing distressed anomalies. Personnel must avoid exposing SCP-T027 to hostile psychic SCPs.",
+      "description": "SCP-T027 displays anomalous empathic abilities capable of stabilizing emotional states in humans and anomalies. Frequently neutralizes aggression in volatile SCPs.",
+      "behavior_notes": "Gentle, soft-spoken, and highly empathetic.",
+      "addendum_logs": [
+        "Addendum T027-A: SCP-T027 calmed SCP-0068 (Machamp) during a rage event.",
+        "Addendum T027-B: SCP-0148 (Dragonair) displayed atmospheric stabilization in SCP-T027’s presence."
+      ]
+    },
+    {
+      "id": "T028",
+      "name": "Blue (Female)",
+      "scp_item_number": "SCP-T028",
+      "classification": "Parahuman — High-Level Strategist",
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "abilities": [
+        "advanced tactical reasoning",
+        "rapid adaptation to anomalous combat",
+        "psychological manipulation"
+      ],
+      "containment_advisories": "Personnel must avoid engaging SCP-T028 in strategic contests. SCP-T028 must not be allowed access to SCP containment schematics.",
+      "description": "SCP-T028 displays exceptional strategic intelligence and manipulative capability. Frequently outmaneuvers hostile anomalies and personnel alike.",
+      "behavior_notes": "Confident, cunning, and highly competitive.",
+      "addendum_logs": [
+        "Addendum T028-A: SCP-T028 predicted SCP-0149 (Dragonite)’s movement patterns with 94% accuracy.",
+        "Addendum T028-B: SCP-T028 manipulated a guard into revealing restricted information."
+      ]
+    },
+    {
+      "id": "T029",
+      "name": "Red",
+      "scp_item_number": "SCP-T029",
+      "classification": "Parahuman — Apex Combat Entity",
+      "object_class": "Keter",
+      "threat_level": "Black",
+      "abilities": [
+        "extreme combat intuition",
+        "anomalous bond strength with high-threat anomalies",
+        "resistance to psychic and elemental attacks",
+        "near-perfect tactical execution"
+      ],
+      "containment_advisories": "SCP-T029 must not be engaged directly. Personnel must avoid provoking SCP-T029 or interfering with bonded anomalies.",
+      "description": "SCP-T029 is an apex-level parahuman with unmatched combat ability and anomalous synergy with multiple high-threat SCP entities. Displays near-superhuman resilience and precision.",
+      "behavior_notes": "Silent, focused, and emotionally unreadable.",
+      "addendum_logs": [
+        "Addendum T029-A: SCP-T029 neutralized SCP-0142 (Aerodactyl) during an uncontrolled flight event.",
+        "Addendum T029-B: SCP-T029 resisted SCP-0097 (Hypno)’s psychic pulse with no measurable effect."
+      ]
+    },
+    {
+      "id": "T030",
+      "name": "Green (Male)",
+      "scp_item_number": "SCP-T030",
+      "classification": "Parahuman — Rogue Strategist",
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "abilities": [
+        "advanced improvisational tactics",
+        "rapid escape capability",
+        "anomalous luck during high-risk operations"
+      ],
+      "containment_advisories": "SCP-T030 must be monitored during interactions with SCP-T028 and SCP-T029. Personnel must avoid exposing SCP-T030 to high-threat anomalies.",
+      "description": "SCP-T030 is a rogue parahuman with exceptional improvisational skill and anomalous luck. Frequently escapes containment scenarios through unpredictable methods.",
+      "behavior_notes": "Clever, impulsive, and unpredictable.",
+      "addendum_logs": [
+        "Addendum T030-A: SCP-T030 escaped a locked containment room using improvised tools.",
+        "Addendum T030-B: SCP-T030 survived SCP-0100 (Voltorb) detonation with minor injuries."
+      ]
+    }
+  ]
+}

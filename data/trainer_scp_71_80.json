@@ -1,0 +1,205 @@
+{
+  "trainer_scp": [
+    {
+      "id": "T071",
+      "name": "Pokémon Cooltrainer (Male, Elite Variant)",
+      "scp_item_number": "SCP-T071",
+      "classification": "Parahuman — Multi-Type Elite Combat Specialist",
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "abilities": [
+        "rapid multi-type combat adaptation",
+        "enhanced tactical prediction",
+        "resistance to elemental anomalies"
+      ],
+      "containment_advisories": "SCP-T071 must not be allowed near high-threat SCPs without Level-3 supervision.",
+      "description": "SCP-T071 displays elite-level combat adaptability and can coordinate multiple SCP entities simultaneously. Frequently used in advanced containment simulations.",
+      "behavior_notes": "Calm, strategic, and highly disciplined.",
+      "addendum_logs": [
+        "Addendum T071-A: SCP-T071 neutralized SCP-0054 (Psyduck)’s psychic burst using improvised countermeasures.",
+        "Addendum T071-B: SCP-T071 resisted SCP-0077 (Ponyta)’s flame output with minimal injury."
+      ]
+    },
+    {
+      "id": "T072",
+      "name": "Pokémon Cooltrainer (Female, Elite Variant)",
+      "scp_item_number": "SCP-T072",
+      "classification": "Parahuman — Multi-Type Tactical Specialist",
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "abilities": [
+        "advanced hazard prediction",
+        "rapid elemental adaptation",
+        "enhanced reflexes"
+      ],
+      "containment_advisories": "SCP-T072 must not be exposed to SCP-0142 (Aerodactyl) or SCP-0146 (Moltres).",
+      "description": "SCP-T072 displays exceptional tactical reasoning and multi-type coordination. Frequently participates in high-risk containment drills.",
+      "behavior_notes": "Focused, analytical, and highly skilled.",
+      "addendum_logs": [
+        "Addendum T072-A: SCP-T072 predicted SCP-0068 (Machamp)’s attack pattern with 94% accuracy.",
+        "Addendum T072-B: SCP-T072 resisted SCP-0087 (Dewgong)’s freezing mist with minimal impairment."
+      ]
+    },
+    {
+      "id": "T073",
+      "name": "Pokémon Tamer (Elite Variant)",
+      "scp_item_number": "SCP-T073",
+      "classification": "Parahuman — High-Risk Beast Dominator",
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "abilities": [
+        "dominance influence over aggressive anomalies",
+        "enhanced physical resilience",
+        "rapid suppression of rage states"
+      ],
+      "containment_advisories": "SCP-T073 must not be allowed near SCP-0128 (Tauros) or SCP-0149 (Dragonite).",
+      "description": "SCP-T073 displays anomalous dominance over aggressive SCP entities, capable of suppressing rage states through vocal command and physical presence.",
+      "behavior_notes": "Fearless, confrontational, and highly assertive.",
+      "addendum_logs": [
+        "Addendum T073-A: SCP-T073 suppressed SCP-0034 (Nidoking)’s charge with a single command.",
+        "Addendum T073-B: SCP-T073 resisted SCP-0077 (Ponyta)’s flame surge with minor injuries."
+      ]
+    },
+    {
+      "id": "T074",
+      "name": "Pokémon Scientist (High-Level)",
+      "scp_item_number": "SCP-T074",
+      "classification": "Parahuman — Advanced Anomaly Researcher",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "accelerated anomalous data processing",
+        "creation of experimental containment systems",
+        "limited hazard prediction"
+      ],
+      "containment_advisories": "SCP-T074 must not be allowed to test prototypes on live SCPs without Level-4 approval.",
+      "description": "SCP-T074 displays advanced anomalous research capability, frequently producing containment devices that exceed expected performance.",
+      "behavior_notes": "Obsessive, brilliant, and prone to overwork.",
+      "addendum_logs": [
+        "Addendum T074-A: SCP-T074’s prototype stabilized SCP-0101 (Electrode) for 72 hours.",
+        "Addendum T074-B: SCP-T074 predicted SCP-0095 (Onix)’s tunnel collapse 8 minutes before sensors."
+      ]
+    },
+    {
+      "id": "T075",
+      "name": "Pokémon Psychic (Elite Variant)",
+      "scp_item_number": "SCP-T075",
+      "classification": "Parahuman — Mid-Level Psychic Entity",
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "abilities": [
+        "telepathy",
+        "limited telekinesis",
+        "precognitive flashes",
+        "psychic suppression of low-level anomalies"
+      ],
+      "containment_advisories": "Personnel must maintain cognitive shielding. SCP-T075 must not be exposed to SCP-T009 (Sabrina).",
+      "description": "SCP-T075 displays mid-level psychic abilities capable of suppressing low-threat psychic SCP entities and predicting short-term events.",
+      "behavior_notes": "Detached, sensitive, and easily overwhelmed.",
+      "addendum_logs": [
+        "Addendum T075-A: SCP-T075 suppressed SCP-0064 (Kadabra)’s psychic pulse.",
+        "Addendum T075-B: SCP-T075 predicted a containment breach 5 minutes before occurrence."
+      ]
+    },
+    {
+      "id": "T076",
+      "name": "Pokémon Medium (Elite Variant)",
+      "scp_item_number": "SCP-T076",
+      "classification": "Parahuman — Advanced Spectral Communicator",
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "abilities": [
+        "communication with mid-level spectral anomalies",
+        "spectral projection",
+        "resistance to ectoplasmic corruption"
+      ],
+      "containment_advisories": "Personnel must maintain spectral shielding. SCP-T076 must not be exposed to SCP-0094 (Gengar).",
+      "description": "SCP-T076 displays advanced spectral communication and projection capabilities, capable of interacting with mid-level ghost-type SCP entities.",
+      "behavior_notes": "Eerie, distant, and emotionally detached.",
+      "addendum_logs": [
+        "Addendum T076-A: SCP-T076 communicated with SCP-0093 (Haunter) during a breach.",
+        "Addendum T076-B: SCP-T076’s spectral projection disrupted containment sensors."
+      ]
+    },
+    {
+      "id": "T077",
+      "name": "Pokémon Dragon Tamer (Elite Variant)",
+      "scp_item_number": "SCP-T077",
+      "classification": "Parahuman — Draconic Hazard Specialist",
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "abilities": [
+        "resistance to high-impact force",
+        "limited atmospheric manipulation",
+        "combat synergy with draconic anomalies"
+      ],
+      "containment_advisories": "SCP-T077 must not be allowed near SCP-0149 (Dragonite) during agitation cycles.",
+      "description": "SCP-T077 displays anomalous resilience and limited atmospheric manipulation, likely influenced by prolonged exposure to draconic SCP entities.",
+      "behavior_notes": "Intense, disciplined, and highly focused.",
+      "addendum_logs": [
+        "Addendum T077-A: SCP-T077 redirected SCP-0148 (Dragonair)’s electrical discharge.",
+        "Addendum T077-B: SCP-T077 survived SCP-0149’s tail strike with moderate injuries."
+      ]
+    },
+    {
+      "id": "T078",
+      "name": "Pokémon Gambler (Elite Variant)",
+      "scp_item_number": "SCP-T078",
+      "classification": "Parahuman — High-Level Probability Distortion Entity",
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "abilities": [
+        "uncontrolled probability distortion",
+        "chaotic influence over random events",
+        "resistance to statistical prediction"
+      ],
+      "containment_advisories": "Personnel must avoid allowing SCP-T078 near volatile SCPs. Probability dampeners required during interaction.",
+      "description": "SCP-T078 displays extreme probability distortion, causing unpredictable outcomes in nearby systems. Effects intensify during emotional stress.",
+      "behavior_notes": "Erratic, impulsive, and thrill-seeking.",
+      "addendum_logs": [
+        "Addendum T078-A: SCP-T078 caused five simultaneous low-probability events during testing.",
+        "Addendum T078-B: SCP-0100 (Voltorb) detonated prematurely during SCP-T078’s presence."
+      ]
+    },
+    {
+      "id": "T079",
+      "name": "Pokémon Burglar (Elite Variant)",
+      "scp_item_number": "SCP-T079",
+      "classification": "Parahuman — High-Risk Infiltration Entity",
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "abilities": [
+        "advanced lockpicking",
+        "stealth infiltration",
+        "anomalous escape capability"
+      ],
+      "containment_advisories": "SCP-T079 must be monitored at all times. Personnel must secure all containment keys and digital access points.",
+      "description": "SCP-T079 displays anomalous infiltration skills and escape capability, frequently targeting SCP storage facilities.",
+      "behavior_notes": "Cunning, opportunistic, and unpredictable.",
+      "addendum_logs": [
+        "Addendum T079-A: SCP-T079 bypassed four biometric locks in under 60 seconds.",
+        "Addendum T079-B: SCP-T079 escaped containment using improvised tools."
+      ]
+    },
+    {
+      "id": "T080",
+      "name": "Pokémon Scientist (Power Plant Variant)",
+      "scp_item_number": "SCP-T080",
+      "classification": "Parahuman — Electromagnetic Hazard Researcher",
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "abilities": [
+        "rapid EM field analysis",
+        "resistance to mild electrical discharge",
+        "creation of EM containment protocols"
+      ],
+      "containment_advisories": "SCP-T080 must not be exposed to SCP-0145 (Zapdos) or SCP-0125 (Electabuzz).",
+      "description": "SCP-T080 specializes in electromagnetic anomaly research and displays mild resistance to electrical hazards. Frequently collaborates with SCP-T042.",
+      "behavior_notes": "Focused, technical, and highly analytical.",
+      "addendum_logs": [
+        "Addendum T080-A: SCP-T080 stabilized EM fluctuations caused by SCP-0082 (Magneton).",
+        "Addendum T080-B: SCP-T080 repaired a damaged Faraday vault in record time."
+      ]
+    }
+  ]
+}
