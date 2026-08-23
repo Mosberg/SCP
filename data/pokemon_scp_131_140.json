@@ -1,0 +1,154 @@
+{
+  "pokemon_scp": [
+    {
+      "id": 131,
+      "name": "Lapras",
+      "scp_item_number": "SCP-0131",
+      "types": { "type_1": "water", "type_2": "ice" },
+      "object_class": "Thaumiel",
+      "threat_level": "Blue",
+      "special_containment_procedures": "SCP-0131 is to be housed in a deep aquatic chamber with controlled temperature gradients. SCP-0131 may assist Foundation personnel in aquatic rescue operations under supervision.",
+      "description": "SCP-0131 is a large aquatic organism capable of generating harmonic vocalizations that calm nearby organisms and stabilize emotional states. Ice generation occurs through dermal nodes along its shell.",
+      "behavior_notes": "Gentle and empathetic. Shows protective behavior toward distressed personnel.",
+      "addendum_logs": [
+        "Addendum 0131-A: SCP-0131’s vocalization neutralized a panic event in Containment Wing C.",
+        "Addendum 0131-B: Ice generation formed fractal patterns resembling snowflakes."
+      ]
+    },
+    {
+      "id": 132,
+      "name": "Ditto",
+      "scp_item_number": "SCP-0132",
+      "types": { "type_1": "normal" },
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "special_containment_procedures": "SCP-0132 is to be contained in a polymorph-resistant vault with identity verification protocols. Personnel must undergo biometric scans before and after interaction.",
+      "description": "SCP-0132 is an amorphous organism capable of perfectly mimicking the appearance and physical properties of any organism it observes. Imperfect replications occasionally display distorted facial features.",
+      "behavior_notes": "Unpredictable. Attempts to mimic personnel to escape containment.",
+      "addendum_logs": [
+        "Addendum 0132-A: SCP-0132 replicated a Level-3 researcher and bypassed two security checkpoints.",
+        "Addendum 0132-B: Imperfect mimicry produced a distorted copy with asymmetrical eyes."
+      ]
+    },
+    {
+      "id": 133,
+      "name": "Eevee",
+      "scp_item_number": "SCP-0133",
+      "types": { "type_1": "normal" },
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "special_containment_procedures": "SCP-0133 is to be contained in a mammalian chamber with genetic monitoring equipment. Personnel may interact with SCP-0133 under supervision.",
+      "description": "SCP-0133 possesses unstable genetic structure capable of rapid adaptation. Genetic markers shift unpredictably, suggesting multiple potential evolutionary pathways.",
+      "behavior_notes": "Friendly and curious. Shows attachment to familiar personnel.",
+      "addendum_logs": [
+        "Addendum 0133-A: Genetic scan revealed seven simultaneous evolutionary markers.",
+        "Addendum 0133-B: SCP-0133’s fur changed color during emotional stress."
+      ]
+    },
+    {
+      "id": 134,
+      "name": "Vaporeon",
+      "scp_item_number": "SCP-0134",
+      "types": { "type_1": "water" },
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "special_containment_procedures": "SCP-0134 is to be contained in a mid-depth aquatic vault with hydration monitoring. Personnel must avoid exposure to SCP-0134’s molecular diffusion.",
+      "description": "SCP-0134 can dissolve its body into water, becoming partially intangible. Reformation occurs within seconds. Displays advanced hydrokinesis.",
+      "behavior_notes": "Calm and elusive. Frequently dissolves into water when startled.",
+      "addendum_logs": [
+        "Addendum 0134-A: SCP-0134 diffused into containment water to avoid capture.",
+        "Addendum 0134-B: Hydrokinesis formed water constructs resembling humanoid shapes."
+      ]
+    },
+    {
+      "id": 135,
+      "name": "Jolteon",
+      "scp_item_number": "SCP-0135",
+      "types": { "type_1": "electric" },
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "special_containment_procedures": "SCP-0135 is to be contained in a reinforced Faraday vault with static discharge grounding. Personnel must wear insulated suits.",
+      "description": "SCP-0135’s fur generates constant static buildup capable of releasing lightning-like discharges. Spines can be electrified and launched as projectiles.",
+      "behavior_notes": "Agitated and reactive. Electrical output spikes during stress.",
+      "addendum_logs": [
+        "Addendum 0135-A: SCP-0135 launched electrified spines that disabled a containment drone.",
+        "Addendum 0135-B: Static buildup exceeded 80,000 volts during testing."
+      ]
+    },
+    {
+      "id": 136,
+      "name": "Flareon",
+      "scp_item_number": "SCP-0136",
+      "types": { "type_1": "fire" },
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "special_containment_procedures": "SCP-0136 is to be contained in a heat-shielded vault with flame-dampening systems. Personnel must maintain a minimum distance of 15 meters.",
+      "description": "SCP-0136’s internal temperature exceeds 1,500°C. Fur emits constant heat waves capable of igniting nearby materials. Displays rapid combustion bursts when agitated.",
+      "behavior_notes": "Calm but volatile. Heat output increases with emotional intensity.",
+      "addendum_logs": [
+        "Addendum 0136-A: SCP-0136 ignited containment padding during a stress event.",
+        "Addendum 0136-B: Thermal scans show internal flame sacs."
+      ]
+    },
+    {
+      "id": 137,
+      "name": "Porygon",
+      "scp_item_number": "SCP-0137",
+      "types": { "type_1": "normal" },
+      "object_class": "Euclid",
+      "threat_level": "Blue",
+      "special_containment_procedures": "SCP-0137 is to be contained in a digital-interference vault with EM shielding. Personnel must avoid connecting SCP-0137 to external networks.",
+      "description": "SCP-0137 is a digital-organic hybrid capable of converting its body into data and entering electronic systems. Displays polygonal morphology and emits low-frequency digital noise.",
+      "behavior_notes": "Curious and analytical. Attempts to interface with nearby electronics.",
+      "addendum_logs": [
+        "Addendum 0137-A: SCP-0137 entered a containment computer and altered system logs.",
+        "Addendum 0137-B: Digital noise resembles corrupted binary sequences."
+      ]
+    },
+    {
+      "id": 138,
+      "name": "Omanyte",
+      "scp_item_number": "SCP-0138",
+      "types": { "type_1": "rock", "type_2": "water" },
+      "object_class": "Safe",
+      "threat_level": "Green",
+      "special_containment_procedures": "SCP-0138 is to be contained in a shallow aquatic fossil chamber. Personnel may interact with SCP-0138 under supervision.",
+      "description": "SCP-0138 is a revived fossil organism with a spiral shell. Displays mild hydrokinesis and slow locomotion.",
+      "behavior_notes": "Docile and curious. Frequently retracts into its shell when startled.",
+      "addendum_logs": [
+        "Addendum 0138-A: SCP-0138’s shell resisted high-pressure compression.",
+        "Addendum 0138-B: Hydrokinesis formed small spiraling water currents."
+      ]
+    },
+    {
+      "id": 139,
+      "name": "Omastar",
+      "scp_item_number": "SCP-0139",
+      "types": { "type_1": "rock", "type_2": "water" },
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "special_containment_procedures": "SCP-0139 is to be contained in a reinforced aquatic vault. Personnel must avoid proximity to SCP-0139’s tentacles.",
+      "description": "SCP-0139 possesses powerful tentacles capable of crushing reinforced materials. Shell shows anomalous density and regenerative properties.",
+      "behavior_notes": "Aggressive when hungry. Attempts to ensnare nearby objects.",
+      "addendum_logs": [
+        "Addendum 0139-A: SCP-0139 crushed a containment drone.",
+        "Addendum 0139-B: Shell regeneration occurred in under 12 hours."
+      ]
+    },
+    {
+      "id": 140,
+      "name": "Kabuto",
+      "scp_item_number": "SCP-0140",
+      "types": { "type_1": "rock", "type_2": "water" },
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "special_containment_procedures": "SCP-0140 is to be contained in a fossil-grade aquatic chamber with low lighting. Personnel must avoid startling SCP-0140.",
+      "description": "SCP-0140 is a revived fossil organism with a hardened carapace and bioluminescent eyes. Displays rapid scuttling movement and mild hydrokinesis.",
+      "behavior_notes": "Skittish and reactive. Frequently hides beneath rocks.",
+      "addendum_logs": [
+        "Addendum 0140-A: SCP-0140’s carapace resisted industrial drilling tools.",
+        "Addendum 0140-B: Eye bioluminescence intensified during stress."
+      ]
+    }
+  ]
+}

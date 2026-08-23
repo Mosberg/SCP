@@ -1,0 +1,154 @@
+{
+  "pokemon_scp": [
+    {
+      "id": 51,
+      "name": "Dugtrio",
+      "scp_item_number": "SCP-0051",
+      "types": { "type_1": "ground" },
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "special_containment_procedures": "SCP-0051 is to be contained in a triple‑layer subterranean vault with seismic dampeners and reinforced flooring. All soil within the chamber must be replaced weekly with compacted, non‑burrowable substrate. Personnel must avoid standing directly above SCP-0051 at any time.",
+      "description": "SCP-0051 consists of three linked entities sharing a single subterranean body. It can generate violent tremors capable of destabilizing reinforced structures. Ground penetration occurs at anomalous speeds, leaving no detectable tunnel behind.",
+      "behavior_notes": "Highly aggressive when disturbed. Displays coordinated movement and synchronized vocalizations.",
+      "addendum_logs": [
+        "Addendum 0051-A: SCP-0051 caused a localized quake that damaged two adjacent containment wings.",
+        "Addendum 0051-B: Thermal scans suggest SCP-0051’s true body extends far deeper than previously estimated."
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Meowth",
+      "scp_item_number": "SCP-0052",
+      "types": { "type_1": "normal" },
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "special_containment_procedures": "SCP-0052 is to be contained in a standard mammalian chamber with reinforced storage lockers. All valuable objects must be kept out of SCP-0052’s reach.",
+      "description": "SCP-0052 is a feline organism with anomalous attraction to reflective or valuable objects. Capable of walking silently on any surface, including vertical walls. Foreclaws show micro‑serrations capable of slicing through thin metal.",
+      "behavior_notes": "Clever and mischievous. Frequently attempts to steal equipment.",
+      "addendum_logs": [
+        "Addendum 0052-A: SCP-0052 bypassed a biometric lock by mimicking guard hand movements.",
+        "Addendum 0052-B: SCP-0052 hoarded 37 unauthorized items beneath its bedding."
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Persian",
+      "scp_item_number": "SCP-0053",
+      "types": { "type_1": "normal" },
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "special_containment_procedures": "SCP-0053 is to be contained in a reinforced feline vault with motion‑tracking lasers. Personnel must avoid direct eye contact. All containment staff must undergo reflex training.",
+      "description": "SCP-0053 is a large feline organism with extreme agility and predatory instincts. Its forehead gem emits low‑frequency pulses capable of inducing disorientation and fear.",
+      "behavior_notes": "Highly territorial. Displays calculated stalking behavior and coordinated ambush tactics.",
+      "addendum_logs": [
+        "Addendum 0053-A: SCP-0053 incapacitated three guards in under 12 seconds.",
+        "Addendum 0053-B: Gem pulses caused panic attacks in exposed personnel."
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Psyduck",
+      "scp_item_number": "SCP-0054",
+      "types": { "type_1": "water" },
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "special_containment_procedures": "SCP-0054 is to be contained in a water‑enriched chamber with migraine‑monitoring equipment. Personnel must avoid startling SCP-0054.",
+      "description": "SCP-0054 experiences chronic cranial pressure that triggers bursts of uncontrolled psychic energy. These bursts can disrupt electronics and cause mild telekinetic events.",
+      "behavior_notes": "Confused and lethargic. Psychic output increases when SCP-0054 is stressed.",
+      "addendum_logs": [
+        "Addendum 0054-A: A psychic burst caused levitation of nearby objects for 14 seconds.",
+        "Addendum 0054-B: SCP-0054’s headaches correlate with lunar cycles."
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Golduck",
+      "scp_item_number": "SCP-0055",
+      "types": { "type_1": "water" },
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "special_containment_procedures": "SCP-0055 is to be contained in a deep aquatic vault with psychic dampeners. Personnel must not enter the water under any circumstances.",
+      "description": "SCP-0055 exhibits advanced psychic abilities, including telekinesis, hydrokinesis, and limited mind‑reading. Capable of generating water blades sharp enough to cut reinforced steel.",
+      "behavior_notes": "Calm but unpredictable. Displays strategic intelligence and awareness of containment protocols.",
+      "addendum_logs": [
+        "Addendum 0055-A: SCP-0055 intercepted a guard’s thoughts during a breach drill.",
+        "Addendum 0055-B: Water blade attack severed a titanium anchor cable."
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Mankey",
+      "scp_item_number": "SCP-0056",
+      "types": { "type_1": "fight" },
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "special_containment_procedures": "SCP-0056 is to be contained in a reinforced primate chamber with shock‑absorbent walls. Personnel must avoid provoking SCP-0056.",
+      "description": "SCP-0056 is a primate organism with extreme aggression and rapid reflexes. Capable of delivering strikes faster than human reaction time.",
+      "behavior_notes": "Highly volatile. Aggression spikes unpredictably.",
+      "addendum_logs": [
+        "Addendum 0056-A: SCP-0056 shattered a reinforced window with a single strike.",
+        "Addendum 0056-B: Heart rate spikes precede aggression by 0.3 seconds."
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Primeape",
+      "scp_item_number": "SCP-0057",
+      "types": { "type_1": "fight" },
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "special_containment_procedures": "SCP-0057 is to be contained in a titan‑grade combat vault with automated tranquilizer turrets. Personnel must not enter without full riot armor.",
+      "description": "SCP-0057 exhibits uncontrollable rage cycles and superhuman strength. Capable of bending steel bars and breaking reinforced restraints.",
+      "behavior_notes": "Constantly agitated. Rage cycles intensify when SCP-0057 is observed directly.",
+      "addendum_logs": [
+        "Addendum 0057-A: SCP-0057 broke a tungsten restraint during a rage event.",
+        "Addendum 0057-B: Rage cycles appear to synchronize with nearby emotional states."
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Growlithe",
+      "scp_item_number": "SCP-0058",
+      "types": { "type_1": "fire" },
+      "object_class": "Safe",
+      "threat_level": "Green",
+      "special_containment_procedures": "SCP-0058 is to be housed in a fire‑resistant canine chamber. Personnel may interact with SCP-0058 under supervision.",
+      "description": "SCP-0058 is a canine organism capable of producing controlled flames. Displays strong loyalty toward familiar personnel.",
+      "behavior_notes": "Friendly and obedient. Uses fire bursts defensively.",
+      "addendum_logs": [
+        "Addendum 0058-A: SCP-0058 produced a flame burst to protect a researcher.",
+        "Addendum 0058-B: Fur samples show mild heat resistance."
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Arcanine",
+      "scp_item_number": "SCP-0059",
+      "types": { "type_1": "fire" },
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "special_containment_procedures": "SCP-0059 is to be contained in a heat‑shielded vault with flame‑dampening systems. Personnel must maintain a minimum distance of 20 meters.",
+      "description": "SCP-0059 is a large canine organism capable of generating extreme flames and running at anomalous speeds. Heat output can melt reinforced steel.",
+      "behavior_notes": "Majestic but aggressive when challenged. Displays territorial dominance.",
+      "addendum_logs": [
+        "Addendum 0059-A: SCP-0059 melted a containment gate during a sprint.",
+        "Addendum 0059-B: Flame output increases when SCP-0059 is observed directly."
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Poliwag",
+      "scp_item_number": "SCP-0060",
+      "types": { "type_1": "water" },
+      "object_class": "Safe",
+      "threat_level": "Green",
+      "special_containment_procedures": "SCP-0060 is to be contained in a shallow aquatic enclosure with gentle currents. Personnel may interact with SCP-0060 under supervision.",
+      "description": "SCP-0060 is a small amphibious organism with a spiral pattern on its abdomen. The pattern induces mild hypnotic effects when observed for extended periods.",
+      "behavior_notes": "Playful and curious. Uses tail propulsion to move rapidly.",
+      "addendum_logs": [
+        "Addendum 0060-A: A researcher reported dizziness after staring at SCP-0060’s spiral.",
+        "Addendum 0060-B: SCP-0060 created water ripples forming geometric shapes."
+      ]
+    }
+  ]
+}

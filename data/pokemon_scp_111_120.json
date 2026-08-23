@@ -1,0 +1,154 @@
+{
+  "pokemon_scp": [
+    {
+      "id": 111,
+      "name": "Rhyhorn",
+      "scp_item_number": "SCP-0111",
+      "types": { "type_1": "ground", "type_2": "rock" },
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "special_containment_procedures": "SCP-0111 is to be contained in a reinforced geological pen with shock-absorbent flooring. Personnel must avoid standing in SCP-0111’s charge path.",
+      "description": "SCP-0111 is a quadrupedal organism with dermal plating composed of dense mineralized keratin. Capable of charging at high speeds and generating shockwaves upon impact.",
+      "behavior_notes": "Aggressive when startled. Displays territorial dominance and attempts to ram barriers.",
+      "addendum_logs": [
+        "Addendum 0111-A: SCP-0111 fractured a reinforced wall during a charge.",
+        "Addendum 0111-B: Dermal plating shows crystalline growth patterns."
+      ]
+    },
+    {
+      "id": 112,
+      "name": "Rhydon",
+      "scp_item_number": "SCP-0112",
+      "types": { "type_1": "ground", "type_2": "rock" },
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "special_containment_procedures": "SCP-0112 is to be contained in a titan-grade geological vault with seismic dampeners. Personnel must not enter during agitation cycles.",
+      "description": "SCP-0112 possesses immense strength and can generate seismic shockwaves by stomping. Horn rotation allows drilling through reinforced concrete.",
+      "behavior_notes": "Highly aggressive. Shows awareness of structural weak points.",
+      "addendum_logs": [
+        "Addendum 0112-A: SCP-0112 drilled through a containment barrier.",
+        "Addendum 0112-B: Seismic output exceeded safe thresholds during testing."
+      ]
+    },
+    {
+      "id": 113,
+      "name": "Chansey",
+      "scp_item_number": "SCP-0113",
+      "types": { "type_1": "normal" },
+      "object_class": "Thaumiel",
+      "threat_level": "Blue",
+      "special_containment_procedures": "SCP-0113 is to be housed in a medical-grade containment suite. SCP-0113 may assist Foundation medical personnel under supervision.",
+      "description": "SCP-0113 produces anomalous eggs capable of accelerating healing and stabilizing critical injuries. Egg composition shows regenerative compounds not found in nature.",
+      "behavior_notes": "Gentle and nurturing. Shows empathy toward injured personnel.",
+      "addendum_logs": [
+        "Addendum 0113-A: SCP-0113’s egg healed a Class-IV burn in under 30 minutes.",
+        "Addendum 0113-B: SCP-0113 displays distress when exposed to suffering."
+      ]
+    },
+    {
+      "id": 114,
+      "name": "Tangela",
+      "scp_item_number": "SCP-0114",
+      "types": { "type_1": "grass" },
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "special_containment_procedures": "SCP-0114 is to be contained in a botanical enclosure with vine-resistant restraints. Personnel must avoid entanglement.",
+      "description": "SCP-0114 is a vine-based organism composed of numerous animated tendrils. Vines regenerate rapidly when severed.",
+      "behavior_notes": "Curious and playful. Attempts to wrap around objects and personnel.",
+      "addendum_logs": [
+        "Addendum 0114-A: Vine regeneration occurred in under 8 seconds.",
+        "Addendum 0114-B: SCP-0114 attempted to dismantle a containment camera."
+      ]
+    },
+    {
+      "id": 115,
+      "name": "Kangaskhan",
+      "scp_item_number": "SCP-0115",
+      "types": { "type_1": "normal" },
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "special_containment_procedures": "SCP-0115 is to be contained in a titan-grade mammalian vault. Personnel must avoid proximity to SCP-0115’s offspring.",
+      "description": "SCP-0115 is a large marsupial organism with extreme physical strength. Displays heightened aggression when protecting its offspring.",
+      "behavior_notes": "Highly territorial. Offspring exhibits mild anomalous resilience.",
+      "addendum_logs": [
+        "Addendum 0115-A: SCP-0115 broke a reinforced barrier during a protective rage event.",
+        "Addendum 0115-B: Offspring survived a fall that should have been fatal."
+      ]
+    },
+    {
+      "id": 116,
+      "name": "Horsea",
+      "scp_item_number": "SCP-0116",
+      "types": { "type_1": "water" },
+      "object_class": "Safe",
+      "threat_level": "Green",
+      "special_containment_procedures": "SCP-0116 is to be contained in a shallow aquatic enclosure with gentle currents. Personnel may interact with SCP-0116 under supervision.",
+      "description": "SCP-0116 is a small aquatic organism capable of producing ink clouds with mild adhesive properties. Displays rapid swimming ability.",
+      "behavior_notes": "Playful and curious. Uses ink clouds defensively.",
+      "addendum_logs": [
+        "Addendum 0116-A: Ink cloud adhered to containment glass for several hours.",
+        "Addendum 0116-B: SCP-0116 created spiral-shaped water patterns."
+      ]
+    },
+    {
+      "id": 117,
+      "name": "Seadra",
+      "scp_item_number": "SCP-0117",
+      "types": { "type_1": "water" },
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "special_containment_procedures": "SCP-0117 is to be contained in a deep aquatic vault with toxin scrubbers. Personnel must avoid exposure to SCP-0117’s spines.",
+      "description": "SCP-0117 possesses venomous spines capable of delivering neurotoxins. Displays rapid directional swimming and hydrokinesis.",
+      "behavior_notes": "Aggressive when threatened. Uses spines to deter predators.",
+      "addendum_logs": [
+        "Addendum 0117-A: Venom caused temporary paralysis in a researcher.",
+        "Addendum 0117-B: Hydrokinesis output increases during stress."
+      ]
+    },
+    {
+      "id": 118,
+      "name": "Goldeen",
+      "scp_item_number": "SCP-0118",
+      "types": { "type_1": "water" },
+      "object_class": "Safe",
+      "threat_level": "Green",
+      "special_containment_procedures": "SCP-0118 is to be contained in a shallow aquatic enclosure with reinforced glass. Personnel may interact with SCP-0118 under supervision.",
+      "description": "SCP-0118 is an aquatic organism with a hardened horn capable of piercing thin metal. Displays graceful swimming patterns.",
+      "behavior_notes": "Calm but reactive. Uses horn defensively.",
+      "addendum_logs": [
+        "Addendum 0118-A: SCP-0118 pierced a containment panel during feeding.",
+        "Addendum 0118-B: Swimming patterns show rhythmic, wave-like formations."
+      ]
+    },
+    {
+      "id": 119,
+      "name": "Seaking",
+      "scp_item_number": "SCP-0119",
+      "types": { "type_1": "water" },
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "special_containment_procedures": "SCP-0119 is to be contained in a reinforced aquatic vault. Personnel must avoid proximity to SCP-0119’s horn.",
+      "description": "SCP-0119 possesses a powerful horn capable of penetrating reinforced barriers. Displays advanced hydrokinesis and territorial aggression.",
+      "behavior_notes": "Aggressive when disturbed. Uses horn to intimidate and attack.",
+      "addendum_logs": [
+        "Addendum 0119-A: SCP-0119 shattered a reinforced barrier with a horn strike.",
+        "Addendum 0119-B: Hydrokinesis output increases during mating cycles."
+      ]
+    },
+    {
+      "id": 120,
+      "name": "Staryu",
+      "scp_item_number": "SCP-0120",
+      "types": { "type_1": "water" },
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "special_containment_procedures": "SCP-0120 is to be contained in a shallow aquatic chamber with gem integrity monitoring. Personnel must avoid touching SCP-0120’s central core.",
+      "description": "SCP-0120 is a star-shaped aquatic organism with a central gem that emits low-frequency pulses. Limbs regenerate rapidly when severed.",
+      "behavior_notes": "Silent and reactive. Moves toward light sources.",
+      "addendum_logs": [
+        "Addendum 0120-A: Central gem pulse disrupted nearby sensors.",
+        "Addendum 0120-B: Limb regeneration occurred in under 6 minutes."
+      ]
+    }
+  ]
+}

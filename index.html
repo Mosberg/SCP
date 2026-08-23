@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SCP Pokémon Archive</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script defer src="scripts/main.js"></script>
+  </head>
+
+  <body class="page page-home">
+    <div class="header">
+      <div class="header-left">
+        <h1>SCP POKÉMON ARCHIVE</h1>
+        <p>Foundation Secure Database — Level 4 Clearance Required</p>
+      </div>
+      <div class="header-right">
+        <button id="settings-toggle" class="settings-btn">⚙ Settings</button>
+      </div>
+    </div>
+
+    <div id="settings-panel" class="settings-panel hidden">
+      <h2>Archive Settings</h2>
+      <label>
+        <input type="checkbox" id="setting-sounds" />
+        Enable terminal sounds
+      </label>
+      <label>
+        <input type="checkbox" id="setting-overlay" />
+        Enable terminal overlay warnings
+      </label>
+      <label>
+        <input type="checkbox" id="setting-redactions" />
+        Allow redactions to reveal on hover
+      </label>
+      <button id="settings-close" class="settings-close-btn">Close</button>
+    </div>
+
+    <div class="controls">
+      <input
+        id="search-input"
+        type="text"
+        placeholder="Search by name or SCP number…"
+      />
+
+      <select id="filter-class">
+        <option value="">Object Class (All)</option>
+        <option value="Safe">Safe</option>
+        <option value="Euclid">Euclid</option>
+        <option value="Keter">Keter</option>
+        <option value="Apollyon">Apollyon</option>
+        <option value="Thaumiel">Thaumiel</option>
+        <option value="Unknown">Unknown</option>
+      </select>
+
+      <select id="filter-threat">
+        <option value="">Threat Level (All)</option>
+        <option value="Green">Green</option>
+        <option value="Yellow">Yellow</option>
+        <option value="Orange">Orange</option>
+        <option value="Red">Red</option>
+        <option value="Crimson">Crimson</option>
+        <option value="Black">Black</option>
+        <option value="Blue">Blue</option>
+        <option value="Unknown">Unknown</option>
+      </select>
+    </div>
+
+    <div id="loader">Loading SCP files...</div>
+
+    <div id="scp-list" class="scp-list fade-in"></div>
+
+    <div class="legend">
+      <h2>Classification Legend</h2>
+      <div class="legend-row">
+        <span class="badge legend-badge" data-class="Safe">Safe</span>
+        <span class="legend-text"
+          >Minimal risk; containment straightforward.</span
+        >
+      </div>
+      <div class="legend-row">
+        <span class="badge legend-badge" data-class="Euclid">Euclid</span>
+        <span class="legend-text"
+          >Unpredictable behavior; containment requires active monitoring.</span
+        >
+      </div>
+      <div class="legend-row">
+        <span class="badge legend-badge" data-class="Keter">Keter</span>
+        <span class="legend-text"
+          >High risk; containment is difficult and resource-intensive.</span
+        >
+      </div>
+      <div class="legend-row">
+        <span class="badge legend-badge" data-class="Apollyon">Apollyon</span>
+        <span class="legend-text"
+          >Uncontainable; poses existential threat.</span
+        >
+      </div>
+      <div class="legend-row">
+        <span class="badge legend-badge" data-class="Thaumiel">Thaumiel</span>
+        <span class="legend-text"
+          >Used to contain or counter other anomalies.</span
+        >
+      </div>
+      <div class="legend-row">
+        <span class="badge legend-badge" data-class="Unknown">Unknown</span>
+        <span class="legend-text"
+          >Insufficient data; classification pending.</span
+        >
+      </div>
+
+      <h2>Threat Level Legend</h2>
+      <div class="legend-row">
+        <span class="badge legend-badge" data-threat="Green">Green</span>
+        <span class="legend-text"
+          >Low threat; minimal danger to personnel.</span
+        >
+      </div>
+      <div class="legend-row">
+        <span class="badge legend-badge" data-threat="Yellow">Yellow</span>
+        <span class="legend-text">Moderate threat; caution advised.</span>
+      </div>
+      <div class="legend-row">
+        <span class="badge legend-badge" data-threat="Orange">Orange</span>
+        <span class="legend-text"
+          >Significant threat; direct engagement risky.</span
+        >
+      </div>
+      <div class="legend-row">
+        <span class="badge legend-badge" data-threat="Red">Red</span>
+        <span class="legend-text">Severe threat; lethal potential.</span>
+      </div>
+      <div class="legend-row">
+        <span class="badge legend-badge" data-threat="Crimson">Crimson</span>
+        <span class="legend-text"
+          >Catastrophic threat; large-scale damage likely.</span
+        >
+      </div>
+      <div class="legend-row">
+        <span class="badge legend-badge" data-threat="Black">Black</span>
+        <span class="legend-text"
+          >Apocalyptic threat; global impact possible.</span
+        >
+      </div>
+      <div class="legend-row">
+        <span class="badge legend-badge" data-threat="Blue">Blue</span>
+        <span class="legend-text"
+          >Non-hostile anomaly; cooperative or neutral.</span
+        >
+      </div>
+      <div class="legend-row">
+        <span class="badge legend-badge" data-threat="Unknown">Unknown</span>
+        <span class="legend-text">Threat level undetermined.</span>
+      </div>
+    </div>
+
+    <div id="terminal-overlay" class="terminal-overlay hidden">
+      <div class="terminal-window flicker">
+        <p>> ACCESSING FOUNDATION DATABASE...</p>
+        <p>> CLEARANCE LEVEL: <span class="red">INSUFFICIENT</span></p>
+        <p>> SECURITY BREACH DETECTED</p>
+        <p>> INITIATING LOCKDOWN...</p>
+        <p class="blink">█</p>
+      </div>
+      <audio id="terminal-beep" src="assets/beep.mp3"></audio>
+    </div>
+  </body>
+</html>

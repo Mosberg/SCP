@@ -1,0 +1,154 @@
+{
+  "pokemon_scp": [
+    {
+      "id": 31,
+      "name": "Nidoqueen",
+      "scp_item_number": "SCP-0031",
+      "types": { "type_1": "poison", "type_2": "ground" },
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "special_containment_procedures": "SCP-0031 is to be contained in a reinforced subterranean vault with shock‑absorbent flooring. Personnel must maintain a minimum distance of 15 meters. All structural supports must be inspected weekly for stress fractures.",
+      "description": "SCP-0031 is a large mammalian organism with dermal plating composed of mineralized keratin. Capable of generating seismic shockwaves through ground strikes. Venom secreted from its claws causes rapid tissue necrosis.",
+      "behavior_notes": "Extremely protective and aggressive. Displays territorial dominance and attempts to shield SCP-0030 during perceived threats.",
+      "addendum_logs": [
+        "Addendum 0031-A: SCP-0031 generated a shockwave that destabilized three support pillars.",
+        "Addendum 0031-B: Venom samples show crystalline structures similar to mineral toxins."
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Nidoran♂",
+      "scp_item_number": "SCP-0032",
+      "types": { "type_1": "poison" },
+      "object_class": "Safe",
+      "threat_level": "Yellow",
+      "special_containment_procedures": "SCP-0032 is to be kept in a toxin‑neutralizing enclosure. Personnel must avoid contact with SCP-0032’s horn.",
+      "description": "SCP-0032 is a small mammalian organism with a venomous horn capable of delivering mild neurotoxins. Displays heightened alertness and rapid reflexes.",
+      "behavior_notes": "Skittish but curious. Shows interest in rhythmic sounds.",
+      "addendum_logs": [
+        "Addendum 0032-A: SCP-0032’s venom potency increased after exposure to SCP-0033.",
+        "Addendum 0032-B: SCP-0032 produced a series of chirps resembling Morse code."
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Nidorino",
+      "scp_item_number": "SCP-0033",
+      "types": { "type_1": "poison" },
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "special_containment_procedures": "SCP-0033 is to be contained in a reinforced mammalian chamber with toxin‑resistant barriers. Personnel must avoid provoking SCP-0033’s charge behavior.",
+      "description": "SCP-0033 possesses a hardened horn capable of penetrating steel. Venom causes severe muscle spasms and temporary blindness.",
+      "behavior_notes": "Aggressive and territorial. Frequently charges at perceived threats.",
+      "addendum_logs": [
+        "Addendum 0033-A: SCP-0033 shattered a reinforced barrier during a charge.",
+        "Addendum 0033-B: Venom samples show rapid mutation under stress."
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Nidoking",
+      "scp_item_number": "SCP-0034",
+      "types": { "type_1": "poison", "type_2": "ground" },
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "special_containment_procedures": "SCP-0034 is to be contained in a titan‑class reinforced vault with seismic dampeners. Personnel must not enter without full hazard gear. All structural supports must be reinforced with tungsten alloy.",
+      "description": "SCP-0034 is a massive mammalian organism with dermal plating and a horn capable of delivering catastrophic venom. Displays immense physical strength and can generate localized earthquakes.",
+      "behavior_notes": "Highly aggressive. Shows strategic awareness and targets structural weak points.",
+      "addendum_logs": [
+        "Addendum 0034-A: SCP-0034 breached containment by collapsing a support pillar.",
+        "Addendum 0034-B: Venom samples show corrosive properties capable of dissolving titanium."
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Clefairy",
+      "scp_item_number": "SCP-0035",
+      "types": { "type_1": "fairy" },
+      "object_class": "Euclid",
+      "threat_level": "Blue",
+      "special_containment_procedures": "SCP-0035 is to be contained in a lunar‑simulation chamber with low‑gravity fields. Personnel may interact with SCP-0035 under supervision.",
+      "description": "SCP-0035 displays mild reality‑altering properties, including levitation and low‑level spatial distortion. Emits soft luminescent pulses correlated with lunar phases.",
+      "behavior_notes": "Friendly and curious. Shows fascination with reflective surfaces.",
+      "addendum_logs": [
+        "Addendum 0035-A: SCP-0035 levitated a researcher’s clipboard for several minutes.",
+        "Addendum 0035-B: Luminescent pulses intensified during a full moon."
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Clefable",
+      "scp_item_number": "SCP-0036",
+      "types": { "type_1": "fairy" },
+      "object_class": "Thaumiel",
+      "threat_level": "Blue",
+      "special_containment_procedures": "SCP-0036 is not to be contained forcibly. SCP-0036 cooperates with Foundation personnel and may be summoned via harmonic resonance protocols.",
+      "description": "SCP-0036 exhibits advanced spatial manipulation abilities, including short‑range teleportation and dimensional phasing. Capable of neutralizing minor anomalies through harmonic interference.",
+      "behavior_notes": "Calm and benevolent. Shows protective behavior toward SCP-0035.",
+      "addendum_logs": [
+        "Addendum 0036-A: SCP-0036 neutralized a Class‑II spatial anomaly during testing.",
+        "Addendum 0036-B: SCP-0036 phased through a containment wall without causing structural damage."
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Vulpix",
+      "scp_item_number": "SCP-0037",
+      "types": { "type_1": "fire" },
+      "object_class": "Safe",
+      "threat_level": "Yellow",
+      "special_containment_procedures": "SCP-0037 is to be housed in a fire‑resistant enclosure with temperature control. Personnel may interact with SCP-0037 under supervision.",
+      "description": "SCP-0037 is a small fox‑like organism capable of producing controlled fireballs. Tail count correlates with thermal output.",
+      "behavior_notes": "Playful and affectionate. Uses fireballs to communicate excitement.",
+      "addendum_logs": [
+        "Addendum 0037-A: SCP-0037 produced a fireball shaped like a spiral.",
+        "Addendum 0037-B: Tail samples show anomalous heat retention."
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Ninetales",
+      "scp_item_number": "SCP-0038",
+      "types": { "type_1": "fire" },
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "special_containment_procedures": "SCP-0038 is to be contained in a heat‑shielded chamber with flame‑dampening systems. Personnel must avoid eye contact with SCP-0038.",
+      "description": "SCP-0038 is a fox‑like organism with nine tails, each capable of generating intense flames. Eye contact induces hypnotic effects and long‑term psychological influence.",
+      "behavior_notes": "Calm but manipulative. Displays intelligence comparable to humans.",
+      "addendum_logs": [
+        "Addendum 0038-A: A researcher exposed to SCP-0038’s gaze reported hearing whispered commands.",
+        "Addendum 0038-B: SCP-0038 melted a reinforced barrier during a rage event."
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Jigglypuff",
+      "scp_item_number": "SCP-0039",
+      "types": { "type_1": "normal", "type_2": "fairy" },
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "special_containment_procedures": "SCP-0039 is to be contained in a sound‑dampened chamber. Personnel must wear auditory protection during interaction.",
+      "description": "SCP-0039 emits a melodic song that induces sleep in all nearby organisms. Acoustic analysis reveals subliminal frequencies affecting neural activity.",
+      "behavior_notes": "Friendly but easily frustrated when ignored. Attempts to draw attention before singing.",
+      "addendum_logs": [
+        "Addendum 0039-A: SCP-0039’s song incapacitated an entire security team.",
+        "Addendum 0039-B: Sleep induced by SCP-0039 shows unusually vivid dream activity."
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Wigglytuff",
+      "scp_item_number": "SCP-0040",
+      "types": { "type_1": "normal", "type_2": "fairy" },
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "special_containment_procedures": "SCP-0040 is to be contained in a reinforced elastic chamber. Personnel must avoid provoking SCP-0040’s inflation response.",
+      "description": "SCP-0040 can inflate its body to several times its normal size, generating shockwaves capable of damaging structures. Skin elasticity exceeds known biological limits.",
+      "behavior_notes": "Generally calm but becomes aggressive when startled.",
+      "addendum_logs": [
+        "Addendum 0040-A: SCP-0040’s inflation shockwave shattered nearby equipment.",
+        "Addendum 0040-B: Skin samples show anomalous regenerative properties."
+      ]
+    }
+  ]
+}

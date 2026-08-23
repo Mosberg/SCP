@@ -1,0 +1,154 @@
+{
+  "pokemon_scp": [
+    {
+      "id": 71,
+      "name": "Victreebel",
+      "scp_item_number": "SCP-0071",
+      "types": { "type_1": "grass", "type_2": "poison" },
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "special_containment_procedures": "SCP-0071 is to be contained in a hermetically sealed botanical vault with acid‑resistant flooring. Personnel must not approach SCP-0071’s opening without full hazmat protection. All feeding is to be conducted via remote mechanical arms.",
+      "description": "SCP-0071 secretes highly corrosive digestive acid capable of dissolving organic matter within seconds and metal within minutes. Vine appendages allow rapid movement and predatory lunges. SCP-0071 emits pheromones that lure nearby organisms toward its maw.",
+      "behavior_notes": "Aggressive and predatory. Attempts to engulf any moving object within reach.",
+      "addendum_logs": [
+        "Addendum 0071-A: SCP-0071 dissolved a titanium probe in under 40 seconds.",
+        "Addendum 0071-B: Pheromone analysis suggests SCP-0071 can mimic scents associated with prey species."
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Tentacool",
+      "scp_item_number": "SCP-0072",
+      "types": { "type_1": "water", "type_2": "poison" },
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "special_containment_procedures": "SCP-0072 is to be contained in a toxin‑filtered aquatic chamber. Personnel must avoid contact with SCP-0072’s tentacles.",
+      "description": "SCP-0072 is a jellyfish‑like organism with bioluminescent nodes capable of emitting low‑frequency pulses. Tentacles contain venom that causes disorientation and mild paralysis.",
+      "behavior_notes": "Passive unless threatened. Drifts aimlessly and reacts to vibrations.",
+      "addendum_logs": [
+        "Addendum 0072-A: Venom exposure caused temporary vertigo in a researcher.",
+        "Addendum 0072-B: Luminescent pulses disrupted sonar equipment."
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Tentacruel",
+      "scp_item_number": "SCP-0073",
+      "types": { "type_1": "water", "type_2": "poison" },
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "special_containment_procedures": "SCP-0073 is to be contained in a deep aquatic vault with toxin scrubbers and reinforced observation windows. Personnel must not enter the water under any circumstances.",
+      "description": "SCP-0073 possesses numerous tentacles capable of delivering powerful neurotoxins. Central node emits pulses that can disrupt electronics and induce panic responses.",
+      "behavior_notes": "Highly aggressive. Uses tentacles to ensnare and crush targets.",
+      "addendum_logs": [
+        "Addendum 0073-A: SCP-0073 shattered a reinforced window with a tentacle strike.",
+        "Addendum 0073-B: Neurotoxin samples show rapid adaptation to antidotes."
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Geodude",
+      "scp_item_number": "SCP-0074",
+      "types": { "type_1": "rock", "type_2": "ground" },
+      "object_class": "Safe",
+      "threat_level": "Green",
+      "special_containment_procedures": "SCP-0074 is to be contained in a rocky enclosure with shock‑absorbent flooring. Personnel may interact with SCP-0074 under supervision.",
+      "description": "SCP-0074 is a rock‑based organism capable of levitation through unknown means. Body composition resembles granite with anomalous density.",
+      "behavior_notes": "Calm and stationary. Occasionally levitates to reposition itself.",
+      "addendum_logs": [
+        "Addendum 0074-A: SCP-0074 levitated for 12 minutes without visible effort.",
+        "Addendum 0074-B: Rock samples show crystalline anomalies."
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Graveler",
+      "scp_item_number": "SCP-0075",
+      "types": { "type_1": "rock", "type_2": "ground" },
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "special_containment_procedures": "SCP-0075 is to be contained in a reinforced geological vault. Personnel must avoid standing near SCP-0075 during rolling behavior.",
+      "description": "SCP-0075 can roll at high speeds, generating shockwaves upon impact. Body mass increases temporarily during rolling events.",
+      "behavior_notes": "Aggressive when disturbed. Uses rolling attacks to defend territory.",
+      "addendum_logs": [
+        "Addendum 0075-A: SCP-0075’s rolling impact fractured a reinforced barrier.",
+        "Addendum 0075-B: Mass increase appears to be a temporary density shift."
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Golem",
+      "scp_item_number": "SCP-0076",
+      "types": { "type_1": "rock", "type_2": "ground" },
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "special_containment_procedures": "SCP-0076 is to be contained in a titan‑grade geological vault with seismic dampeners. Personnel must not enter during agitation cycles.",
+      "description": "SCP-0076 possesses immense physical strength and can generate explosive force by shedding its outer shell. Internal core emits faint radiation.",
+      "behavior_notes": "Aggressive and territorial. Displays strategic awareness of structural weak points.",
+      "addendum_logs": [
+        "Addendum 0076-A: Shell detonation caused structural damage across two containment wings.",
+        "Addendum 0076-B: Radiation readings spike during aggression."
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Ponyta",
+      "scp_item_number": "SCP-0077",
+      "types": { "type_1": "fire" },
+      "object_class": "Safe",
+      "threat_level": "Green",
+      "special_containment_procedures": "SCP-0077 is to be housed in a fire‑resistant equine chamber. Personnel may interact with SCP-0077 under supervision.",
+      "description": "SCP-0077 is an equine organism with a mane composed of controlled flames. Flame temperature varies with emotional state.",
+      "behavior_notes": "Gentle and skittish. Flames intensify when SCP-0077 is excited.",
+      "addendum_logs": [
+        "Addendum 0077-A: SCP-0077’s flames briefly reached 900°C during a panic event.",
+        "Addendum 0077-B: Mane samples show anomalous plasma‑like properties."
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Rapidash",
+      "scp_item_number": "SCP-0078",
+      "types": { "type_1": "fire" },
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "special_containment_procedures": "SCP-0078 is to be contained in a heat‑shielded equine vault with flame‑dampening systems. Personnel must maintain a minimum distance of 20 meters.",
+      "description": "SCP-0078 can run at anomalous speeds exceeding 150 km/h indoors. Flames along its mane and tail can melt reinforced steel.",
+      "behavior_notes": "Aggressive when challenged. Displays territorial dominance.",
+      "addendum_logs": [
+        "Addendum 0078-A: SCP-0078 melted a containment gate during a sprint.",
+        "Addendum 0078-B: Flame output increases when SCP-0078 is observed directly."
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Slowpoke",
+      "scp_item_number": "SCP-0079",
+      "types": { "type_1": "water", "type_2": "psychic" },
+      "object_class": "Safe",
+      "threat_level": "Blue",
+      "special_containment_procedures": "SCP-0079 is to be contained in a shallow aquatic chamber with mild psychic dampeners. Personnel may interact with SCP-0079 under supervision.",
+      "description": "SCP-0079 exhibits delayed reaction times and mild psychic emissions. Tail secretes a sweet substance with mild narcotic effects.",
+      "behavior_notes": "Docile and slow-moving. Shows little awareness of surroundings.",
+      "addendum_logs": [
+        "Addendum 0079-A: Tail secretion caused mild euphoria in exposed personnel.",
+        "Addendum 0079-B: Psychic emissions correlate with SCP-0079’s emotional state."
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Slowbro",
+      "scp_item_number": "SCP-0080",
+      "types": { "type_1": "water", "type_2": "psychic" },
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "special_containment_procedures": "SCP-0080 is to be contained in a mid‑depth aquatic chamber with psychic dampeners. Personnel must avoid proximity to SCP-0080’s tail.",
+      "description": "SCP-0080’s tail is fused with a parasitic organism that enhances its psychic abilities. Displays increased awareness and defensive aggression.",
+      "behavior_notes": "Calm but protective. Parasitic organism reacts independently to threats.",
+      "addendum_logs": [
+        "Addendum 0080-A: Parasitic organism attempted to bite a containment drone.",
+        "Addendum 0080-B: Psychic output spikes when SCP-0080 is startled."
+      ]
+    }
+  ]
+}

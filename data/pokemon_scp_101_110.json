@@ -1,0 +1,154 @@
+{
+  "pokemon_scp": [
+    {
+      "id": 101,
+      "name": "Electrode",
+      "scp_item_number": "SCP-0101",
+      "types": { "type_1": "electric" },
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "special_containment_procedures": "SCP-0101 is to be contained in an insulated spherical vault with shock-dampening foam and remote manipulation arms. Personnel must not approach SCP-0101 directly. All interactions must be performed via robotic systems.",
+      "description": "SCP-0101 is a spherical organism capable of generating explosive discharges exceeding industrial-grade demolition charges. Detonations occur unpredictably and leave behind electromagnetic residue that disrupts sensors.",
+      "behavior_notes": "Extremely volatile. SCP-0101 detonates when startled, threatened, or exposed to strong electrical fields.",
+      "addendum_logs": [
+        "Addendum 0101-A: SCP-0101 detonated during a routine scan, destroying two containment drones.",
+        "Addendum 0101-B: EM residue formed fractal patterns resembling branching lightning."
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Exeggcute",
+      "scp_item_number": "SCP-0102",
+      "types": { "type_1": "grass", "type_2": "psychic" },
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "special_containment_procedures": "SCP-0102 is to be contained in a botanical chamber with psychic dampeners. Personnel must avoid separating SCP-0102’s cluster.",
+      "description": "SCP-0102 consists of six linked organisms that share a collective consciousness. Psychic emissions increase when the cluster is disturbed or separated.",
+      "behavior_notes": "Anxious and reactive. Displays distress when any member of the cluster is moved.",
+      "addendum_logs": [
+        "Addendum 0102-A: Separation of one unit caused a psychic pulse that disrupted nearby electronics.",
+        "Addendum 0102-B: Cluster communication appears to occur through low-frequency telepathy."
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Exeggutor",
+      "scp_item_number": "SCP-0103",
+      "types": { "type_1": "grass", "type_2": "psychic" },
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "special_containment_procedures": "SCP-0103 is to be contained in a reinforced botanical dome with psychic shielding. Personnel must avoid proximity to SCP-0103’s heads.",
+      "description": "SCP-0103 is a large plant organism with multiple sentient heads, each capable of independent psychic output. Displays rapid growth and can extend roots through reinforced flooring.",
+      "behavior_notes": "Unpredictable and loud. Heads frequently argue, producing disruptive psychic noise.",
+      "addendum_logs": [
+        "Addendum 0103-A: SCP-0103’s roots breached a reinforced barrier.",
+        "Addendum 0103-B: Psychic noise caused headaches in personnel across two wings."
+      ]
+    },
+    {
+      "id": 104,
+      "name": "Cubone",
+      "scp_item_number": "SCP-0104",
+      "types": { "type_1": "ground" },
+      "object_class": "Safe",
+      "threat_level": "Green",
+      "special_containment_procedures": "SCP-0104 is to be contained in a mammalian chamber with emotional support protocols. Personnel may interact with SCP-0104 under supervision.",
+      "description": "SCP-0104 is a small mammalian organism that wears a bone helmet. Displays signs of grief and emits low-frequency cries that induce sadness in nearby personnel.",
+      "behavior_notes": "Timid and mournful. Shows attachment to familiar staff.",
+      "addendum_logs": [
+        "Addendum 0104-A: SCP-0104’s cries caused emotional distress in three researchers.",
+        "Addendum 0104-B: Bone helmet shows anomalous durability."
+      ]
+    },
+    {
+      "id": 105,
+      "name": "Marowak",
+      "scp_item_number": "SCP-0105",
+      "types": { "type_1": "ground" },
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "special_containment_procedures": "SCP-0105 is to be contained in a reinforced combat chamber. Personnel must avoid proximity to SCP-0105’s bone club.",
+      "description": "SCP-0105 wields a bone club capable of generating shockwaves. Displays heightened aggression and protective instincts.",
+      "behavior_notes": "Defensive and territorial. Reacts violently when threatened.",
+      "addendum_logs": [
+        "Addendum 0105-A: SCP-0105 shattered a reinforced barrier with a club strike.",
+        "Addendum 0105-B: Shockwave output increases when SCP-0105 is enraged."
+      ]
+    },
+    {
+      "id": 106,
+      "name": "Hitmonlee",
+      "scp_item_number": "SCP-0106",
+      "types": { "type_1": "fight" },
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "special_containment_procedures": "SCP-0106 is to be contained in a titan-grade combat vault with shock-absorbent walls. Personnel must not enter without full hazard armor.",
+      "description": "SCP-0106 possesses elastic limbs capable of extending several meters. Kicks generate force exceeding industrial machinery.",
+      "behavior_notes": "Aggressive and disciplined. Shows strategic combat awareness.",
+      "addendum_logs": [
+        "Addendum 0106-A: SCP-0106’s extended kick shattered a reinforced barrier.",
+        "Addendum 0106-B: Limb elasticity increases during combat."
+      ]
+    },
+    {
+      "id": 107,
+      "name": "Hitmonchan",
+      "scp_item_number": "SCP-0107",
+      "types": { "type_1": "fight" },
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "special_containment_procedures": "SCP-0107 is to be contained in a reinforced combat vault with automated tranquilizer turrets. Personnel must avoid proximity to SCP-0107’s fists.",
+      "description": "SCP-0107 can deliver punches at extreme speed, generating localized shockwaves. Fists show anomalous heat buildup during rapid strikes.",
+      "behavior_notes": "Calm but highly aggressive when provoked. Displays boxing-like combat patterns.",
+      "addendum_logs": [
+        "Addendum 0107-A: SCP-0107 punched through a titanium plate.",
+        "Addendum 0107-B: Heat buildup exceeded 400°C during testing."
+      ]
+    },
+    {
+      "id": 108,
+      "name": "Lickitung",
+      "scp_item_number": "SCP-0108",
+      "types": { "type_1": "normal" },
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "special_containment_procedures": "SCP-0108 is to be contained in a mammalian chamber with adhesive-resistant surfaces. Personnel must avoid contact with SCP-0108’s tongue.",
+      "description": "SCP-0108 possesses an elongated tongue with extreme adhesive strength. Saliva contains mild anesthetic compounds.",
+      "behavior_notes": "Curious and intrusive. Frequently attempts to taste objects and personnel.",
+      "addendum_logs": [
+        "Addendum 0108-A: SCP-0108 adhered to a containment drone and immobilized it.",
+        "Addendum 0108-B: Saliva samples show anomalous numbing properties."
+      ]
+    },
+    {
+      "id": 109,
+      "name": "Koffing",
+      "scp_item_number": "SCP-0109",
+      "types": { "type_1": "poison" },
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "special_containment_procedures": "SCP-0109 is to be contained in a toxin-sealed chamber with industrial-grade ventilation. Personnel must wear full respirators.",
+      "description": "SCP-0109 is a levitating organism filled with toxic gases. Gas emissions vary in composition and can cause nausea, paralysis, or hallucinations.",
+      "behavior_notes": "Unpredictable. Gas output increases when SCP-0109 is startled.",
+      "addendum_logs": [
+        "Addendum 0109-A: SCP-0109 released a gas cloud that incapacitated two guards.",
+        "Addendum 0109-B: Gas composition shifts rapidly under stress."
+      ]
+    },
+    {
+      "id": 110,
+      "name": "Weezing",
+      "scp_item_number": "SCP-0110",
+      "types": { "type_1": "poison" },
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "special_containment_procedures": "SCP-0110 is to be contained in a hermetically sealed toxin vault with automated gas scrubbers. Personnel must not enter without full hazmat gear.",
+      "description": "SCP-0110 consists of two linked toxic gas organisms capable of producing corrosive fumes and explosive gas mixtures. Gas output can fill a room within seconds.",
+      "behavior_notes": "Aggressive and unstable. Gas emissions spike unpredictably.",
+      "addendum_logs": [
+        "Addendum 0110-A: SCP-0110’s fumes corroded reinforced steel supports.",
+        "Addendum 0110-B: Gas buildup caused a near-explosive event during testing."
+      ]
+    }
+  ]
+}

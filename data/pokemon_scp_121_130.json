@@ -1,0 +1,154 @@
+{
+  "pokemon_scp": [
+    {
+      "id": 121,
+      "name": "Starmie",
+      "scp_item_number": "SCP-0121",
+      "types": { "type_1": "water", "type_2": "psychic" },
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "special_containment_procedures": "SCP-0121 is to be contained in a reinforced aquatic vault with psychic dampeners and gem-frequency scramblers. Personnel must avoid direct exposure to SCP-0121’s central core.",
+      "description": "SCP-0121 is a star-shaped organism whose central gem emits high-frequency psychic pulses capable of disrupting cognition and short-term memory. Limbs rotate independently, allowing rapid movement and unpredictable attack patterns.",
+      "behavior_notes": "Silent and reactive. Moves toward electromagnetic sources and attempts to interface with them.",
+      "addendum_logs": [
+        "Addendum 0121-A: Gem pulse caused temporary amnesia in two researchers.",
+        "Addendum 0121-B: SCP-0121 attempted to synchronize with facility power grids."
+      ]
+    },
+    {
+      "id": 122,
+      "name": "Mr. Mime",
+      "scp_item_number": "SCP-0122",
+      "types": { "type_1": "psychic", "type_2": "fairy" },
+      "object_class": "Euclid",
+      "threat_level": "Blue",
+      "special_containment_procedures": "SCP-0122 is to be contained in a performance-grade chamber with barrier integrity sensors. Personnel must avoid entering SCP-0122’s invisible constructs.",
+      "description": "SCP-0122 can generate invisible barriers composed of condensed psychic force. Barriers exhibit physical properties comparable to reinforced glass and can appear without warning.",
+      "behavior_notes": "Eccentric and theatrical. Communicates through gestures and mimed actions.",
+      "addendum_logs": [
+        "Addendum 0122-A: SCP-0122 trapped a guard inside an invisible cube for 14 minutes.",
+        "Addendum 0122-B: Barrier composition shows fractal psychic lattice structures."
+      ]
+    },
+    {
+      "id": 123,
+      "name": "Scyther",
+      "scp_item_number": "SCP-0123",
+      "types": { "type_1": "bug", "type_2": "flying" },
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "special_containment_procedures": "SCP-0123 is to be contained in a high-speed aerial combat vault with automated tranquilizer turrets. Personnel must not enter without full hazard armor.",
+      "description": "SCP-0123 possesses scythe-like forearms capable of slicing through reinforced steel. Flight speed exceeds 80 km/h indoors, allowing rapid ambush attacks.",
+      "behavior_notes": "Predatory and silent. Displays advanced hunting instincts and strategic movement.",
+      "addendum_logs": [
+        "Addendum 0123-A: SCP-0123 severed a containment drone in a single strike.",
+        "Addendum 0123-B: Wingbeat frequency suggests partial cloaking during rapid movement."
+      ]
+    },
+    {
+      "id": 124,
+      "name": "Jynx",
+      "scp_item_number": "SCP-0124",
+      "types": { "type_1": "ice", "type_2": "psychic" },
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "special_containment_procedures": "SCP-0124 is to be contained in a cold-resistant humanoid chamber with psychic dampeners. Personnel must avoid prolonged eye contact.",
+      "description": "SCP-0124 emits low-frequency psychic waves through rhythmic movement. Skin temperature remains below freezing, and physical contact induces rapid hypothermia.",
+      "behavior_notes": "Expressive and emotional. Attempts to mimic human behavior.",
+      "addendum_logs": [
+        "Addendum 0124-A: SCP-0124’s psychic rhythm caused mild hallucinations.",
+        "Addendum 0124-B: Frost buildup observed on containment walls after extended activity."
+      ]
+    },
+    {
+      "id": 125,
+      "name": "Electabuzz",
+      "scp_item_number": "SCP-0125",
+      "types": { "type_1": "electric" },
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "special_containment_procedures": "SCP-0125 is to be contained in a reinforced Faraday vault with triple-layer grounding. Personnel must wear insulated suits during interaction.",
+      "description": "SCP-0125 generates electrical discharges exceeding 60,000 volts. Body emits constant static buildup capable of disrupting electronics.",
+      "behavior_notes": "Agitated and territorial. Electrical output spikes during aggression.",
+      "addendum_logs": [
+        "Addendum 0125-A: SCP-0125 caused a facility-wide blackout.",
+        "Addendum 0125-B: Static buildup ignited nearby flammable materials."
+      ]
+    },
+    {
+      "id": 126,
+      "name": "Magmar",
+      "scp_item_number": "SCP-0126",
+      "types": { "type_1": "fire" },
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "special_containment_procedures": "SCP-0126 is to be contained in a heat-shielded volcanic vault with flame-dampening systems. Personnel must maintain a minimum distance of 20 meters.",
+      "description": "SCP-0126’s body temperature exceeds 1,200°C. Emits flames capable of melting reinforced steel. Skin appears molten and shifts constantly.",
+      "behavior_notes": "Aggressive and unpredictable. Heat output increases when SCP-0126 is observed.",
+      "addendum_logs": [
+        "Addendum 0126-A: SCP-0126 melted a containment gate during a rage event.",
+        "Addendum 0126-B: Thermal scans show internal magma-like flow."
+      ]
+    },
+    {
+      "id": 127,
+      "name": "Pinsir",
+      "scp_item_number": "SCP-0127",
+      "types": { "type_1": "bug" },
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "special_containment_procedures": "SCP-0127 is to be contained in a reinforced entomological vault with hydraulic restraints. Personnel must avoid proximity to SCP-0127’s horns.",
+      "description": "SCP-0127 possesses horn-like mandibles capable of exerting crushing force exceeding industrial presses. Displays rapid lunging behavior.",
+      "behavior_notes": "Aggressive and territorial. Attempts to pin and crush targets.",
+      "addendum_logs": [
+        "Addendum 0127-A: SCP-0127 crushed a titanium block during testing.",
+        "Addendum 0127-B: Mandible force increases during mating cycles."
+      ]
+    },
+    {
+      "id": 128,
+      "name": "Tauros",
+      "scp_item_number": "SCP-0128",
+      "types": { "type_1": "normal" },
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "special_containment_procedures": "SCP-0128 is to be contained in a titan-grade livestock vault with shock-absorbent barriers. Personnel must avoid SCP-0128’s charge path.",
+      "description": "SCP-0128 is a large bovine organism capable of generating shockwaves through high-speed charges. Tail movement correlates with aggression levels.",
+      "behavior_notes": "Highly aggressive. Displays herd-like dominance behavior even when isolated.",
+      "addendum_logs": [
+        "Addendum 0128-A: SCP-0128 shattered a reinforced barrier during a charge.",
+        "Addendum 0128-B: Shockwave output increases when SCP-0128 is observed directly."
+      ]
+    },
+    {
+      "id": 129,
+      "name": "Magikarp",
+      "scp_item_number": "SCP-0129",
+      "types": { "type_1": "water" },
+      "object_class": "Safe",
+      "threat_level": "Green",
+      "special_containment_procedures": "SCP-0129 is to be contained in a shallow aquatic enclosure. Personnel may interact with SCP-0129 under supervision.",
+      "description": "SCP-0129 is a weak aquatic organism capable of rapid flailing. Displays surprising resilience despite low physical strength.",
+      "behavior_notes": "Docile and harmless. Frequently leaps without clear purpose.",
+      "addendum_logs": [
+        "Addendum 0129-A: SCP-0129 survived a fall that should have been fatal.",
+        "Addendum 0129-B: Flailing produced water patterns resembling Morse code."
+      ]
+    },
+    {
+      "id": 130,
+      "name": "Gyarados",
+      "scp_item_number": "SCP-0130",
+      "types": { "type_1": "water", "type_2": "flying" },
+      "object_class": "Apollyon",
+      "threat_level": "Black",
+      "special_containment_procedures": "SCP-0130 cannot be reliably contained. Partial containment relies on deep-ocean isolation protocols and emergency naval response units.",
+      "description": "SCP-0130 is a massive serpentine organism capable of generating storms, tidal waves, and high-pressure water blasts. Displays extreme aggression and intelligence comparable to apex predators.",
+      "behavior_notes": "Uncontrollable and destructive. Shows awareness of containment attempts and responds with overwhelming force.",
+      "addendum_logs": [
+        "Addendum 0130-A: SCP-0130 generated a storm system that disrupted satellite monitoring.",
+        "Addendum 0130-B: Water blast severed a reinforced submarine hull."
+      ]
+    }
+  ]
+}

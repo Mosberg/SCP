@@ -1,0 +1,154 @@
+{
+  "pokemon_scp": [
+    {
+      "id": 61,
+      "name": "Poliwhirl",
+      "scp_item_number": "SCP-0061",
+      "types": { "type_1": "water" },
+      "object_class": "Euclid",
+      "threat_level": "Yellow",
+      "special_containment_procedures": "SCP-0061 is to be contained in a mid‑depth aquatic chamber with spiral‑pattern dampeners. Personnel must avoid prolonged visual contact with SCP-0061’s abdominal pattern.",
+      "description": "SCP-0061’s abdominal spiral induces mild hypnotic effects, including slowed reaction time and impaired judgment. SCP-0061 can generate water pressure bursts capable of knocking down adult humans.",
+      "behavior_notes": "Calm but easily startled. Uses spiral pattern defensively.",
+      "addendum_logs": [
+        "Addendum 0061-A: A researcher stared at SCP-0061’s spiral for 45 seconds and became unresponsive.",
+        "Addendum 0061-B: Water bursts show directional precision."
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Poliwrath",
+      "scp_item_number": "SCP-0062",
+      "types": { "type_1": "water", "type_2": "fight" },
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "special_containment_procedures": "SCP-0062 is to be contained in a reinforced aquatic combat vault with shock‑absorbent walls. Personnel must not enter during agitation cycles.",
+      "description": "SCP-0062 possesses immense physical strength and hydrokinesis. Capable of generating water shockwaves strong enough to fracture reinforced barriers.",
+      "behavior_notes": "Aggressive and territorial. Shows strategic combat behavior.",
+      "addendum_logs": [
+        "Addendum 0062-A: SCP-0062 shattered a reinforced barrier with a single punch.",
+        "Addendum 0062-B: Hydrokinesis appears linked to SCP-0062’s heart rate."
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Abra",
+      "scp_item_number": "SCP-0063",
+      "types": { "type_1": "psychic" },
+      "object_class": "Euclid",
+      "threat_level": "Blue",
+      "special_containment_procedures": "SCP-0063 is to be contained in a psychic‑dampened chamber. Personnel must avoid startling SCP-0063 to prevent spontaneous teleportation.",
+      "description": "SCP-0063 can teleport short distances when threatened. Teleportation leaves behind faint electromagnetic residue.",
+      "behavior_notes": "Sleepy and non‑aggressive. Teleports reflexively when touched.",
+      "addendum_logs": [
+        "Addendum 0063-A: SCP-0063 teleported through a sealed barrier during a containment drill.",
+        "Addendum 0063-B: EM residue shows fractal patterns."
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Kadabra",
+      "scp_item_number": "SCP-0064",
+      "types": { "type_1": "psychic" },
+      "object_class": "Keter",
+      "threat_level": "Red",
+      "special_containment_procedures": "SCP-0064 is to be contained in a reinforced psychic vault with triple‑layer dampeners. Personnel must undergo cognitive shielding training.",
+      "description": "SCP-0064 exhibits advanced telekinesis and mind‑alteration abilities. Can induce hallucinations or memory distortion in exposed personnel.",
+      "behavior_notes": "Calm but manipulative. Shows awareness of personnel emotional states.",
+      "addendum_logs": [
+        "Addendum 0064-A: SCP-0064 altered a guard’s perception of time for 12 minutes.",
+        "Addendum 0064-B: Telekinetic force exceeded 2,000 N during testing."
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Alakazam",
+      "scp_item_number": "SCP-0065",
+      "types": { "type_1": "psychic" },
+      "object_class": "Apollyon",
+      "threat_level": "Black",
+      "special_containment_procedures": "SCP-0065 cannot be fully contained. Partial containment relies on maximum‑strength psychic dampeners and negotiation protocols. Personnel must maintain respectful communication.",
+      "description": "SCP-0065 possesses intelligence surpassing human levels and can manipulate matter through advanced psychic force. Capable of reading and altering memories with precision.",
+      "behavior_notes": "Cold, analytical, and self‑aware. Displays contempt for containment.",
+      "addendum_logs": [
+        "Addendum 0065-A: SCP-0065 disabled all psychic dampeners simultaneously without physical interaction.",
+        "Addendum 0065-B: SCP-0065 claims to perceive multiple timelines."
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Machop",
+      "scp_item_number": "SCP-0066",
+      "types": { "type_1": "fight" },
+      "object_class": "Safe",
+      "threat_level": "Green",
+      "special_containment_procedures": "SCP-0066 is to be contained in a training‑grade combat chamber. Personnel may interact with SCP-0066 under supervision.",
+      "description": "SCP-0066 is a humanoid organism with enhanced muscle density. Capable of lifting objects several times its own weight.",
+      "behavior_notes": "Friendly and eager to train. Shows fascination with repetitive exercise.",
+      "addendum_logs": [
+        "Addendum 0066-A: SCP-0066 lifted a 300 kg weight with minimal effort.",
+        "Addendum 0066-B: Muscle fibers show anomalous regeneration."
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Machoke",
+      "scp_item_number": "SCP-0067",
+      "types": { "type_1": "fight" },
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "special_containment_procedures": "SCP-0067 is to be contained in a reinforced combat vault. Personnel must avoid provoking SCP-0067.",
+      "description": "SCP-0067 exhibits extreme strength and can break reinforced restraints. Musculature emits faint heat during exertion.",
+      "behavior_notes": "Competitive and prideful. Displays dominance behavior.",
+      "addendum_logs": [
+        "Addendum 0067-A: SCP-0067 bent a titanium bar during testing.",
+        "Addendum 0067-B: SCP-0067’s strength increases when observed."
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Machamp",
+      "scp_item_number": "SCP-0068",
+      "types": { "type_1": "fight" },
+      "object_class": "Keter",
+      "threat_level": "Crimson",
+      "special_containment_procedures": "SCP-0068 is to be contained in a titan‑grade combat vault with automated restraints. Personnel must not enter without full hazard armor.",
+      "description": "SCP-0068 possesses four arms capable of delivering simultaneous high‑force strikes. Strength output exceeds industrial machinery.",
+      "behavior_notes": "Aggressive and strategic. Shows awareness of personnel weaknesses.",
+      "addendum_logs": [
+        "Addendum 0068-A: SCP-0068 shattered a reinforced barrier with a four‑arm strike.",
+        "Addendum 0068-B: SCP-0068 appears capable of predicting movement patterns."
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Bellsprout",
+      "scp_item_number": "SCP-0069",
+      "types": { "type_1": "grass", "type_2": "poison" },
+      "object_class": "Safe",
+      "threat_level": "Green",
+      "special_containment_procedures": "SCP-0069 is to be contained in a botanical enclosure with nutrient‑rich soil. Personnel may interact with SCP-0069 under supervision.",
+      "description": "SCP-0069 is a plant‑based organism capable of rapid vine extension. Mouth secretes mild corrosive fluid.",
+      "behavior_notes": "Docile but curious. Uses vines to explore surroundings.",
+      "addendum_logs": [
+        "Addendum 0069-A: Corrosive fluid dissolved a plastic container.",
+        "Addendum 0069-B: Vine extension reached 3 meters during testing."
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Weepinbell",
+      "scp_item_number": "SCP-0070",
+      "types": { "type_1": "grass", "type_2": "poison" },
+      "object_class": "Euclid",
+      "threat_level": "Orange",
+      "special_containment_procedures": "SCP-0070 is to be contained in a toxin‑filtered botanical chamber. Personnel must avoid proximity to SCP-0070’s mouth.",
+      "description": "SCP-0070 secretes highly acidic digestive fluid capable of dissolving organic matter within seconds. Vine appendages allow rapid movement.",
+      "behavior_notes": "Aggressive when hungry. Attempts to engulf nearby objects.",
+      "addendum_logs": [
+        "Addendum 0070-A: Acid secretion dissolved a steel plate.",
+        "Addendum 0070-B: SCP-0070 attempted to consume a containment drone."
+      ]
+    }
+  ]
+}
