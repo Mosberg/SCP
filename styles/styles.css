@@ -1,4 +1,4 @@
-/* styles.css — SCP Pokémon Archive v3 */
+/* styles.css */
 
 /* ===== RESET & BASE ===== */
 
@@ -378,33 +378,40 @@ body {
   image-rendering: pixelated;
 }
 
-/* ===== TRAINER AVATAR (auto-generated) ===== */
+/* ===== TRAINER AVATAR (AUTO-GENERATED) ===== */
 
 .trainer-avatar {
-  width: 100px;
-  height: 100px;
-  border-radius: 6px;
-  border: 1px solid #444;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 8px auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.8rem;
   font-weight: bold;
-  text-transform: uppercase;
+  font-size: 1.1rem;
   color: #fff;
-  background: radial-gradient(
-    circle at 30% 20%,
-    #ff9800,
-    #3f51b5 40%,
-    #000 80%
-  );
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  border: 2px solid #444;
+  background: radial-gradient(circle at 30% 30%, #0f0, #111);
+  text-shadow: 0 0 4px #000;
 }
 
-.trainer-avatar-small {
-  width: 70px;
-  height: 70px;
-  font-size: 0.7rem;
+/* viewer trainer avatar */
+
+.trainer-avatar-large {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #fff;
+  border: 2px solid #666;
+  background: radial-gradient(circle at 30% 30%, #0f0, #111);
+  text-shadow: 0 0 6px #000;
 }
 
 /* ===== DOC NAVIGATION ===== */

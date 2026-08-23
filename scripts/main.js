@@ -1,7 +1,7 @@
-// scripts/main.js — SCP Pokémon Archive v3
+// scripts/main.js
 
 /* ============================================================
-   GLOBAL STATE
+   SCP POKÉMON ARCHIVE — main.js (TERMINAL UI v3, auto trainer sprites)
 ============================================================ */
 
 let SCP_DATA = [];
@@ -93,7 +93,7 @@ function setupSettingsPanel() {
 }
 
 /* ============================================================
-   TERMINAL OVERLAY v3
+   TERMINAL OVERLAY v3 (boot + breach pulse)
 ============================================================ */
 
 function setupTerminalOverlay() {
@@ -139,7 +139,7 @@ function setupTerminalOverlay() {
 }
 
 /* ============================================================
-   DATA LOADING (POKÉMON + TRAINERS)
+   LOAD ALL JSON FILES (POKÉMON + TRAINERS)
 ============================================================ */
 
 async function loadSCPData() {
@@ -194,19 +194,12 @@ async function loadSCPData() {
   const results = await Promise.all(promises);
   SCP_DATA = results.flat();
 
+  // sort by SCP item number for consistent ordering and navigation
+  SCP_DATA.sort((a, b) =>
+    (a.scp_item_number || "").localeCompare(b.scp_item_number || ""),
+  );
+
   return SCP_DATA;
-}
-
-/* ============================================================
-   TYPE HELPERS
-============================================================ */
-
-function isTrainer(entry) {
-  return typeof entry.id === "string" && entry.id.startsWith("T");
-}
-
-function isPokemon(entry) {
-  return typeof entry.id === "number";
 }
 
 /* ============================================================
@@ -334,28 +327,6 @@ function renderPagination(totalPages) {
 }
 
 /* ============================================================
-   SPRITE HELPERS
-============================================================ */
-
-function getSprite(id, shiny = false, front = true) {
-  const base = shiny ? "assets/shiny" : "assets/normal";
-  const side = front ? "front" : "back";
-  return `${base}/${side}/${id}.png`;
-}
-
-function getTypeIcon(type) {
-  return `assets/types/${type.toLowerCase()}.png`;
-}
-
-/* auto-generated trainer avatar content */
-function getTrainerInitials(name) {
-  if (!name) return "TR";
-  const parts = name.split(" ");
-  if (parts.length === 1) return parts[0].slice(0, 2).toUpperCase();
-  return (parts[0][0] + parts[1][0]).toUpperCase();
-}
-
-/* ============================================================
    RENDER SCP LIST
 ============================================================ */
 
@@ -376,23 +347,48 @@ function renderSCPList() {
     const objectClass = entry.object_class || "Unknown";
     const threatLevel = entry.threat_level || "Unknown";
 
-    let visualBlock = "";
+    const isTrainer = entry.id && String(entry.id).startsWith("T");
+    const isPokemon = !isTrainer;
 
-    if (isPokemon(entry)) {
+    let visualBlock = "";
+    let typeBlock = "";
+
+    if (isPokemon) {
+      const types = entry.types
+        ? Object.values(entry.types).filter(Boolean)
+        : [];
+      if (types.length) {
+        typeBlock = `
+          <div class="type-box">
+            ${types
+              .map(
+                (t) =>
+                  `<img src="${getTypeIcon(t)}" class="type-icon" alt="${t}" />`,
+              )
+              .join("")}
+          </div>
+        `;
+      }
+
       visualBlock = `
         <div class="sprite-carousel">
-          <img src="${getSprite(entry.id, false, true)}" class="sprite" />
-          <img src="${getSprite(entry.id, true, true)}" class="sprite shiny" />
+          <img src="${getSprite(entry.id, false, true)}" class="sprite" alt="${entry.name} front" />
+          <img src="${getSprite(entry.id, true, true)}" class="sprite shiny" alt="${entry.name} shiny front" />
         </div>
+        ${typeBlock}
       `;
-    } else if (isTrainer(entry)) {
+    } else {
       const initials = getTrainerInitials(entry.name);
+      const color = getTrainerColor(entry.name);
       visualBlock = `
-        <div class="sprite-carousel">
-          <div class="trainer-avatar trainer-avatar-small">${initials}</div>
+        <div class="trainer-avatar" style="background:${color}">
+          ${initials}
         </div>
       `;
     }
+
+    const summary =
+      entry.description || entry.classification || entry.behavior_notes || "";
 
     card.innerHTML = `
       <div class="flip-inner">
@@ -405,13 +401,13 @@ function renderSCPList() {
           </p>
         </div>
         <div class="flip-back">
-          <p class="scp-summary">${entry.description || ""}</p>
+          <p class="scp-summary">${summary}</p>
         </div>
       </div>
     `;
 
     card.addEventListener("click", () => {
-      window.location.href = `viewer.html?id=${entry.id}`;
+      navigateTo(entry.id);
     });
 
     list.appendChild(card);
@@ -448,11 +444,50 @@ async function initViewerPage() {
   renderViewer(entry);
 }
 
-/* navigation helper for viewer */
+/* ============================================================
+   NAVIGATION HELPER
+============================================================ */
 
-function navigateTo(targetId) {
-  if (targetId == null) return;
-  window.location.href = `viewer.html?id=${targetId}`;
+function navigateTo(id) {
+  window.location.href = `viewer.html?id=${encodeURIComponent(id)}`;
+}
+
+/* ============================================================
+   SPRITE + TYPE ICON HELPERS
+============================================================ */
+
+function getSprite(id, shiny = false, front = true) {
+  const base = shiny ? "assets/shiny" : "assets/normal";
+  const side = front ? "front" : "back";
+  return `${base}/${side}/${id}.png`;
+}
+
+function getTypeIcon(type) {
+  return `assets/types/${String(type).toLowerCase()}.png`;
+}
+
+/* ============================================================
+   TRAINER SPRITE HELPERS (AUTO-GENERATED)
+============================================================ */
+
+function getTrainerInitials(name = "") {
+  const parts = name.trim().split(/\s+/);
+  if (!parts.length) return "?";
+  if (parts.length === 1) return parts[0].charAt(0).toUpperCase();
+  return (
+    parts[0].charAt(0).toUpperCase() +
+    parts[parts.length - 1].charAt(0).toUpperCase()
+  );
+}
+
+function getTrainerColor(name = "") {
+  let hash = 0;
+  for (let i = 0; i < name.length; i++) {
+    hash = (hash << 5) - hash + name.charCodeAt(i);
+    hash |= 0;
+  }
+  const hue = Math.abs(hash) % 360;
+  return `radial-gradient(circle at 30% 30%, hsl(${hue}, 80%, 60%), #111)`;
 }
 
 /* ============================================================
@@ -469,55 +504,77 @@ function renderViewer(entry) {
   const abilities = entry.abilities || [];
   const logs = entry.addendum_logs || [];
 
-  const pokemon = isPokemon(entry);
-  const trainer = isTrainer(entry);
+  const isTrainer = entry.id && String(entry.id).startsWith("T");
+  const isPokemon = !isTrainer;
 
   let typeValues = [];
-  if (pokemon && entry.types) {
+  if (isPokemon && entry.types) {
     typeValues = Object.values(entry.types).filter(Boolean);
   }
 
-  let spriteSection = "";
-  if (pokemon) {
-    spriteSection = `
+  const spriteSection = isPokemon
+    ? `
       <div class="sprite-carousel">
-        <img src="${getSprite(entry.id, false, true)}" class="sprite" />
-        <img src="${getSprite(entry.id, true, true)}" class="sprite shiny" />
-        <img src="${getSprite(entry.id, false, false)}" class="sprite back" />
-        <img src="${getSprite(entry.id, true, false)}" class="sprite shiny back" />
+        <img src="${getSprite(entry.id, false, true)}" class="sprite" alt="${entry.name} front" />
+        <img src="${getSprite(entry.id, true, true)}" class="sprite shiny" alt="${entry.name} shiny front" />
+        <img src="${getSprite(entry.id, false, false)}" class="sprite back" alt="${entry.name} back" />
+        <img src="${getSprite(entry.id, true, false)}" class="sprite shiny back" alt="${entry.name} shiny back" />
       </div>
-    `;
-  } else if (trainer) {
-    const initials = getTrainerInitials(entry.name);
-    spriteSection = `
-      <div class="sprite-carousel">
-        <div class="trainer-avatar">${initials}</div>
-      </div>
-    `;
-  }
+    `
+    : "";
 
   const typeSection =
-    pokemon && typeValues.length
+    isPokemon && typeValues.length
       ? `
       <div class="type-box">
         ${typeValues
-          .map((t) => `<img src="${getTypeIcon(t)}" class="type-icon" />`)
+          .map(
+            (t) =>
+              `<img src="${getTypeIcon(t)}" class="type-icon" alt="${t}" />`,
+          )
           .join("")}
       </div>
     `
       : "";
 
-  // previous / next navigation based on SCP_DATA order
+  const trainerAvatarSection = isTrainer
+    ? (() => {
+        const initials = getTrainerInitials(entry.name);
+        const color = getTrainerColor(entry.name);
+        return `
+          <div class="trainer-avatar-large" style="background:${color}">
+            ${initials}
+          </div>
+        `;
+      })()
+    : "";
+
+  // compute prev/next based on sorted SCP_DATA
   const index = SCP_DATA.indexOf(entry);
-  const prevEntry = index > 0 ? SCP_DATA[index - 1] : null;
-  const nextEntry = index < SCP_DATA.length - 1 ? SCP_DATA[index + 1] : null;
-  const prevId = prevEntry ? prevEntry.id : null;
-  const nextId = nextEntry ? nextEntry.id : null;
+  let prevId = null;
+  let nextId = null;
+  if (index !== -1) {
+    const prevEntry = SCP_DATA[(index - 1 + SCP_DATA.length) % SCP_DATA.length];
+    const nextEntry = SCP_DATA[(index + 1) % SCP_DATA.length];
+    prevId = prevEntry.id;
+    nextId = nextEntry.id;
+  }
+
+  const navSection =
+    prevId != null && nextId != null
+      ? `
+    <div class="doc-nav">
+      <button class="nav-btn" onclick="navigateTo('${prevId}')">◀ Previous</button>
+      <button class="nav-btn" onclick="navigateTo('${nextId}')">Next ▶</button>
+    </div>
+  `
+      : "";
 
   doc.innerHTML = `
     <h2>${entry.scp_item_number} — ${entry.name}</h2>
 
     ${spriteSection}
+    ${trainerAvatarSection}
     ${typeSection}
 
     <p><strong>Object Class:</strong> <span class="badge" data-class="${objectClass}">${objectClass}</span></p>
@@ -559,15 +616,7 @@ function renderViewer(entry) {
         : ""
     }
 
-    <div class="doc-nav">
-      <button class="nav-btn" ${
-        prevId ? `onclick="navigateTo('${prevId}')"` : "disabled"
-      }>◀ Previous</button>
-      <button class="nav-btn" ${
-        nextId ? `onclick="navigateTo('${nextId}')"` : "disabled"
-      }>Next ▶</button>
-    </div>
-
-    <p style="margin-top:16px;"><a href="index.html">&larr; Return to Archive</a></p>
+    <p><a href="index.html">&larr; Return to Archive</a></p>
+    ${navSection}
   `;
 }
