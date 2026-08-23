@@ -1,7 +1,7 @@
-// scripts/main.js
+// scripts/main.js — SCP Pokémon Archive v3
 
 /* ============================================================
-   SCP POKÉMON ARCHIVE — main.js (TERMINAL UI v3, NAV UPGRADE)
+   GLOBAL STATE
 ============================================================ */
 
 let SCP_DATA = [];
@@ -65,27 +65,35 @@ function setupSettingsPanel() {
   toggle.addEventListener("click", () => panel.classList.remove("hidden"));
   close.addEventListener("click", () => panel.classList.add("hidden"));
 
-  document.getElementById("setting-sounds").addEventListener("change", (e) => {
-    SETTINGS.sounds = e.target.checked;
-    localStorage.setItem("scp_sounds", SETTINGS.sounds);
-  });
+  const sounds = document.getElementById("setting-sounds");
+  const overlay = document.getElementById("setting-overlay");
+  const redactions = document.getElementById("setting-redactions");
 
-  document.getElementById("setting-overlay").addEventListener("change", (e) => {
-    SETTINGS.overlay = e.target.checked;
-    localStorage.setItem("scp_overlay", SETTINGS.overlay);
-  });
+  if (sounds) {
+    sounds.addEventListener("change", (e) => {
+      SETTINGS.sounds = e.target.checked;
+      localStorage.setItem("scp_sounds", SETTINGS.sounds);
+    });
+  }
 
-  document
-    .getElementById("setting-redactions")
-    .addEventListener("change", (e) => {
+  if (overlay) {
+    overlay.addEventListener("change", (e) => {
+      SETTINGS.overlay = e.target.checked;
+      localStorage.setItem("scp_overlay", SETTINGS.overlay);
+    });
+  }
+
+  if (redactions) {
+    redactions.addEventListener("change", (e) => {
       SETTINGS.redactions = e.target.checked;
       localStorage.setItem("scp_redactions", SETTINGS.redactions);
       document.body.classList.toggle("redactions-enabled", SETTINGS.redactions);
     });
+  }
 }
 
 /* ============================================================
-   TERMINAL OVERLAY v3 (boot + breach pulse)
+   TERMINAL OVERLAY v3
 ============================================================ */
 
 function setupTerminalOverlay() {
@@ -131,7 +139,7 @@ function setupTerminalOverlay() {
 }
 
 /* ============================================================
-   LOAD ALL JSON FILES (POKÉMON + TRAINERS)
+   DATA LOADING (POKÉMON + TRAINERS)
 ============================================================ */
 
 async function loadSCPData() {
@@ -187,6 +195,18 @@ async function loadSCPData() {
   SCP_DATA = results.flat();
 
   return SCP_DATA;
+}
+
+/* ============================================================
+   TYPE HELPERS
+============================================================ */
+
+function isTrainer(entry) {
+  return typeof entry.id === "string" && entry.id.startsWith("T");
+}
+
+function isPokemon(entry) {
+  return typeof entry.id === "number";
 }
 
 /* ============================================================
@@ -314,6 +334,28 @@ function renderPagination(totalPages) {
 }
 
 /* ============================================================
+   SPRITE HELPERS
+============================================================ */
+
+function getSprite(id, shiny = false, front = true) {
+  const base = shiny ? "assets/shiny" : "assets/normal";
+  const side = front ? "front" : "back";
+  return `${base}/${side}/${id}.png`;
+}
+
+function getTypeIcon(type) {
+  return `assets/types/${type.toLowerCase()}.png`;
+}
+
+/* auto-generated trainer avatar content */
+function getTrainerInitials(name) {
+  if (!name) return "TR";
+  const parts = name.split(" ");
+  if (parts.length === 1) return parts[0].slice(0, 2).toUpperCase();
+  return (parts[0][0] + parts[1][0]).toUpperCase();
+}
+
+/* ============================================================
    RENDER SCP LIST
 ============================================================ */
 
@@ -334,23 +376,29 @@ function renderSCPList() {
     const objectClass = entry.object_class || "Unknown";
     const threatLevel = entry.threat_level || "Unknown";
 
-    const isPokemon = entry.id && !String(entry.id).startsWith("T");
+    let visualBlock = "";
 
-    const spriteFront = isPokemon ? getSprite(entry.id, false, true) : "";
-    const spriteShiny = isPokemon ? getSprite(entry.id, true, true) : "";
+    if (isPokemon(entry)) {
+      visualBlock = `
+        <div class="sprite-carousel">
+          <img src="${getSprite(entry.id, false, true)}" class="sprite" />
+          <img src="${getSprite(entry.id, true, true)}" class="sprite shiny" />
+        </div>
+      `;
+    } else if (isTrainer(entry)) {
+      const initials = getTrainerInitials(entry.name);
+      visualBlock = `
+        <div class="sprite-carousel">
+          <div class="trainer-avatar trainer-avatar-small">${initials}</div>
+        </div>
+      `;
+    }
 
     card.innerHTML = `
       <div class="flip-inner">
         <div class="flip-front">
           <h3>${entry.scp_item_number} — ${entry.name}</h3>
-          ${
-            isPokemon
-              ? `
-          <img src="${spriteFront}" class="sprite" />
-          <img src="${spriteShiny}" class="sprite shiny" />
-          `
-              : ""
-          }
+          ${visualBlock}
           <p>
             <span class="badge" data-class="${objectClass}">${objectClass}</span>
             <span class="badge" data-threat="${threatLevel}">${threatLevel}</span>
@@ -363,7 +411,7 @@ function renderSCPList() {
     `;
 
     card.addEventListener("click", () => {
-      navigateTo(entry.id);
+      window.location.href = `viewer.html?id=${entry.id}`;
     });
 
     list.appendChild(card);
@@ -388,7 +436,8 @@ async function initViewerPage() {
   const numericId = Number(idParam);
 
   const entry =
-    SCP_DATA.find((e) => String(e.id) === idParam) || // trainers & pokemon (string compare)
+    SCP_DATA.find((e) => e.id === idParam) || // trainers (string IDs)
+    SCP_DATA.find((e) => e.id === numericId) || // pokemon (numeric IDs)
     SCP_DATA.find((e) => e.scp_item_number === idParam);
 
   if (!entry) {
@@ -399,27 +448,11 @@ async function initViewerPage() {
   renderViewer(entry);
 }
 
-/* ============================================================
-   NAVIGATION HELPER
-============================================================ */
+/* navigation helper for viewer */
 
-function navigateTo(id) {
-  if (id == null) return;
-  window.location.href = `viewer.html?id=${id}`;
-}
-
-/* ============================================================
-   SPRITE + TYPE ICON HELPERS
-============================================================ */
-
-function getSprite(id, shiny = false, front = true) {
-  const base = shiny ? "assets/shiny" : "assets/normal";
-  const side = front ? "front" : "back";
-  return `${base}/${side}/${id}.png`;
-}
-
-function getTypeIcon(type) {
-  return `assets/types/${type.toLowerCase()}.png`;
+function navigateTo(targetId) {
+  if (targetId == null) return;
+  window.location.href = `viewer.html?id=${targetId}`;
 }
 
 /* ============================================================
@@ -436,26 +469,35 @@ function renderViewer(entry) {
   const abilities = entry.abilities || [];
   const logs = entry.addendum_logs || [];
 
-  const isPokemon = entry.id && !String(entry.id).startsWith("T");
+  const pokemon = isPokemon(entry);
+  const trainer = isTrainer(entry);
 
   let typeValues = [];
-  if (isPokemon && entry.types) {
+  if (pokemon && entry.types) {
     typeValues = Object.values(entry.types).filter(Boolean);
   }
 
-  const spriteSection = isPokemon
-    ? `
+  let spriteSection = "";
+  if (pokemon) {
+    spriteSection = `
       <div class="sprite-carousel">
         <img src="${getSprite(entry.id, false, true)}" class="sprite" />
         <img src="${getSprite(entry.id, true, true)}" class="sprite shiny" />
         <img src="${getSprite(entry.id, false, false)}" class="sprite back" />
         <img src="${getSprite(entry.id, true, false)}" class="sprite shiny back" />
       </div>
-    `
-    : "";
+    `;
+  } else if (trainer) {
+    const initials = getTrainerInitials(entry.name);
+    spriteSection = `
+      <div class="sprite-carousel">
+        <div class="trainer-avatar">${initials}</div>
+      </div>
+    `;
+  }
 
   const typeSection =
-    isPokemon && typeValues.length
+    pokemon && typeValues.length
       ? `
       <div class="type-box">
         ${typeValues
@@ -465,26 +507,14 @@ function renderViewer(entry) {
     `
       : "";
 
-  const ordered = [...SCP_DATA].sort((a, b) =>
-    (a.scp_item_number || "").localeCompare(b.scp_item_number || ""),
-  );
-  const index = ordered.findIndex((e) => e === entry);
-  const prevEntry = index > 0 ? ordered[index - 1] : null;
-  const nextEntry = index < ordered.length - 1 ? ordered[index + 1] : null;
-
+  // previous / next navigation based on SCP_DATA order
+  const index = SCP_DATA.indexOf(entry);
+  const prevEntry = index > 0 ? SCP_DATA[index - 1] : null;
+  const nextEntry = index < SCP_DATA.length - 1 ? SCP_DATA[index + 1] : null;
   const prevId = prevEntry ? prevEntry.id : null;
   const nextId = nextEntry ? nextEntry.id : null;
 
   doc.innerHTML = `
-    <div class="doc-nav">
-      <button class="nav-btn" ${
-        prevId ? `onclick="navigateTo('${prevId}')"` : "disabled"
-      }>◀ Previous</button>
-      <button class="nav-btn" ${
-        nextId ? `onclick="navigateTo('${nextId}')"` : "disabled"
-      }>Next ▶</button>
-    </div>
-
     <h2>${entry.scp_item_number} — ${entry.name}</h2>
 
     ${spriteSection}
@@ -529,6 +559,15 @@ function renderViewer(entry) {
         : ""
     }
 
-    <p><a href="index.html">&larr; Return to Archive</a></p>
+    <div class="doc-nav">
+      <button class="nav-btn" ${
+        prevId ? `onclick="navigateTo('${prevId}')"` : "disabled"
+      }>◀ Previous</button>
+      <button class="nav-btn" ${
+        nextId ? `onclick="navigateTo('${nextId}')"` : "disabled"
+      }>Next ▶</button>
+    </div>
+
+    <p style="margin-top:16px;"><a href="index.html">&larr; Return to Archive</a></p>
   `;
 }
