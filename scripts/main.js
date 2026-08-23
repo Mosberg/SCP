@@ -334,6 +334,8 @@ function renderSCPList() {
       <div class="flip-inner">
         <div class="flip-front">
           <h3>${entry.scp_item_number} — ${entry.name}</h3>
+          <img src="${getSprite(entry.id, false, true)}" class="sprite" />
+          <img src="${getSprite(entry.id, true, true)}" class="sprite shiny" />
           <p>
             <span class="badge" data-class="${objectClass}">${objectClass}</span>
             <span class="badge" data-threat="${threatLevel}">${threatLevel}</span>
@@ -423,6 +425,7 @@ function renderViewer(entry) {
         <img src="${getSprite(entry.id, false, true)}" class="sprite" />
         <img src="${getSprite(entry.id, true, true)}" class="sprite shiny" />
         <img src="${getSprite(entry.id, false, false)}" class="sprite back" />
+        <img src="${getSprite(entry.id, true, false)}" class="sprite shiny back" />
       </div>
     `
     : "";

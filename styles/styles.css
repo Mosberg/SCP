@@ -155,6 +155,8 @@ body {
   cursor: pointer;
   position: relative;
   overflow: hidden;
+  text-align: center;
+  height: 180px;
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease;
@@ -346,8 +348,8 @@ body {
 }
 
 .sprite {
-  width: 72px;
-  height: 72px;
+  width: 100px;
+  height: 100px;
   image-rendering: pixelated;
   border: 1px solid #333;
   background: #000;
@@ -368,8 +370,8 @@ body {
 }
 
 .type-icon {
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 14px;
   image-rendering: pixelated;
 }
 
