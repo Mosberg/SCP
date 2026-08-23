@@ -1,3 +1,4 @@
+<!-- viewer.html -->
 <!doctype html>
 <html lang="en">
   <head>
@@ -7,7 +8,7 @@
 
     <meta
       name="description"
-      content="SCP Document File — Level 4 Clearance Required"
+      content="SCP Document File — Foundation Secure Database. Level 4 Clearance Required."
     />
     <meta property="og:title" content="SCP Document File" />
     <meta property="og:image" content="assets/icon/scp.webp" />
@@ -30,28 +31,28 @@
 
     <aside id="settings-panel" class="settings-panel hidden">
       <h2>Viewer Settings</h2>
-      <label
-        ><input type="checkbox" id="setting-sounds" /> Enable terminal
-        sounds</label
-      >
-      <label
-        ><input type="checkbox" id="setting-overlay" /> Enable terminal overlay
-        warnings</label
-      >
-      <label
-        ><input type="checkbox" id="setting-redactions" /> Reveal redactions on
-        hover</label
-      >
+      <label>
+        <input type="checkbox" id="setting-sounds" />
+        Enable terminal sounds
+      </label>
+      <label>
+        <input type="checkbox" id="setting-overlay" />
+        Enable terminal overlay warnings
+      </label>
+      <label>
+        <input type="checkbox" id="setting-redactions" />
+        Reveal redactions on hover
+      </label>
       <button id="settings-close" class="settings-close-btn">Close</button>
     </aside>
 
-    <div id="scp-doc" class="scp-doc fade-in"></div>
+    <main id="scp-doc" class="scp-doc fade-in"></main>
 
     <div id="terminal-overlay" class="terminal-overlay hidden">
       <div class="terminal-window flicker">
         <p>> ACCESSING CLASSIFIED FILE...</p>
-        <p>> USER AUTHORIZATION: <span class="red">DENIED</span></p>
-        <p>> LOGGING UNAUTHORIZED ACCESS ATTEMPT</p>
+        <p>> USER AUTHORIZATION: <span class="red">LEVEL 4 REQUIRED</span></p>
+        <p>> LOGGING ACCESS EVENT...</p>
         <p class="blink">█</p>
       </div>
       <audio id="terminal-beep" src="assets/beep.mp3"></audio>
