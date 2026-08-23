@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!doctype html>
 <html lang="en">
   <head>
@@ -31,18 +30,18 @@
 
     <aside id="settings-panel" class="settings-panel hidden">
       <h2>Archive Settings</h2>
-      <label>
-        <input type="checkbox" id="setting-sounds" />
-        Enable terminal sounds
-      </label>
-      <label>
-        <input type="checkbox" id="setting-overlay" />
-        Enable terminal overlay warnings
-      </label>
-      <label>
-        <input type="checkbox" id="setting-redactions" />
-        Reveal redactions on hover
-      </label>
+      <label
+        ><input type="checkbox" id="setting-sounds" /> Enable terminal
+        sounds</label
+      >
+      <label
+        ><input type="checkbox" id="setting-overlay" /> Enable terminal overlay
+        warnings</label
+      >
+      <label
+        ><input type="checkbox" id="setting-redactions" /> Reveal redactions on
+        hover</label
+      >
       <button id="settings-close" class="settings-close-btn">Close</button>
     </aside>
 
@@ -81,88 +80,69 @@
     <footer class="legend">
       <h2>Classification Legend</h2>
       <div class="legend-row">
-        <span class="badge legend-badge" data-class="Safe">Safe</span>
-        <span class="legend-text"
-          >Minimal risk; containment straightforward.</span
-        >
+        <span class="badge legend-badge" data-class="Safe">Safe</span> Minimal
+        risk.
       </div>
       <div class="legend-row">
         <span class="badge legend-badge" data-class="Euclid">Euclid</span>
-        <span class="legend-text"
-          >Unpredictable behavior; active monitoring required.</span
-        >
+        Unpredictable.
       </div>
       <div class="legend-row">
-        <span class="badge legend-badge" data-class="Keter">Keter</span>
-        <span class="legend-text"
-          >High risk; containment difficult and resource-intensive.</span
-        >
+        <span class="badge legend-badge" data-class="Keter">Keter</span> High
+        risk.
       </div>
       <div class="legend-row">
         <span class="badge legend-badge" data-class="Apollyon">Apollyon</span>
-        <span class="legend-text">Uncontainable; existential threat.</span>
+        Uncontainable.
       </div>
       <div class="legend-row">
         <span class="badge legend-badge" data-class="Thaumiel">Thaumiel</span>
-        <span class="legend-text"
-          >Used to contain or counter other anomalies.</span
-        >
+        Used for containment.
       </div>
       <div class="legend-row">
         <span class="badge legend-badge" data-class="Unknown">Unknown</span>
-        <span class="legend-text"
-          >Insufficient data; classification pending.</span
-        >
+        Pending classification.
       </div>
 
       <h2>Threat Level Legend</h2>
       <div class="legend-row">
-        <span class="badge legend-badge" data-threat="Green">Green</span>
-        <span class="legend-text">Low threat; minimal danger.</span>
+        <span class="badge legend-badge" data-threat="Green">Green</span> Low
+        threat.
       </div>
       <div class="legend-row">
         <span class="badge legend-badge" data-threat="Yellow">Yellow</span>
-        <span class="legend-text">Moderate threat; caution advised.</span>
+        Moderate.
       </div>
       <div class="legend-row">
         <span class="badge legend-badge" data-threat="Orange">Orange</span>
-        <span class="legend-text"
-          >Significant threat; direct engagement risky.</span
-        >
+        Significant.
       </div>
       <div class="legend-row">
-        <span class="badge legend-badge" data-threat="Red">Red</span>
-        <span class="legend-text">Severe threat; lethal potential.</span>
+        <span class="badge legend-badge" data-threat="Red">Red</span> Severe.
       </div>
       <div class="legend-row">
         <span class="badge legend-badge" data-threat="Crimson">Crimson</span>
-        <span class="legend-text"
-          >Catastrophic threat; large-scale damage likely.</span
-        >
+        Catastrophic.
       </div>
       <div class="legend-row">
         <span class="badge legend-badge" data-threat="Black">Black</span>
-        <span class="legend-text"
-          >Apocalyptic threat; global impact possible.</span
-        >
+        Apocalyptic.
       </div>
       <div class="legend-row">
         <span class="badge legend-badge" data-threat="Blue">Blue</span>
-        <span class="legend-text"
-          >Non-hostile anomaly; cooperative or neutral.</span
-        >
+        Non-hostile.
       </div>
       <div class="legend-row">
         <span class="badge legend-badge" data-threat="Unknown">Unknown</span>
-        <span class="legend-text">Threat level undetermined.</span>
+        Undetermined.
       </div>
     </footer>
 
     <div id="terminal-overlay" class="terminal-overlay hidden">
       <div class="terminal-window flicker">
         <p>> INITIALIZING FOUNDATION TERMINAL...</p>
-        <p>> CLEARANCE LEVEL: <span class="red">PENDING VERIFICATION</span></p>
-        <p>> LOADING SCP POKÉMON ARCHIVE...</p>
+        <p>> CLEARANCE LEVEL: <span class="red">PENDING</span></p>
+        <p>> LOADING ARCHIVE...</p>
         <p class="blink">█</p>
       </div>
       <audio id="terminal-beep" src="assets/beep.mp3"></audio>

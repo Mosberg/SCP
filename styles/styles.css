@@ -156,7 +156,7 @@ body {
   position: relative;
   overflow: hidden;
   text-align: center;
-  height: 180px;
+  height: 260px;
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease;
@@ -343,13 +343,14 @@ body {
 
 .sprite-carousel {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   margin: 12px 0;
 }
 
 .sprite {
-  width: 100px;
-  height: 100px;
+  width: 96px;
+  height: 96px;
   image-rendering: pixelated;
   border: 1px solid #333;
   background: #000;
@@ -373,6 +374,35 @@ body {
   width: 32px;
   height: 14px;
   image-rendering: pixelated;
+}
+
+/* ===== VIEWER NAVIGATION ===== */
+
+.doc-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 18px 0 8px;
+  gap: 10px;
+}
+
+.nav-btn {
+  background: #111;
+  border: 1px solid #444;
+  color: #e0e0e0;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  min-width: 110px;
+}
+
+.nav-btn:hover:not(:disabled) {
+  background: #222;
+}
+
+.nav-btn:disabled {
+  opacity: 0.4;
+  cursor: default;
 }
 
 /* ===== REDACTIONS ===== */

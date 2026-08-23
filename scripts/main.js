@@ -1,7 +1,7 @@
 // scripts/main.js
 
 /* ============================================================
-   SCP POKÉMON ARCHIVE — main.js (TERMINAL UI v3)
+   SCP POKÉMON ARCHIVE — main.js (TERMINAL UI v3, NAV UPGRADE)
 ============================================================ */
 
 let SCP_DATA = [];
@@ -105,7 +105,6 @@ function setupTerminalOverlay() {
       } catch (_) {}
     }
 
-    // occasional breach pulse
     setTimeout(() => {
       if (Math.random() < 0.25) {
         overlay.classList.add("breach");
@@ -196,12 +195,11 @@ async function loadSCPData() {
 
 async function initHomePage() {
   const loader = document.getElementById("loader");
-
-  loader.textContent = "Loading SCP files...";
+  if (loader) loader.textContent = "Loading SCP files...";
 
   await loadSCPData();
 
-  loader.style.display = "none";
+  if (loader) loader.style.display = "none";
 
   setupSearchFilters();
   setupSorting();
@@ -217,6 +215,8 @@ function setupSearchFilters() {
   const searchInput = document.getElementById("search-input");
   const filterClass = document.getElementById("filter-class");
   const filterThreat = document.getElementById("filter-threat");
+
+  if (!searchInput || !filterClass || !filterThreat) return;
 
   searchInput.addEventListener("input", applyFilters);
   filterClass.addEventListener("change", applyFilters);
@@ -268,10 +268,10 @@ function setupSorting() {
     const value = sortSelect.value;
 
     if (value === "name") {
-      FILTERED_DATA.sort((a, b) => a.name.localeCompare(b.name));
+      FILTERED_DATA.sort((a, b) => (a.name || "").localeCompare(b.name || ""));
     } else if (value === "scp") {
       FILTERED_DATA.sort((a, b) =>
-        a.scp_item_number.localeCompare(b.scp_item_number),
+        (a.scp_item_number || "").localeCompare(b.scp_item_number || ""),
       );
     } else if (value === "class") {
       FILTERED_DATA.sort((a, b) =>
@@ -294,6 +294,8 @@ function setupSorting() {
 
 function renderPagination(totalPages) {
   const list = document.getElementById("scp-list");
+  if (!list) return;
+
   const pagination = document.createElement("div");
   pagination.className = "pagination";
 
@@ -317,6 +319,8 @@ function renderPagination(totalPages) {
 
 function renderSCPList() {
   const list = document.getElementById("scp-list");
+  if (!list) return;
+
   list.innerHTML = "";
 
   const start = (CURRENT_PAGE - 1) * PAGE_SIZE;
@@ -330,12 +334,23 @@ function renderSCPList() {
     const objectClass = entry.object_class || "Unknown";
     const threatLevel = entry.threat_level || "Unknown";
 
+    const isPokemon = entry.id && !String(entry.id).startsWith("T");
+
+    const spriteFront = isPokemon ? getSprite(entry.id, false, true) : "";
+    const spriteShiny = isPokemon ? getSprite(entry.id, true, true) : "";
+
     card.innerHTML = `
       <div class="flip-inner">
         <div class="flip-front">
           <h3>${entry.scp_item_number} — ${entry.name}</h3>
-          <img src="${getSprite(entry.id, false, true)}" class="sprite" />
-          <img src="${getSprite(entry.id, true, true)}" class="sprite shiny" />
+          ${
+            isPokemon
+              ? `
+          <img src="${spriteFront}" class="sprite" />
+          <img src="${spriteShiny}" class="sprite shiny" />
+          `
+              : ""
+          }
           <p>
             <span class="badge" data-class="${objectClass}">${objectClass}</span>
             <span class="badge" data-threat="${threatLevel}">${threatLevel}</span>
@@ -348,7 +363,7 @@ function renderSCPList() {
     `;
 
     card.addEventListener("click", () => {
-      window.location.href = `viewer.html?id=${entry.id}`;
+      navigateTo(entry.id);
     });
 
     list.appendChild(card);
@@ -364,6 +379,7 @@ function renderSCPList() {
 
 async function initViewerPage() {
   const doc = document.getElementById("scp-doc");
+  if (!doc) return;
 
   await loadSCPData();
 
@@ -372,8 +388,7 @@ async function initViewerPage() {
   const numericId = Number(idParam);
 
   const entry =
-    SCP_DATA.find((e) => e.id === idParam) || // trainers (string IDs)
-    SCP_DATA.find((e) => e.id === numericId) || // pokemon (numeric IDs)
+    SCP_DATA.find((e) => String(e.id) === idParam) || // trainers & pokemon (string compare)
     SCP_DATA.find((e) => e.scp_item_number === idParam);
 
   if (!entry) {
@@ -382,6 +397,15 @@ async function initViewerPage() {
   }
 
   renderViewer(entry);
+}
+
+/* ============================================================
+   NAVIGATION HELPER
+============================================================ */
+
+function navigateTo(id) {
+  if (id == null) return;
+  window.location.href = `viewer.html?id=${id}`;
 }
 
 /* ============================================================
@@ -404,6 +428,7 @@ function getTypeIcon(type) {
 
 function renderViewer(entry) {
   const doc = document.getElementById("scp-doc");
+  if (!doc) return;
 
   const objectClass = entry.object_class || "Unknown";
   const threatLevel = entry.threat_level || "Unknown";
@@ -413,7 +438,6 @@ function renderViewer(entry) {
 
   const isPokemon = entry.id && !String(entry.id).startsWith("T");
 
-  // types in pokemon JSON are an object {type_1, type_2}
   let typeValues = [];
   if (isPokemon && entry.types) {
     typeValues = Object.values(entry.types).filter(Boolean);
@@ -441,7 +465,26 @@ function renderViewer(entry) {
     `
       : "";
 
+  const ordered = [...SCP_DATA].sort((a, b) =>
+    (a.scp_item_number || "").localeCompare(b.scp_item_number || ""),
+  );
+  const index = ordered.findIndex((e) => e === entry);
+  const prevEntry = index > 0 ? ordered[index - 1] : null;
+  const nextEntry = index < ordered.length - 1 ? ordered[index + 1] : null;
+
+  const prevId = prevEntry ? prevEntry.id : null;
+  const nextId = nextEntry ? nextEntry.id : null;
+
   doc.innerHTML = `
+    <div class="doc-nav">
+      <button class="nav-btn" ${
+        prevId ? `onclick="navigateTo('${prevId}')"` : "disabled"
+      }>◀ Previous</button>
+      <button class="nav-btn" ${
+        nextId ? `onclick="navigateTo('${nextId}')"` : "disabled"
+      }>Next ▶</button>
+    </div>
+
     <h2>${entry.scp_item_number} — ${entry.name}</h2>
 
     ${spriteSection}
