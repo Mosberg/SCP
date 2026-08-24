@@ -123,6 +123,53 @@
         "$ref": "#/$defs/revision"
       },
       "default": []
+    },
+    "sprites": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["frontNormal", "backNormal", "frontShiny", "backShiny"],
+      "properties": {
+        "frontNormal": {
+          "type": ["string", "null"],
+          "format": "uri-reference"
+        },
+        "backNormal": {
+          "type": ["string", "null"],
+          "format": "uri-reference"
+        },
+        "frontShiny": {
+          "type": ["string", "null"],
+          "format": "uri-reference"
+        },
+        "backShiny": {
+          "type": ["string", "null"],
+          "format": "uri-reference"
+        },
+        "frontOfficialArtwork": {
+          "type": ["string", "null"],
+          "format": "uri-reference"
+        },
+        "frontShinyOfficialArtwork": {
+          "type": ["string", "null"],
+          "format": "uri-reference"
+        },
+        "frontFallback": {
+          "type": ["string", "null"],
+          "format": "uri-reference"
+        },
+        "backFallback": {
+          "type": ["string", "null"],
+          "format": "uri-reference"
+        },
+        "frontShinyFallback": {
+          "type": ["string", "null"],
+          "format": "uri-reference"
+        },
+        "backShinyFallback": {
+          "type": ["string", "null"],
+          "format": "uri-reference"
+        }
+      }
     }
   },
   "$defs": {
@@ -350,9 +397,16 @@
           "examples": ["Pikachu", "Gardevoir", "MissingNo."]
         },
         "scientificDesignation": {
-          "type": "string",
-          "maxLength": 160,
-          "examples": ["Mus electricus anomalus"]
+          "type": ["string", "null"],
+          "maxLength": 160
+        },
+        "heightMeters": {
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        },
+        "weightKilograms": {
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
         },
         "regionalDexNumber": {
           "oneOf": [
@@ -452,14 +506,6 @@
           "type": "string",
           "enum": ["standard", "shiny", "unknown", "anomalous-coloration"],
           "default": "standard"
-        },
-        "heightMeters": {
-          "type": "number",
-          "exclusiveMinimum": 0
-        },
-        "weightKilograms": {
-          "type": "number",
-          "exclusiveMinimum": 0
         },
         "measuredHeightMeters": {
           "type": "number",
