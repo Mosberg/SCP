@@ -145,7 +145,7 @@ function setupTerminalOverlay() {
 async function loadSCPData() {
   if (SCP_DATA.length) return SCP_DATA;
 
-  const dataFolder = "data/";
+  const dataFolder = "assets/data/";
   const files = [
     "pokemon_scp_1_10.json",
     "pokemon_scp_11_20.json",
@@ -457,13 +457,13 @@ function navigateTo(id) {
 ============================================================ */
 
 function getSprite(id, shiny = false, front = true) {
-  const base = shiny ? "assets/shiny" : "assets/normal";
+  const base = shiny ? "assets/images/shiny" : "assets/images/normal";
   const side = front ? "front" : "back";
   return `${base}/${side}/${id}.png`;
 }
 
 function getTypeIcon(type) {
-  return `assets/types/${String(type).toLowerCase()}.png`;
+  return `assets/images/types/${String(type).toLowerCase()}.png`;
 }
 
 /* ============================================================
