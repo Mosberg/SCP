@@ -1,513 +1,522 @@
 {
-  "anomalousProperties": {
-    "properties": [
-      {
-        "category": "biological",
-        "description": "No additional anomalous property recorded.",
-        "frequency": "unknown",
-        "name": "Baseline Pokémon Biology",
-        "propertyId": "AP-01",
-        "severity": "minimal",
-        "verified": true
-      }
-    ],
-    "summary": "No anomaly has been authored for this imported Pokémon record.",
-    "threatProfile": {
-      "hazards": [],
-      "overallThreatLevel": "negligible"
-    }
+  "schemaVersion": "1.0.0",
+  "recordId": "SCP-PKMN-0022",
+  "generation": {
+    "generator": "scp-pokemon-anomaly-generator",
+    "generatorVersion": "1.1.0",
+    "seed": "a08d9b8412b06123",
+    "source": "https://pokeapi.co/api/v2",
+    "generatedAt": "2026-08-24T12:52:32Z"
+  },
+  "metadata": {
+    "title": "SCP-PKMN-0022: Fearow",
+    "author": "Automated Foundation Data Division",
+    "language": "en",
+    "createdAt": "2026-08-24T12:52:32Z",
+    "lastUpdatedAt": "2026-08-24T12:52:32Z",
+    "publicationStatus": "draft",
+    "canon": "Generated SCP-Pokémon Fan Continuity"
   },
   "classification": {
-    "containmentClass": "safe",
+    "objectClass": "euclid",
+    "containmentClass": "euclid",
     "disruptionClass": "dark",
-    "objectClass": "safe",
-    "riskClass": "notice"
+    "riskClass": "caution",
+    "classificationRationale": "normal-type risk profile; flying-type risk profile; dual-type interaction"
+  },
+  "pokemon": {
+    "speciesName": "Fearow",
+    "regionalDexNumber": 22,
+    "nationalDexNumber": 22,
+    "form": "Standard",
+    "biologicalSex": "unknown",
+    "lifeStage": "adult",
+    "primaryType": "normal",
+    "secondaryType": "flying",
+    "speciesCategory": "Beak Pokémon",
+    "heightMeters": 1.2,
+    "weightKilograms": 38.0,
+    "physicalDescription": "With its huge and magnificent wings, it can keep aloft without ever having to land for rest.",
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "isHiddenAbility": false,
+        "status": "standard"
+      },
+      {
+        "name": "sniper",
+        "isHiddenAbility": true,
+        "status": "standard"
+      }
+    ],
+    "knownMoves": [
+      {
+        "name": "razor-wind",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "wing-attack",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "whirlwind",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "fly",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "headbutt",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "fury-attack",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "take-down",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "double-edge",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "leer",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "growl",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "hyper-beam",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "peck",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "drill-peck",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "toxic",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "agility",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "quick-attack",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rage",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "mimic",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "double-team",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "focus-energy",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "bide",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "mirror-move",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "swift",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sky-attack",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rest",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "tri-attack",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "substitute",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "thief",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "snore",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "curse",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "protect",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "mud-slap",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "detect",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "endure",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "false-swipe",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "swagger",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "steel-wing",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "attract",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sleep-talk",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "return",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "frustration",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "pursuit",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "hidden-power",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "twister",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rain-dance",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sunny-day",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "uproar",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "heat-wave",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "facade",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "secret-power",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "air-cutter",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "aerial-ace",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "roost",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "natural-gift",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "pluck",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "tailwind",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "u-turn",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "assurance",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "giga-impact",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "defog",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "captivate",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "ominous-wind",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "round",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "echoed-voice",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "work-up",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "drill-run",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "confide",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "laser-focus",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "throat-chop",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      }
+    ],
+    "sprites": {
+      "frontNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
+      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/22.png",
+      "frontShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/22.png",
+      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/22.png",
+      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
+      "frontShinyOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/22.png"
+    }
+  },
+  "anomalousProperties": {
+    "summary": "Automatically generated anomaly profile for a standard Pokémon associated with the normal, flying type profile.",
+    "originStatus": "theorized",
+    "properties": [
+      {
+        "propertyId": "AP-01",
+        "name": "Normal-Type Anomalous Expression",
+        "category": "biological",
+        "description": "The entity exhibits anomalous properties associated with its normal classification.",
+        "severity": "moderate",
+        "frequency": "conditional",
+        "verified": false
+      },
+      {
+        "propertyId": "AP-02",
+        "name": "Flying-Type Anomalous Expression",
+        "category": "biological",
+        "description": "The entity exhibits anomalous properties associated with its flying classification.",
+        "severity": "moderate",
+        "frequency": "conditional",
+        "verified": false
+      }
+    ],
+    "threatProfile": {
+      "overallThreatLevel": "moderate",
+      "hazards": [],
+      "riskSummary": "Risk score 2: normal-type risk profile; flying-type risk profile; dual-type interaction"
+    }
   },
   "containment": {
     "containmentStatus": "contained",
-    "containmentUnit": "Digital Record",
-    "emergencyProcedures": "Restore the record from the cached source response.",
-    "handlingProcedures": "Do not treat canonical data as an anomaly report without review.",
-    "primaryFacility": "Pokémon Data Archive",
-    "specialContainmentProcedures": "Store this record in a controlled local archive."
-  },
-  "description": "With its huge and\nmagnificent wings,\nit can keep aloft\fwithout ever\nhaving to land\nfor rest.",
-  "metadata": {
-    "author": "PokéAPI Importer",
-    "createdAt": "2026-08-24T12:09:21Z",
-    "language": "en",
-    "lastUpdatedAt": "2026-08-24T12:09:21Z",
-    "publicationStatus": "draft",
-    "title": "SCP-PKMN-0022: Fearow"
-  },
-  "pokemon": {
-    "abilities": [
-      {
-        "isHiddenAbility": false,
-        "name": "keen-eye",
-        "status": "standard"
-      },
-      {
-        "isHiddenAbility": true,
-        "name": "sniper",
-        "status": "standard"
-      }
-    ],
-    "baseStats": {
-      "attack": 90,
-      "defense": 65,
-      "hp": 65,
-      "specialAttack": 61,
-      "specialDefense": 61,
-      "speed": 100
+    "primaryFacility": "Pokémon Anomaly Archive",
+    "containmentUnit": "Standard Habitat Simulation Chamber",
+    "specialContainmentProcedures": "Use a reinforced habitat enclosure with terrain simulation and automated perimeter alerts.",
+    "handlingProcedures": "Interaction is restricted to authorized Pokémon handlers and approved research personnel.",
+    "environmentalRequirements": {
+      "habitatType": "rough-terrain"
     },
-    "biologicalSex": "unknown",
-    "form": "Standard",
-    "heightMeters": 1.2,
-    "knownMoves": [
-      {
-        "category": "unknown",
-        "name": "razor-wind",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "wing-attack",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "whirlwind",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "fly",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "headbutt",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "fury-attack",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "take-down",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "double-edge",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "leer",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "growl",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "hyper-beam",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "peck",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "drill-peck",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "toxic",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "agility",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "quick-attack",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "rage",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "mimic",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "double-team",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "focus-energy",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "bide",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "mirror-move",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "swift",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "sky-attack",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "rest",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "tri-attack",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "substitute",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "thief",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "snore",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "curse",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "protect",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "mud-slap",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "detect",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "endure",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "false-swipe",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "swagger",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "steel-wing",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "attract",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "sleep-talk",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "return",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "frustration",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "pursuit",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "hidden-power",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "twister",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "rain-dance",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "sunny-day",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "uproar",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "heat-wave",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "facade",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "secret-power",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "air-cutter",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "aerial-ace",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "roost",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "natural-gift",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "pluck",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "tailwind",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "u-turn",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "assurance",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "giga-impact",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "defog",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "captivate",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "ominous-wind",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "round",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "echoed-voice",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "work-up",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "drill-run",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "confide",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "laser-focus",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "throat-chop",
-        "status": "unverified",
-        "type": "unknown"
-      }
-    ],
-    "lifeStage": "adult",
-    "nationalDexNumber": 22,
-    "physicalDescription": "With its huge and\nmagnificent wings,\nit can keep aloft\fwithout ever\nhaving to land\nfor rest.",
-    "primaryType": "normal",
-    "regionalDexNumber": 22,
-    "scientificDesignation": null,
-    "secondaryType": "flying",
-    "shinyStatus": "standard",
-    "speciesCategory": null,
-    "speciesName": "Fearow",
-    "sprites": {
-      "backFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/22.png",
-      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/22.png",
-      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/22.png",
-      "backShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/22.png",
-      "frontFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
-      "frontNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
-      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
-      "frontShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/22.png",
-      "frontShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/22.png",
-      "frontShinyOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/22.png"
-    },
-    "weightKilograms": 38.0
+    "emergencyProcedures": "Activate site lockdown, isolate the habitat, and deploy the entity-specific recovery team."
   },
-  "recordId": "SCP-PKMN-0022",
-  "schemaVersion": "1.0.0",
+  "description": "With its huge and magnificent wings, it can keep aloft without ever having to land for rest.",
   "status": {
-    "lastVerifiedAt": "2026-08-24T12:09:21Z",
-    "operationalStatus": "archived"
+    "operationalStatus": "archived",
+    "lastVerifiedAt": "2026-08-24T12:52:32Z"
   }
 }

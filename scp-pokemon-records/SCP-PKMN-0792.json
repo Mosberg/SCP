@@ -1,604 +1,613 @@
 {
-  "anomalousProperties": {
-    "properties": [
-      {
-        "category": "biological",
-        "description": "No additional anomalous property recorded.",
-        "frequency": "unknown",
-        "name": "Baseline Pokémon Biology",
-        "propertyId": "AP-01",
-        "severity": "minimal",
-        "verified": true
-      }
-    ],
-    "summary": "No anomaly has been authored for this imported Pokémon record.",
-    "threatProfile": {
-      "hazards": [],
-      "overallThreatLevel": "negligible"
-    }
+  "schemaVersion": "1.0.0",
+  "recordId": "SCP-PKMN-0792",
+  "generation": {
+    "generator": "scp-pokemon-anomaly-generator",
+    "generatorVersion": "1.1.0",
+    "seed": "1c53f44293444d20",
+    "source": "https://pokeapi.co/api/v2",
+    "generatedAt": "2026-08-24T12:52:39Z"
+  },
+  "metadata": {
+    "title": "SCP-PKMN-0792: Lunala",
+    "author": "Automated Foundation Data Division",
+    "language": "en",
+    "createdAt": "2026-08-24T12:52:39Z",
+    "lastUpdatedAt": "2026-08-24T12:52:39Z",
+    "publicationStatus": "draft",
+    "canon": "Generated SCP-Pokémon Fan Continuity"
   },
   "classification": {
-    "containmentClass": "safe",
-    "disruptionClass": "dark",
-    "objectClass": "safe",
-    "riskClass": "notice"
-  },
-  "containment": {
-    "containmentStatus": "contained",
-    "containmentUnit": "Digital Record",
-    "emergencyProcedures": "Restore the record from the cached source response.",
-    "handlingProcedures": "Do not treat canonical data as an anomaly report without review.",
-    "primaryFacility": "Pokémon Data Archive",
-    "specialContainmentProcedures": "Store this record in a controlled local archive."
-  },
-  "description": "It is said to be a female evolution of Cosmog.\nWhen its third eye activates, away it flies to\nanother world.",
-  "metadata": {
-    "author": "PokéAPI Importer",
-    "createdAt": "2026-08-24T12:15:34Z",
-    "language": "en",
-    "lastUpdatedAt": "2026-08-24T12:15:34Z",
-    "publicationStatus": "draft",
-    "title": "SCP-PKMN-0792: Lunala"
+    "objectClass": "keter",
+    "containmentClass": "keter",
+    "disruptionClass": "keneq",
+    "riskClass": "critical",
+    "classificationRationale": "psychic-type risk profile; ghost-type risk profile; legendary classification; exceptional aggregate base statistics; dual-type interaction"
   },
   "pokemon": {
+    "speciesName": "Lunala",
+    "regionalDexNumber": 792,
+    "nationalDexNumber": 792,
+    "form": "Standard",
+    "biologicalSex": "unknown",
+    "lifeStage": "adult",
+    "primaryType": "psychic",
+    "secondaryType": "ghost",
+    "speciesCategory": "Moone Pokémon",
+    "heightMeters": 4.0,
+    "weightKilograms": 120.0,
+    "physicalDescription": "It is said to be a female evolution of Cosmog. When its third eye activates, away it flies to another world.",
     "abilities": [
       {
-        "isHiddenAbility": false,
         "name": "shadow-shield",
+        "isHiddenAbility": false,
         "status": "standard"
       }
     ],
-    "baseStats": {
-      "attack": 113,
-      "defense": 89,
-      "hp": 137,
-      "specialAttack": 137,
-      "specialDefense": 107,
-      "speed": 97
-    },
-    "biologicalSex": "unknown",
-    "form": "Standard",
-    "heightMeters": 4.0,
     "knownMoves": [
       {
-        "category": "unknown",
         "name": "fly",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "roar",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "ice-beam",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "blizzard",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "hyper-beam",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "solar-beam",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "thunderbolt",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "thunder-wave",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "thunder",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "toxic",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "confusion",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "psychic",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "hypnosis",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "agility",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "teleport",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "night-shade",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "double-team",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "confuse-ray",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "light-screen",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "reflect",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "swift",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "dream-eater",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "sky-attack",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "rest",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "substitute",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "snore",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "spite",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "protect",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "scary-face",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "icy-wind",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "endure",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "swagger",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "sleep-talk",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "return",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "frustration",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "safeguard",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "moonlight",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "hidden-power",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "rain-dance",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "sunny-day",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "psych-up",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "shadow-ball",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "future-sight",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "heat-wave",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "will-o-wisp",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "facade",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "helping-hand",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "trick",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "magic-coat",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "cosmic-power",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "signal-beam",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "aerial-ace",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "calm-mind",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "shock-wave",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "roost",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "tailwind",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "air-slash",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "focus-blast",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "giga-impact",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "shadow-claw",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "psycho-cut",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "defog",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "trick-room",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "charge-beam",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "wide-guard",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "wonder-room",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "psyshock",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "telekinesis",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "magic-room",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "round",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "hex",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "sky-drop",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "acrobatics",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "work-up",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "night-daze",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "phantom-force",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "moonblast",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "confide",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "dazzling-gleam",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "moongeist-beam",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "expanding-force",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "meteor-beam",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "poltergeist",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "dual-wingbeat",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "tera-blast",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       }
     ],
-    "lifeStage": "adult",
-    "nationalDexNumber": 792,
-    "physicalDescription": "It is said to be a female evolution of Cosmog.\nWhen its third eye activates, away it flies to\nanother world.",
-    "primaryType": "psychic",
-    "regionalDexNumber": 792,
-    "scientificDesignation": null,
-    "secondaryType": "ghost",
-    "shinyStatus": "standard",
-    "speciesCategory": null,
-    "speciesName": "Lunala",
     "sprites": {
-      "backFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/792.png",
-      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/792.png",
-      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/792.png",
-      "backShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/792.png",
-      "frontFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/792.png",
       "frontNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/792.png",
-      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/792.png",
+      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/792.png",
       "frontShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/792.png",
-      "frontShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/792.png",
+      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/792.png",
+      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/792.png",
       "frontShinyOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/792.png"
-    },
-    "weightKilograms": 120.0
+    }
   },
-  "recordId": "SCP-PKMN-0792",
-  "schemaVersion": "1.0.0",
+  "anomalousProperties": {
+    "summary": "Automatically generated anomaly profile for a legendary Pokémon associated with the psychic, ghost type profile.",
+    "originStatus": "theorized",
+    "properties": [
+      {
+        "propertyId": "AP-01",
+        "name": "Psychic-Type Anomalous Expression",
+        "category": "biological",
+        "description": "The entity demonstrates non-contact influence over perception, cognition, or information processing.",
+        "severity": "severe",
+        "frequency": "conditional",
+        "verified": false
+      },
+      {
+        "propertyId": "AP-02",
+        "name": "Ghost-Type Anomalous Expression",
+        "category": "biological",
+        "description": "The entity can partially separate from ordinary matter and bypass conventional physical barriers.",
+        "severity": "severe",
+        "frequency": "conditional",
+        "verified": false
+      }
+    ],
+    "threatProfile": {
+      "overallThreatLevel": "existential",
+      "hazards": [],
+      "riskSummary": "Risk score 18: psychic-type risk profile; ghost-type risk profile; legendary classification; exceptional aggregate base statistics; dual-type interaction"
+    }
+  },
+  "containment": {
+    "containmentStatus": "contained",
+    "primaryFacility": "Pokémon Anomaly Archive",
+    "containmentUnit": "High-Risk Habitat Simulation Chamber",
+    "specialContainmentProcedures": "Use a sealed standard Pokémon containment chamber until habitat requirements are confirmed. Maintain redundant barriers, continuous observation, and an authorized specialist response team.",
+    "handlingProcedures": "Interaction is restricted to authorized Pokémon handlers and approved research personnel.",
+    "environmentalRequirements": {
+      "habitatType": "unknown"
+    },
+    "emergencyProcedures": "Activate site lockdown, isolate the habitat, and deploy the entity-specific recovery team."
+  },
+  "description": "It is said to be a female evolution of Cosmog. When its third eye activates, away it flies to another world.",
   "status": {
-    "lastVerifiedAt": "2026-08-24T12:15:34Z",
-    "operationalStatus": "archived"
+    "operationalStatus": "archived",
+    "lastVerifiedAt": "2026-08-24T12:52:39Z"
   }
 }

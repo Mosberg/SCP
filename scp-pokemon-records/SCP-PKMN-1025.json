@@ -1,304 +1,313 @@
 {
-  "anomalousProperties": {
-    "properties": [
-      {
-        "category": "biological",
-        "description": "No additional anomalous property recorded.",
-        "frequency": "unknown",
-        "name": "Baseline Pokémon Biology",
-        "propertyId": "AP-01",
-        "severity": "minimal",
-        "verified": true
-      }
-    ],
-    "summary": "No anomaly has been authored for this imported Pokémon record.",
-    "threatProfile": {
-      "hazards": [],
-      "overallThreatLevel": "negligible"
-    }
+  "schemaVersion": "1.0.0",
+  "recordId": "SCP-PKMN-1025",
+  "generation": {
+    "generator": "scp-pokemon-anomaly-generator",
+    "generatorVersion": "1.1.0",
+    "seed": "815f6ebc19ac6b68",
+    "source": "https://pokeapi.co/api/v2",
+    "generatedAt": "2026-08-24T12:52:41Z"
+  },
+  "metadata": {
+    "title": "SCP-PKMN-1025: Pecharunt",
+    "author": "Automated Foundation Data Division",
+    "language": "en",
+    "createdAt": "2026-08-24T12:52:41Z",
+    "lastUpdatedAt": "2026-08-24T12:52:41Z",
+    "publicationStatus": "draft",
+    "canon": "Generated SCP-Pokémon Fan Continuity"
   },
   "classification": {
-    "containmentClass": "safe",
-    "disruptionClass": "dark",
-    "objectClass": "safe",
-    "riskClass": "notice"
-  },
-  "containment": {
-    "containmentStatus": "contained",
-    "containmentUnit": "Digital Record",
-    "emergencyProcedures": "Restore the record from the cached source response.",
-    "handlingProcedures": "Do not treat canonical data as an anomaly report without review.",
-    "primaryFacility": "Pokémon Data Archive",
-    "specialContainmentProcedures": "Store this record in a controlled local archive."
-  },
-  "description": "It feeds others toxic mochi that draw out desires and capabilities. Those who eat the mochi fall under Pecharunt’s control, chained to its will.",
-  "metadata": {
-    "author": "PokéAPI Importer",
-    "createdAt": "2026-08-24T12:17:17Z",
-    "language": "en",
-    "lastUpdatedAt": "2026-08-24T12:17:17Z",
-    "publicationStatus": "draft",
-    "title": "SCP-PKMN-1025: Pecharunt"
+    "objectClass": "keter",
+    "containmentClass": "keter",
+    "disruptionClass": "keneq",
+    "riskClass": "critical",
+    "classificationRationale": "poison-type risk profile; ghost-type risk profile; mythical classification; exceptional aggregate base statistics; dual-type interaction"
   },
   "pokemon": {
+    "speciesName": "Pecharunt",
+    "regionalDexNumber": 1025,
+    "nationalDexNumber": 1025,
+    "form": "Standard",
+    "biologicalSex": "unknown",
+    "lifeStage": "adult",
+    "primaryType": "poison",
+    "secondaryType": "ghost",
+    "speciesCategory": "Subjugation Pokémon",
+    "heightMeters": 0.3,
+    "weightKilograms": 0.3,
+    "physicalDescription": "It feeds others toxic mochi that draw out desires and capabilities. Those who eat the mochi fall under Pecharunt’s control, chained to its will.",
     "abilities": [
       {
-        "isHiddenAbility": false,
         "name": "poison-puppeteer",
+        "isHiddenAbility": false,
         "status": "standard"
       }
     ],
-    "baseStats": {
-      "attack": 88,
-      "defense": 160,
-      "hp": 88,
-      "specialAttack": 88,
-      "specialDefense": 88,
-      "speed": 88
-    },
-    "biologicalSex": "unknown",
-    "form": "Standard",
-    "heightMeters": 0.3,
     "knownMoves": [
       {
-        "category": "unknown",
         "name": "toxic",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "night-shade",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "recover",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "withdraw",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "defense-curl",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "smog",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "poison-gas",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "rest",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "substitute",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "curse",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "spite",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "protect",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "sludge-bomb",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "destiny-bond",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "endure",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "rollout",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "mean-look",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "sleep-talk",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "shadow-ball",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "memento",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "imprison",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "astonish",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "fake-tears",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "nasty-plot",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "gunk-shot",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "venoshock",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "sludge-wave",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "acid-spray",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "foul-play",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "hex",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "phantom-force",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "parting-shot",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "poltergeist",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "tera-blast",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "malignant-chain",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       }
     ],
-    "lifeStage": "adult",
-    "nationalDexNumber": 1025,
-    "physicalDescription": "It feeds others toxic mochi that draw out desires and capabilities. Those who eat the mochi fall under Pecharunt’s control, chained to its will.",
-    "primaryType": "poison",
-    "regionalDexNumber": 1025,
-    "scientificDesignation": null,
-    "secondaryType": "ghost",
-    "shinyStatus": "standard",
-    "speciesCategory": null,
-    "speciesName": "Pecharunt",
     "sprites": {
-      "backFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1025.png",
-      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1025.png",
-      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/1025.png",
-      "backShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/1025.png",
-      "frontFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1025.png",
       "frontNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1025.png",
-      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1025.png",
+      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1025.png",
       "frontShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1025.png",
-      "frontShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1025.png",
+      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/1025.png",
+      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1025.png",
       "frontShinyOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/1025.png"
-    },
-    "weightKilograms": 0.3
+    }
   },
-  "recordId": "SCP-PKMN-1025",
-  "schemaVersion": "1.0.0",
+  "anomalousProperties": {
+    "summary": "Automatically generated anomaly profile for a mythical Pokémon associated with the poison, ghost type profile.",
+    "originStatus": "theorized",
+    "properties": [
+      {
+        "propertyId": "AP-01",
+        "name": "Poison-Type Anomalous Expression",
+        "category": "biological",
+        "description": "The entity produces a biologically active substance with effects beyond known toxicology.",
+        "severity": "high",
+        "frequency": "conditional",
+        "verified": false
+      },
+      {
+        "propertyId": "AP-02",
+        "name": "Ghost-Type Anomalous Expression",
+        "category": "biological",
+        "description": "The entity can partially separate from ordinary matter and bypass conventional physical barriers.",
+        "severity": "severe",
+        "frequency": "conditional",
+        "verified": false
+      }
+    ],
+    "threatProfile": {
+      "overallThreatLevel": "existential",
+      "hazards": [],
+      "riskSummary": "Risk score 16: poison-type risk profile; ghost-type risk profile; mythical classification; exceptional aggregate base statistics; dual-type interaction"
+    }
+  },
+  "containment": {
+    "containmentStatus": "contained",
+    "primaryFacility": "Pokémon Anomaly Archive",
+    "containmentUnit": "High-Risk Habitat Simulation Chamber",
+    "specialContainmentProcedures": "Use a sealed standard Pokémon containment chamber until habitat requirements are confirmed. Maintain redundant barriers, continuous observation, and an authorized specialist response team.",
+    "handlingProcedures": "Interaction is restricted to authorized Pokémon handlers and approved research personnel.",
+    "environmentalRequirements": {
+      "habitatType": "unknown"
+    },
+    "emergencyProcedures": "Activate site lockdown, isolate the habitat, and deploy the entity-specific recovery team."
+  },
+  "description": "It feeds others toxic mochi that draw out desires and capabilities. Those who eat the mochi fall under Pecharunt’s control, chained to its will.",
   "status": {
-    "lastVerifiedAt": "2026-08-24T12:17:17Z",
-    "operationalStatus": "archived"
+    "operationalStatus": "archived",
+    "lastVerifiedAt": "2026-08-24T12:52:41Z"
   }
 }

@@ -1,388 +1,397 @@
 {
-  "anomalousProperties": {
-    "properties": [
-      {
-        "category": "biological",
-        "description": "No additional anomalous property recorded.",
-        "frequency": "unknown",
-        "name": "Baseline Pokémon Biology",
-        "propertyId": "AP-01",
-        "severity": "minimal",
-        "verified": true
-      }
-    ],
-    "summary": "No anomaly has been authored for this imported Pokémon record.",
-    "threatProfile": {
-      "hazards": [],
-      "overallThreatLevel": "negligible"
-    }
+  "schemaVersion": "1.0.0",
+  "recordId": "SCP-PKMN-1023",
+  "generation": {
+    "generator": "scp-pokemon-anomaly-generator",
+    "generatorVersion": "1.1.0",
+    "seed": "7a76a30a1b4af240",
+    "source": "https://pokeapi.co/api/v2",
+    "generatedAt": "2026-08-24T12:52:41Z"
+  },
+  "metadata": {
+    "title": "SCP-PKMN-1023: Iron Crown",
+    "author": "Automated Foundation Data Division",
+    "language": "en",
+    "createdAt": "2026-08-24T12:52:41Z",
+    "lastUpdatedAt": "2026-08-24T12:52:41Z",
+    "publicationStatus": "draft",
+    "canon": "Generated SCP-Pokémon Fan Continuity"
   },
   "classification": {
-    "containmentClass": "safe",
-    "disruptionClass": "dark",
-    "objectClass": "safe",
-    "riskClass": "notice"
-  },
-  "containment": {
-    "containmentStatus": "contained",
-    "containmentUnit": "Digital Record",
-    "emergencyProcedures": "Restore the record from the cached source response.",
-    "handlingProcedures": "Do not treat canonical data as an anomaly report without review.",
-    "primaryFacility": "Pokémon Data Archive",
-    "specialContainmentProcedures": "Store this record in a controlled local archive."
-  },
-  "description": "It resembles a mysterious object introduced in a paranormal magazine as a cutting-edge weapon shaped like a Cobalion.",
-  "metadata": {
-    "author": "PokéAPI Importer",
-    "createdAt": "2026-08-24T12:17:16Z",
-    "language": "en",
-    "lastUpdatedAt": "2026-08-24T12:17:16Z",
-    "publicationStatus": "draft",
-    "title": "SCP-PKMN-1023: Iron Crown"
+    "objectClass": "keter",
+    "containmentClass": "keter",
+    "disruptionClass": "keneq",
+    "riskClass": "danger",
+    "classificationRationale": "steel-type risk profile; psychic-type risk profile; elevated aggregate base statistics; dual-type interaction"
   },
   "pokemon": {
+    "speciesName": "Iron Crown",
+    "regionalDexNumber": 1023,
+    "nationalDexNumber": 1023,
+    "form": "Standard",
+    "biologicalSex": "unknown",
+    "lifeStage": "adult",
+    "primaryType": "steel",
+    "secondaryType": "psychic",
+    "speciesCategory": "Paradox Pokémon",
+    "heightMeters": 1.6,
+    "weightKilograms": 156.0,
+    "physicalDescription": "It resembles a mysterious object introduced in a paranormal magazine as a cutting-edge weapon shaped like a Cobalion.",
     "abilities": [
       {
-        "isHiddenAbility": false,
         "name": "quark-drive",
+        "isHiddenAbility": false,
         "status": "standard"
       }
     ],
-    "baseStats": {
-      "attack": 72,
-      "defense": 100,
-      "hp": 90,
-      "specialAttack": 122,
-      "specialDefense": 108,
-      "speed": 98
-    },
-    "biologicalSex": "unknown",
-    "form": "Standard",
-    "heightMeters": 1.6,
     "knownMoves": [
       {
-        "category": "unknown",
         "name": "swords-dance",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "body-slam",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "take-down",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "double-edge",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "leer",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "hyper-beam",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "confusion",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "psychic",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "agility",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "rest",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "slash",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "substitute",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "protect",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "scary-face",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "endure",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "sleep-talk",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "metal-claw",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "future-sight",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "facade",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "brick-break",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "metal-sound",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "iron-defense",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "calm-mind",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "gravity",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "metal-burst",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "air-slash",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "x-scissor",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "focus-blast",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "giga-impact",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "psycho-cut",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "zen-headbutt",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "flash-cannon",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "iron-head",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "psyshock",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "heavy-slam",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "stored-power",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "quick-guard",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "volt-switch",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "bulldoze",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "sacred-sword",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "electric-terrain",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "solar-blade",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "smart-strike",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "steel-beam",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "expanding-force",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "tera-blast",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "tachyon-cutter",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "supercell-slam",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "psychic-noise",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       }
     ],
-    "lifeStage": "adult",
-    "nationalDexNumber": 1023,
-    "physicalDescription": "It resembles a mysterious object introduced in a paranormal magazine as a cutting-edge weapon shaped like a Cobalion.",
-    "primaryType": "steel",
-    "regionalDexNumber": 1023,
-    "scientificDesignation": null,
-    "secondaryType": "psychic",
-    "shinyStatus": "standard",
-    "speciesCategory": null,
-    "speciesName": "Iron Crown",
     "sprites": {
-      "backFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1023.png",
-      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1023.png",
-      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/1023.png",
-      "backShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/1023.png",
-      "frontFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1023.png",
       "frontNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1023.png",
-      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1023.png",
+      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1023.png",
       "frontShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1023.png",
-      "frontShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1023.png",
+      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/1023.png",
+      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1023.png",
       "frontShinyOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/1023.png"
-    },
-    "weightKilograms": 156.0
+    }
   },
-  "recordId": "SCP-PKMN-1023",
-  "schemaVersion": "1.0.0",
+  "anomalousProperties": {
+    "summary": "Automatically generated anomaly profile for a standard Pokémon associated with the steel, psychic type profile.",
+    "originStatus": "theorized",
+    "properties": [
+      {
+        "propertyId": "AP-01",
+        "name": "Steel-Type Anomalous Expression",
+        "category": "biological",
+        "description": "The entity exhibits anomalous properties associated with its steel classification.",
+        "severity": "moderate",
+        "frequency": "conditional",
+        "verified": false
+      },
+      {
+        "propertyId": "AP-02",
+        "name": "Psychic-Type Anomalous Expression",
+        "category": "biological",
+        "description": "The entity demonstrates non-contact influence over perception, cognition, or information processing.",
+        "severity": "severe",
+        "frequency": "conditional",
+        "verified": false
+      }
+    ],
+    "threatProfile": {
+      "overallThreatLevel": "extreme",
+      "hazards": [],
+      "riskSummary": "Risk score 9: steel-type risk profile; psychic-type risk profile; elevated aggregate base statistics; dual-type interaction"
+    }
+  },
+  "containment": {
+    "containmentStatus": "contained",
+    "primaryFacility": "Pokémon Anomaly Archive",
+    "containmentUnit": "High-Risk Habitat Simulation Chamber",
+    "specialContainmentProcedures": "Use a sealed standard Pokémon containment chamber until habitat requirements are confirmed. Maintain redundant barriers, continuous observation, and an authorized specialist response team.",
+    "handlingProcedures": "Interaction is restricted to authorized Pokémon handlers and approved research personnel.",
+    "environmentalRequirements": {
+      "habitatType": "unknown"
+    },
+    "emergencyProcedures": "Activate site lockdown, isolate the habitat, and deploy the entity-specific recovery team."
+  },
+  "description": "It resembles a mysterious object introduced in a paranormal magazine as a cutting-edge weapon shaped like a Cobalion.",
   "status": {
-    "lastVerifiedAt": "2026-08-24T12:17:16Z",
-    "operationalStatus": "archived"
+    "operationalStatus": "archived",
+    "lastVerifiedAt": "2026-08-24T12:52:41Z"
   }
 }

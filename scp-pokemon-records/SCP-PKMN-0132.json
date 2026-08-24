@@ -1,105 +1,105 @@
 {
-  "anomalousProperties": {
-    "properties": [
-      {
-        "category": "biological",
-        "description": "No additional anomalous property recorded.",
-        "frequency": "unknown",
-        "name": "Baseline Pokémon Biology",
-        "propertyId": "AP-01",
-        "severity": "minimal",
-        "verified": true
-      }
-    ],
-    "summary": "No anomaly has been authored for this imported Pokémon record.",
-    "threatProfile": {
-      "hazards": [],
-      "overallThreatLevel": "negligible"
-    }
+  "schemaVersion": "1.0.0",
+  "recordId": "SCP-PKMN-0132",
+  "generation": {
+    "generator": "scp-pokemon-anomaly-generator",
+    "generatorVersion": "1.1.0",
+    "seed": "86b4faf59fac3182",
+    "source": "https://pokeapi.co/api/v2",
+    "generatedAt": "2026-08-24T12:52:33Z"
+  },
+  "metadata": {
+    "title": "SCP-PKMN-0132: Ditto",
+    "author": "Automated Foundation Data Division",
+    "language": "en",
+    "createdAt": "2026-08-24T12:52:33Z",
+    "lastUpdatedAt": "2026-08-24T12:52:33Z",
+    "publicationStatus": "draft",
+    "canon": "Generated SCP-Pokémon Fan Continuity"
   },
   "classification": {
+    "objectClass": "safe",
     "containmentClass": "safe",
     "disruptionClass": "dark",
-    "objectClass": "safe",
-    "riskClass": "notice"
-  },
-  "containment": {
-    "containmentStatus": "contained",
-    "containmentUnit": "Digital Record",
-    "emergencyProcedures": "Restore the record from the cached source response.",
-    "handlingProcedures": "Do not treat canonical data as an anomaly report without review.",
-    "primaryFacility": "Pokémon Data Archive",
-    "specialContainmentProcedures": "Store this record in a controlled local archive."
-  },
-  "description": "Capable of copying\nan enemy's genetic\ncode to instantly\ftransform itself\ninto a duplicate\nof the enemy.",
-  "metadata": {
-    "author": "PokéAPI Importer",
-    "createdAt": "2026-08-24T12:10:15Z",
-    "language": "en",
-    "lastUpdatedAt": "2026-08-24T12:10:15Z",
-    "publicationStatus": "draft",
-    "title": "SCP-PKMN-0132: Ditto"
+    "riskClass": "notice",
+    "classificationRationale": "normal-type risk profile"
   },
   "pokemon": {
+    "speciesName": "Ditto",
+    "regionalDexNumber": 132,
+    "nationalDexNumber": 132,
+    "form": "Standard",
+    "biologicalSex": "unknown",
+    "lifeStage": "adult",
+    "primaryType": "normal",
+    "secondaryType": null,
+    "speciesCategory": "Transform Pokémon",
+    "heightMeters": 0.3,
+    "weightKilograms": 4.0,
+    "physicalDescription": "Capable of copying an enemy's genetic code to instantly transform itself into a duplicate of the enemy.",
     "abilities": [
       {
-        "isHiddenAbility": false,
         "name": "limber",
+        "isHiddenAbility": false,
         "status": "standard"
       },
       {
-        "isHiddenAbility": true,
         "name": "imposter",
+        "isHiddenAbility": true,
         "status": "standard"
       }
     ],
-    "baseStats": {
-      "attack": 48,
-      "defense": 48,
-      "hp": 48,
-      "specialAttack": 48,
-      "specialDefense": 48,
-      "speed": 48
-    },
-    "biologicalSex": "unknown",
-    "form": "Standard",
-    "heightMeters": 0.3,
     "knownMoves": [
       {
-        "category": "unknown",
         "name": "transform",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       }
     ],
-    "lifeStage": "adult",
-    "nationalDexNumber": 132,
-    "physicalDescription": "Capable of copying\nan enemy's genetic\ncode to instantly\ftransform itself\ninto a duplicate\nof the enemy.",
-    "primaryType": "normal",
-    "regionalDexNumber": 132,
-    "scientificDesignation": null,
-    "secondaryType": null,
-    "shinyStatus": "standard",
-    "speciesCategory": null,
-    "speciesName": "Ditto",
     "sprites": {
-      "backFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/132.png",
-      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/132.png",
-      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/132.png",
-      "backShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/132.png",
-      "frontFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
       "frontNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
-      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
+      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/132.png",
       "frontShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/132.png",
-      "frontShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/132.png",
+      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/132.png",
+      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
       "frontShinyOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/132.png"
-    },
-    "weightKilograms": 4.0
+    }
   },
-  "recordId": "SCP-PKMN-0132",
-  "schemaVersion": "1.0.0",
+  "anomalousProperties": {
+    "summary": "Automatically generated anomaly profile for a standard Pokémon associated with the normal type profile.",
+    "originStatus": "theorized",
+    "properties": [
+      {
+        "propertyId": "AP-01",
+        "name": "Normal-Type Anomalous Expression",
+        "category": "biological",
+        "description": "The entity exhibits anomalous properties associated with its normal classification.",
+        "severity": "moderate",
+        "frequency": "conditional",
+        "verified": false
+      }
+    ],
+    "threatProfile": {
+      "overallThreatLevel": "low",
+      "hazards": [],
+      "riskSummary": "Risk score 0: normal-type risk profile"
+    }
+  },
+  "containment": {
+    "containmentStatus": "contained",
+    "primaryFacility": "Pokémon Anomaly Archive",
+    "containmentUnit": "Standard Habitat Simulation Chamber",
+    "specialContainmentProcedures": "Contain in an insulated urban simulation chamber isolated from public infrastructure.",
+    "handlingProcedures": "Interaction is restricted to authorized Pokémon handlers and approved research personnel.",
+    "environmentalRequirements": {
+      "habitatType": "urban"
+    },
+    "emergencyProcedures": "Activate site lockdown, isolate the habitat, and deploy the entity-specific recovery team."
+  },
+  "description": "Capable of copying an enemy's genetic code to instantly transform itself into a duplicate of the enemy.",
   "status": {
-    "lastVerifiedAt": "2026-08-24T12:10:15Z",
-    "operationalStatus": "archived"
+    "operationalStatus": "archived",
+    "lastVerifiedAt": "2026-08-24T12:52:33Z"
   }
 }

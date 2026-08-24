@@ -1,548 +1,557 @@
 {
-  "anomalousProperties": {
-    "properties": [
-      {
-        "category": "biological",
-        "description": "No additional anomalous property recorded.",
-        "frequency": "unknown",
-        "name": "Baseline Pokémon Biology",
-        "propertyId": "AP-01",
-        "severity": "minimal",
-        "verified": true
-      }
-    ],
-    "summary": "No anomaly has been authored for this imported Pokémon record.",
-    "threatProfile": {
-      "hazards": [],
-      "overallThreatLevel": "negligible"
-    }
+  "schemaVersion": "1.0.0",
+  "recordId": "SCP-PKMN-0618",
+  "generation": {
+    "generator": "scp-pokemon-anomaly-generator",
+    "generatorVersion": "1.1.0",
+    "seed": "ec3752dae7b7c7e6",
+    "source": "https://pokeapi.co/api/v2",
+    "generatedAt": "2026-08-24T12:52:38Z"
+  },
+  "metadata": {
+    "title": "SCP-PKMN-0618: Stunfisk",
+    "author": "Automated Foundation Data Division",
+    "language": "en",
+    "createdAt": "2026-08-24T12:52:38Z",
+    "lastUpdatedAt": "2026-08-24T12:52:38Z",
+    "publicationStatus": "draft",
+    "canon": "Generated SCP-Pokémon Fan Continuity"
   },
   "classification": {
-    "containmentClass": "safe",
-    "disruptionClass": "dark",
-    "objectClass": "safe",
-    "riskClass": "notice"
+    "objectClass": "euclid",
+    "containmentClass": "euclid",
+    "disruptionClass": "keneq",
+    "riskClass": "warning",
+    "classificationRationale": "ground-type risk profile; electric-type risk profile; dual-type interaction"
+  },
+  "pokemon": {
+    "speciesName": "Stunfisk",
+    "regionalDexNumber": 618,
+    "nationalDexNumber": 618,
+    "form": "Standard",
+    "biologicalSex": "unknown",
+    "lifeStage": "adult",
+    "primaryType": "ground",
+    "secondaryType": "electric",
+    "speciesCategory": "Trap Pokémon",
+    "heightMeters": 0.7,
+    "weightKilograms": 11.0,
+    "physicalDescription": "Its skin is very hard, so it is unhurt even if stepped on by sumo wrestlers. It smiles when transmitting electricity.",
+    "abilities": [
+      {
+        "name": "static",
+        "isHiddenAbility": false,
+        "status": "standard"
+      },
+      {
+        "name": "limber",
+        "isHiddenAbility": false,
+        "status": "standard"
+      },
+      {
+        "name": "sand-veil",
+        "isHiddenAbility": true,
+        "status": "standard"
+      }
+    ],
+    "knownMoves": [
+      {
+        "name": "tackle",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "water-gun",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "surf",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "thunder-shock",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "thunderbolt",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "thunder-wave",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "thunder",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "earthquake",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "fissure",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "dig",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "toxic",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "double-team",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "bide",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "flash",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rest",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rock-slide",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "substitute",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "snore",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "curse",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "flail",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "spite",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "protect",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sludge-bomb",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "mud-slap",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sandstorm",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "endure",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "swagger",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "spark",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "attract",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sleep-talk",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "return",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "frustration",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "pain-split",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "hidden-power",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rain-dance",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "uproar",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "facade",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "charge",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "revenge",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "yawn",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "endeavor",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "secret-power",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "camouflage",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "mud-sport",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "astonish",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rock-tomb",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "muddy-water",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "bounce",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "mud-shot",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "shock-wave",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "water-pulse",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "payback",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "me-first",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sucker-punch",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "magnet-rise",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "aqua-tail",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "earth-power",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "mud-bomb",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "discharge",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "stone-edge",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "stealth-rock",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sludge-wave",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "foul-play",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "round",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "scald",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "reflect-type",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "bulldoze",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "electroweb",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "confide",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "eerie-impulse",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "electric-terrain",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "infestation",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "stomping-tantrum",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "lash-out",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      }
+    ],
+    "sprites": {
+      "frontNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/618.png",
+      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/618.png",
+      "frontShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/618.png",
+      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/618.png",
+      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/618.png",
+      "frontShinyOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/618.png"
+    }
+  },
+  "anomalousProperties": {
+    "summary": "Automatically generated anomaly profile for a standard Pokémon associated with the ground, electric type profile.",
+    "originStatus": "theorized",
+    "properties": [
+      {
+        "propertyId": "AP-01",
+        "name": "Ground-Type Anomalous Expression",
+        "category": "biological",
+        "description": "The entity exhibits anomalous properties associated with its ground classification.",
+        "severity": "moderate",
+        "frequency": "conditional",
+        "verified": false
+      },
+      {
+        "propertyId": "AP-02",
+        "name": "Electric-Type Anomalous Expression",
+        "category": "elemental",
+        "description": "The entity produces electromagnetic discharge capable of affecting nearby equipment and biological nervous systems.",
+        "severity": "high",
+        "frequency": "conditional",
+        "verified": false
+      }
+    ],
+    "threatProfile": {
+      "overallThreatLevel": "high",
+      "hazards": [],
+      "riskSummary": "Risk score 7: ground-type risk profile; electric-type risk profile; dual-type interaction"
+    }
   },
   "containment": {
     "containmentStatus": "contained",
-    "containmentUnit": "Digital Record",
-    "emergencyProcedures": "Restore the record from the cached source response.",
-    "handlingProcedures": "Do not treat canonical data as an anomaly report without review.",
-    "primaryFacility": "Pokémon Data Archive",
-    "specialContainmentProcedures": "Store this record in a controlled local archive."
-  },
-  "description": "Its skin is very hard, so it is unhurt\neven if stepped on by sumo wrestlers.\nIt smiles when transmitting electricity.",
-  "metadata": {
-    "author": "PokéAPI Importer",
-    "createdAt": "2026-08-24T12:14:16Z",
-    "language": "en",
-    "lastUpdatedAt": "2026-08-24T12:14:16Z",
-    "publicationStatus": "draft",
-    "title": "SCP-PKMN-0618: Stunfisk"
-  },
-  "pokemon": {
-    "abilities": [
-      {
-        "isHiddenAbility": false,
-        "name": "static",
-        "status": "standard"
-      },
-      {
-        "isHiddenAbility": false,
-        "name": "limber",
-        "status": "standard"
-      },
-      {
-        "isHiddenAbility": true,
-        "name": "sand-veil",
-        "status": "standard"
-      }
-    ],
-    "baseStats": {
-      "attack": 66,
-      "defense": 84,
-      "hp": 109,
-      "specialAttack": 81,
-      "specialDefense": 99,
-      "speed": 32
+    "primaryFacility": "Pokémon Anomaly Archive",
+    "containmentUnit": "High-Risk Habitat Simulation Chamber",
+    "specialContainmentProcedures": "Use a sealed standard Pokémon containment chamber until habitat requirements are confirmed.",
+    "handlingProcedures": "Interaction is restricted to authorized Pokémon handlers and approved research personnel.",
+    "environmentalRequirements": {
+      "habitatType": "unknown"
     },
-    "biologicalSex": "unknown",
-    "form": "Standard",
-    "heightMeters": 0.7,
-    "knownMoves": [
-      {
-        "category": "unknown",
-        "name": "tackle",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "water-gun",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "surf",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "thunder-shock",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "thunderbolt",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "thunder-wave",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "thunder",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "earthquake",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "fissure",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "dig",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "toxic",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "double-team",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "bide",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "flash",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "rest",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "rock-slide",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "substitute",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "snore",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "curse",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "flail",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "spite",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "protect",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "sludge-bomb",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "mud-slap",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "sandstorm",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "endure",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "swagger",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "spark",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "attract",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "sleep-talk",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "return",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "frustration",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "pain-split",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "hidden-power",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "rain-dance",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "uproar",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "facade",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "charge",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "revenge",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "yawn",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "endeavor",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "secret-power",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "camouflage",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "mud-sport",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "astonish",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "rock-tomb",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "muddy-water",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "bounce",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "mud-shot",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "shock-wave",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "water-pulse",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "payback",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "me-first",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "sucker-punch",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "magnet-rise",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "aqua-tail",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "earth-power",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "mud-bomb",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "discharge",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "stone-edge",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "stealth-rock",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "sludge-wave",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "foul-play",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "round",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "scald",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "reflect-type",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "bulldoze",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "electroweb",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "confide",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "eerie-impulse",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "electric-terrain",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "infestation",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "stomping-tantrum",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "lash-out",
-        "status": "unverified",
-        "type": "unknown"
-      }
-    ],
-    "lifeStage": "adult",
-    "nationalDexNumber": 618,
-    "physicalDescription": "Its skin is very hard, so it is unhurt\neven if stepped on by sumo wrestlers.\nIt smiles when transmitting electricity.",
-    "primaryType": "ground",
-    "regionalDexNumber": 618,
-    "scientificDesignation": null,
-    "secondaryType": "electric",
-    "shinyStatus": "standard",
-    "speciesCategory": null,
-    "speciesName": "Stunfisk",
-    "sprites": {
-      "backFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/618.png",
-      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/618.png",
-      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/618.png",
-      "backShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/618.png",
-      "frontFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/618.png",
-      "frontNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/618.png",
-      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/618.png",
-      "frontShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/618.png",
-      "frontShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/618.png",
-      "frontShinyOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/618.png"
-    },
-    "weightKilograms": 11.0
+    "emergencyProcedures": "Activate site lockdown, isolate the habitat, and deploy the entity-specific recovery team."
   },
-  "recordId": "SCP-PKMN-0618",
-  "schemaVersion": "1.0.0",
+  "description": "Its skin is very hard, so it is unhurt even if stepped on by sumo wrestlers. It smiles when transmitting electricity.",
   "status": {
-    "lastVerifiedAt": "2026-08-24T12:14:16Z",
-    "operationalStatus": "archived"
+    "operationalStatus": "archived",
+    "lastVerifiedAt": "2026-08-24T12:52:38Z"
   }
 }

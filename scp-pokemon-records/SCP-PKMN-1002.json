@@ -1,364 +1,373 @@
 {
-  "anomalousProperties": {
-    "properties": [
-      {
-        "category": "biological",
-        "description": "No additional anomalous property recorded.",
-        "frequency": "unknown",
-        "name": "Baseline Pokémon Biology",
-        "propertyId": "AP-01",
-        "severity": "minimal",
-        "verified": true
-      }
-    ],
-    "summary": "No anomaly has been authored for this imported Pokémon record.",
-    "threatProfile": {
-      "hazards": [],
-      "overallThreatLevel": "negligible"
-    }
+  "schemaVersion": "1.0.0",
+  "recordId": "SCP-PKMN-1002",
+  "generation": {
+    "generator": "scp-pokemon-anomaly-generator",
+    "generatorVersion": "1.1.0",
+    "seed": "0e03f89110eec32f",
+    "source": "https://pokeapi.co/api/v2",
+    "generatedAt": "2026-08-24T12:52:41Z"
+  },
+  "metadata": {
+    "title": "SCP-PKMN-1002: Chien-Pao",
+    "author": "Automated Foundation Data Division",
+    "language": "en",
+    "createdAt": "2026-08-24T12:52:41Z",
+    "lastUpdatedAt": "2026-08-24T12:52:41Z",
+    "publicationStatus": "draft",
+    "canon": "Generated SCP-Pokémon Fan Continuity"
   },
   "classification": {
-    "containmentClass": "safe",
-    "disruptionClass": "dark",
-    "objectClass": "safe",
-    "riskClass": "notice"
-  },
-  "containment": {
-    "containmentStatus": "contained",
-    "containmentUnit": "Digital Record",
-    "emergencyProcedures": "Restore the record from the cached source response.",
-    "handlingProcedures": "Do not treat canonical data as an anomaly report without review.",
-    "primaryFacility": "Pokémon Data Archive",
-    "specialContainmentProcedures": "Store this record in a controlled local archive."
-  },
-  "description": "This Pokémon can control 100 tons of fallen snow. It plays around innocently by leaping in and out of avalanches it has caused.",
-  "metadata": {
-    "author": "PokéAPI Importer",
-    "createdAt": "2026-08-24T12:17:06Z",
-    "language": "en",
-    "lastUpdatedAt": "2026-08-24T12:17:06Z",
-    "publicationStatus": "draft",
-    "title": "SCP-PKMN-1002: Chien Pao"
+    "objectClass": "keter",
+    "containmentClass": "keter",
+    "disruptionClass": "keneq",
+    "riskClass": "critical",
+    "classificationRationale": "dark-type risk profile; ice-type risk profile; legendary classification; elevated aggregate base statistics; dual-type interaction"
   },
   "pokemon": {
+    "speciesName": "Chien-Pao",
+    "regionalDexNumber": 1002,
+    "nationalDexNumber": 1002,
+    "form": "Standard",
+    "biologicalSex": "unknown",
+    "lifeStage": "adult",
+    "primaryType": "dark",
+    "secondaryType": "ice",
+    "speciesCategory": "Ruinous Pokémon",
+    "heightMeters": 1.9,
+    "weightKilograms": 152.2,
+    "physicalDescription": "This Pokémon can control 100 tons of fallen snow. It plays around innocently by leaping in and out of avalanches it has caused.",
     "abilities": [
       {
-        "isHiddenAbility": false,
         "name": "sword-of-ruin",
+        "isHiddenAbility": false,
         "status": "standard"
       }
     ],
-    "baseStats": {
-      "attack": 120,
-      "defense": 80,
-      "hp": 80,
-      "specialAttack": 90,
-      "specialDefense": 65,
-      "speed": 135
-    },
-    "biologicalSex": "unknown",
-    "form": "Standard",
-    "heightMeters": 1.9,
     "knownMoves": [
       {
-        "category": "unknown",
         "name": "swords-dance",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "take-down",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "mist",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "blizzard",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "hyper-beam",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "recover",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "haze",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "rest",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "substitute",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "spite",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "powder-snow",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "protect",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "scary-face",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "icy-wind",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "endure",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "false-swipe",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "mean-look",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "sleep-talk",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "rain-dance",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "crunch",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "facade",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "taunt",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "brick-break",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "sheer-cold",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "aerial-ace",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "payback",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "sucker-punch",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "dark-pulse",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "night-slash",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "giga-impact",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "avalanche",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "ice-shard",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "ice-fang",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "hex",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "acrobatics",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "sacred-sword",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "snarl",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "icicle-crash",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "throat-chop",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "psychic-fangs",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "lash-out",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "tera-blast",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "ice-spinner",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "ruination",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       },
       {
-        "category": "unknown",
         "name": "snowscape",
-        "status": "unverified",
-        "type": "unknown"
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
       }
     ],
-    "lifeStage": "adult",
-    "nationalDexNumber": 1002,
-    "physicalDescription": "This Pokémon can control 100 tons of fallen snow. It plays around innocently by leaping in and out of avalanches it has caused.",
-    "primaryType": "dark",
-    "regionalDexNumber": 1002,
-    "scientificDesignation": null,
-    "secondaryType": "ice",
-    "shinyStatus": "standard",
-    "speciesCategory": null,
-    "speciesName": "Chien-Pao",
     "sprites": {
-      "backFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1002.png",
-      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1002.png",
-      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/1002.png",
-      "backShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/1002.png",
-      "frontFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1002.png",
       "frontNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1002.png",
-      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1002.png",
+      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1002.png",
       "frontShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1002.png",
-      "frontShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1002.png",
+      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/1002.png",
+      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1002.png",
       "frontShinyOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/1002.png"
-    },
-    "weightKilograms": 152.2
+    }
   },
-  "recordId": "SCP-PKMN-1002",
-  "schemaVersion": "1.0.0",
+  "anomalousProperties": {
+    "summary": "Automatically generated anomaly profile for a legendary Pokémon associated with the dark, ice type profile.",
+    "originStatus": "theorized",
+    "properties": [
+      {
+        "propertyId": "AP-01",
+        "name": "Dark-Type Anomalous Expression",
+        "category": "biological",
+        "description": "The entity exhibits anomalous properties associated with its dark classification.",
+        "severity": "moderate",
+        "frequency": "conditional",
+        "verified": false
+      },
+      {
+        "propertyId": "AP-02",
+        "name": "Ice-Type Anomalous Expression",
+        "category": "elemental",
+        "description": "The entity exhibits anomalous properties associated with its ice classification.",
+        "severity": "moderate",
+        "frequency": "conditional",
+        "verified": false
+      }
+    ],
+    "threatProfile": {
+      "overallThreatLevel": "existential",
+      "hazards": [],
+      "riskSummary": "Risk score 13: dark-type risk profile; ice-type risk profile; legendary classification; elevated aggregate base statistics; dual-type interaction"
+    }
+  },
+  "containment": {
+    "containmentStatus": "contained",
+    "primaryFacility": "Pokémon Anomaly Archive",
+    "containmentUnit": "High-Risk Habitat Simulation Chamber",
+    "specialContainmentProcedures": "Use a sealed standard Pokémon containment chamber until habitat requirements are confirmed. Maintain redundant barriers, continuous observation, and an authorized specialist response team.",
+    "handlingProcedures": "Interaction is restricted to authorized Pokémon handlers and approved research personnel.",
+    "environmentalRequirements": {
+      "habitatType": "unknown"
+    },
+    "emergencyProcedures": "Activate site lockdown, isolate the habitat, and deploy the entity-specific recovery team."
+  },
+  "description": "This Pokémon can control 100 tons of fallen snow. It plays around innocently by leaping in and out of avalanches it has caused.",
   "status": {
-    "lastVerifiedAt": "2026-08-24T12:17:06Z",
-    "operationalStatus": "archived"
+    "operationalStatus": "archived",
+    "lastVerifiedAt": "2026-08-24T12:52:41Z"
   }
 }

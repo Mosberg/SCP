@@ -1,435 +1,444 @@
 {
-  "anomalousProperties": {
-    "properties": [
-      {
-        "category": "biological",
-        "description": "No additional anomalous property recorded.",
-        "frequency": "unknown",
-        "name": "Baseline Pokémon Biology",
-        "propertyId": "AP-01",
-        "severity": "minimal",
-        "verified": true
-      }
-    ],
-    "summary": "No anomaly has been authored for this imported Pokémon record.",
-    "threatProfile": {
-      "hazards": [],
-      "overallThreatLevel": "negligible"
-    }
+  "schemaVersion": "1.0.0",
+  "recordId": "SCP-PKMN-0873",
+  "generation": {
+    "generator": "scp-pokemon-anomaly-generator",
+    "generatorVersion": "1.1.0",
+    "seed": "d34e84acb5a4a6c7",
+    "source": "https://pokeapi.co/api/v2",
+    "generatedAt": "2026-08-24T12:52:40Z"
+  },
+  "metadata": {
+    "title": "SCP-PKMN-0873: Frosmoth",
+    "author": "Automated Foundation Data Division",
+    "language": "en",
+    "createdAt": "2026-08-24T12:52:40Z",
+    "lastUpdatedAt": "2026-08-24T12:52:40Z",
+    "publicationStatus": "draft",
+    "canon": "Generated SCP-Pokémon Fan Continuity"
   },
   "classification": {
-    "containmentClass": "safe",
+    "objectClass": "euclid",
+    "containmentClass": "euclid",
     "disruptionClass": "dark",
-    "objectClass": "safe",
-    "riskClass": "notice"
+    "riskClass": "caution",
+    "classificationRationale": "ice-type risk profile; bug-type risk profile; dual-type interaction"
+  },
+  "pokemon": {
+    "speciesName": "Frosmoth",
+    "regionalDexNumber": 873,
+    "nationalDexNumber": 873,
+    "form": "Standard",
+    "biologicalSex": "unknown",
+    "lifeStage": "adult",
+    "primaryType": "ice",
+    "secondaryType": "bug",
+    "speciesCategory": "Frost Moth Pokémon",
+    "heightMeters": 1.3,
+    "weightKilograms": 42.0,
+    "physicalDescription": "Icy scales fall from its wings like snow as it flies over fields and mountains. The temperature of its wings is less than −290 degrees Fahrenheit.",
+    "abilities": [
+      {
+        "name": "shield-dust",
+        "isHiddenAbility": false,
+        "status": "standard"
+      },
+      {
+        "name": "ice-scales",
+        "isHiddenAbility": true,
+        "status": "standard"
+      }
+    ],
+    "knownMoves": [
+      {
+        "name": "take-down",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "mist",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "ice-beam",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "blizzard",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "aurora-beam",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "hyper-beam",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "stun-spore",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "light-screen",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "reflect",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "swift",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "leech-life",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rest",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "substitute",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "snore",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "powder-snow",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "protect",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "icy-wind",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "giga-drain",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "endure",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "attract",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sleep-talk",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "safeguard",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "hail",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "facade",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "helping-hand",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "imprison",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "feather-dance",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "weather-ball",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "icicle-spear",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "calm-mind",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "tailwind",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "u-turn",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "air-slash",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "bug-buzz",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "giga-impact",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "avalanche",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "defog",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "bug-bite",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "wide-guard",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "quiver-dance",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "round",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "acrobatics",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "struggle-bug",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "hurricane",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "play-rough",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "dazzling-gleam",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "infestation",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "lunge",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "aurora-veil",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "skitter-smack",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "triple-axel",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "dual-wingbeat",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "tera-blast",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "ice-spinner",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "snowscape",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "pounce",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      }
+    ],
+    "sprites": {
+      "frontNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/873.png",
+      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/873.png",
+      "frontShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/873.png",
+      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/873.png",
+      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/873.png",
+      "frontShinyOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/873.png"
+    }
+  },
+  "anomalousProperties": {
+    "summary": "Automatically generated anomaly profile for a standard Pokémon associated with the ice, bug type profile.",
+    "originStatus": "theorized",
+    "properties": [
+      {
+        "propertyId": "AP-01",
+        "name": "Ice-Type Anomalous Expression",
+        "category": "elemental",
+        "description": "The entity exhibits anomalous properties associated with its ice classification.",
+        "severity": "moderate",
+        "frequency": "conditional",
+        "verified": false
+      },
+      {
+        "propertyId": "AP-02",
+        "name": "Bug-Type Anomalous Expression",
+        "category": "biological",
+        "description": "The entity exhibits anomalous properties associated with its bug classification.",
+        "severity": "moderate",
+        "frequency": "conditional",
+        "verified": false
+      }
+    ],
+    "threatProfile": {
+      "overallThreatLevel": "moderate",
+      "hazards": [],
+      "riskSummary": "Risk score 4: ice-type risk profile; bug-type risk profile; dual-type interaction"
+    }
   },
   "containment": {
     "containmentStatus": "contained",
-    "containmentUnit": "Digital Record",
-    "emergencyProcedures": "Restore the record from the cached source response.",
-    "handlingProcedures": "Do not treat canonical data as an anomaly report without review.",
-    "primaryFacility": "Pokémon Data Archive",
-    "specialContainmentProcedures": "Store this record in a controlled local archive."
-  },
-  "description": "Icy scales fall from its wings like snow as it flies\nover fields and mountains. The temperature of its\nwings is less than −290 degrees Fahrenheit.",
-  "metadata": {
-    "author": "PokéAPI Importer",
-    "createdAt": "2026-08-24T12:16:08Z",
-    "language": "en",
-    "lastUpdatedAt": "2026-08-24T12:16:08Z",
-    "publicationStatus": "draft",
-    "title": "SCP-PKMN-0873: Frosmoth"
-  },
-  "pokemon": {
-    "abilities": [
-      {
-        "isHiddenAbility": false,
-        "name": "shield-dust",
-        "status": "standard"
-      },
-      {
-        "isHiddenAbility": true,
-        "name": "ice-scales",
-        "status": "standard"
-      }
-    ],
-    "baseStats": {
-      "attack": 65,
-      "defense": 60,
-      "hp": 70,
-      "specialAttack": 125,
-      "specialDefense": 90,
-      "speed": 65
+    "primaryFacility": "Pokémon Anomaly Archive",
+    "containmentUnit": "Standard Habitat Simulation Chamber",
+    "specialContainmentProcedures": "Use a sealed standard Pokémon containment chamber until habitat requirements are confirmed.",
+    "handlingProcedures": "Interaction is restricted to authorized Pokémon handlers and approved research personnel.",
+    "environmentalRequirements": {
+      "habitatType": "unknown"
     },
-    "biologicalSex": "unknown",
-    "form": "Standard",
-    "heightMeters": 1.3,
-    "knownMoves": [
-      {
-        "category": "unknown",
-        "name": "take-down",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "mist",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "ice-beam",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "blizzard",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "aurora-beam",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "hyper-beam",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "stun-spore",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "light-screen",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "reflect",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "swift",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "leech-life",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "rest",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "substitute",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "snore",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "powder-snow",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "protect",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "icy-wind",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "giga-drain",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "endure",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "attract",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "sleep-talk",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "safeguard",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "hail",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "facade",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "helping-hand",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "imprison",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "feather-dance",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "weather-ball",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "icicle-spear",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "calm-mind",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "tailwind",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "u-turn",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "air-slash",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "bug-buzz",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "giga-impact",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "avalanche",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "defog",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "bug-bite",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "wide-guard",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "quiver-dance",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "round",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "acrobatics",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "struggle-bug",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "hurricane",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "play-rough",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "dazzling-gleam",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "infestation",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "lunge",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "aurora-veil",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "skitter-smack",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "triple-axel",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "dual-wingbeat",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "tera-blast",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "ice-spinner",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "snowscape",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "pounce",
-        "status": "unverified",
-        "type": "unknown"
-      }
-    ],
-    "lifeStage": "adult",
-    "nationalDexNumber": 873,
-    "physicalDescription": "Icy scales fall from its wings like snow as it flies\nover fields and mountains. The temperature of its\nwings is less than −290 degrees Fahrenheit.",
-    "primaryType": "ice",
-    "regionalDexNumber": 873,
-    "scientificDesignation": null,
-    "secondaryType": "bug",
-    "shinyStatus": "standard",
-    "speciesCategory": null,
-    "speciesName": "Frosmoth",
-    "sprites": {
-      "backFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/873.png",
-      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/873.png",
-      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/873.png",
-      "backShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/873.png",
-      "frontFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/873.png",
-      "frontNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/873.png",
-      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/873.png",
-      "frontShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/873.png",
-      "frontShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/873.png",
-      "frontShinyOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/873.png"
-    },
-    "weightKilograms": 42.0
+    "emergencyProcedures": "Activate site lockdown, isolate the habitat, and deploy the entity-specific recovery team."
   },
-  "recordId": "SCP-PKMN-0873",
-  "schemaVersion": "1.0.0",
+  "description": "Icy scales fall from its wings like snow as it flies over fields and mountains. The temperature of its wings is less than −290 degrees Fahrenheit.",
   "status": {
-    "lastVerifiedAt": "2026-08-24T12:16:08Z",
-    "operationalStatus": "archived"
+    "operationalStatus": "archived",
+    "lastVerifiedAt": "2026-08-24T12:52:40Z"
   }
 }

@@ -1,615 +1,624 @@
 {
-  "anomalousProperties": {
-    "properties": [
-      {
-        "category": "biological",
-        "description": "No additional anomalous property recorded.",
-        "frequency": "unknown",
-        "name": "Baseline Pokémon Biology",
-        "propertyId": "AP-01",
-        "severity": "minimal",
-        "verified": true
-      }
-    ],
-    "summary": "No anomaly has been authored for this imported Pokémon record.",
-    "threatProfile": {
-      "hazards": [],
-      "overallThreatLevel": "negligible"
-    }
+  "schemaVersion": "1.0.0",
+  "recordId": "SCP-PKMN-0045",
+  "generation": {
+    "generator": "scp-pokemon-anomaly-generator",
+    "generatorVersion": "1.1.0",
+    "seed": "af7ea5a328742dd9",
+    "source": "https://pokeapi.co/api/v2",
+    "generatedAt": "2026-08-24T12:52:32Z"
+  },
+  "metadata": {
+    "title": "SCP-PKMN-0045: Vileplume",
+    "author": "Automated Foundation Data Division",
+    "language": "en",
+    "createdAt": "2026-08-24T12:52:32Z",
+    "lastUpdatedAt": "2026-08-24T12:52:32Z",
+    "publicationStatus": "draft",
+    "canon": "Generated SCP-Pokémon Fan Continuity"
   },
   "classification": {
-    "containmentClass": "safe",
-    "disruptionClass": "dark",
-    "objectClass": "safe",
-    "riskClass": "notice"
+    "objectClass": "euclid",
+    "containmentClass": "euclid",
+    "disruptionClass": "keneq",
+    "riskClass": "warning",
+    "classificationRationale": "grass-type risk profile; poison-type risk profile; dual-type interaction"
+  },
+  "pokemon": {
+    "speciesName": "Vileplume",
+    "regionalDexNumber": 45,
+    "nationalDexNumber": 45,
+    "form": "Standard",
+    "biologicalSex": "unknown",
+    "lifeStage": "adult",
+    "primaryType": "grass",
+    "secondaryType": "poison",
+    "speciesCategory": "Flower Pokémon",
+    "heightMeters": 1.2,
+    "weightKilograms": 18.6,
+    "physicalDescription": "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "isHiddenAbility": false,
+        "status": "standard"
+      },
+      {
+        "name": "effect-spore",
+        "isHiddenAbility": true,
+        "status": "standard"
+      }
+    ],
+    "knownMoves": [
+      {
+        "name": "swords-dance",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "cut",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "headbutt",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "body-slam",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "take-down",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "double-edge",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "acid",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "hyper-beam",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "absorb",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "mega-drain",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "leech-seed",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "growth",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "razor-leaf",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "solar-beam",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "poison-powder",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "stun-spore",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sleep-powder",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "petal-dance",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "toxic",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rage",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "mimic",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "double-team",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "reflect",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "bide",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "flash",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rest",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "substitute",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "snore",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "curse",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "flail",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "protect",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sludge-bomb",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "giga-drain",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "endure",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "charm",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "swagger",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "attract",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sleep-talk",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "return",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "frustration",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "safeguard",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sweet-scent",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "synthesis",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "moonlight",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "hidden-power",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sunny-day",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "facade",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "nature-power",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "helping-hand",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "ingrain",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "secret-power",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "teeter-dance",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "weather-ball",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "aromatherapy",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "tickle",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "bullet-seed",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "magical-leaf",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "natural-gift",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "fling",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "gastro-acid",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "worry-seed",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "seed-bomb",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "drain-punch",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "energy-ball",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "giga-impact",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "leaf-storm",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "captivate",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "grass-knot",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "venoshock",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sludge-wave",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "acid-spray",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "after-you",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "round",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "petal-blizzard",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "grassy-terrain",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "moonblast",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "confide",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "dazzling-gleam",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "infestation",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "strength-sap",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "solar-blade",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "pollen-puff",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "grassy-glide",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "corrosive-gas",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "tera-blast",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "trailblaze",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      }
+    ],
+    "sprites": {
+      "frontNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
+      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/45.png",
+      "frontShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/45.png",
+      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/45.png",
+      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
+      "frontShinyOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/45.png"
+    }
+  },
+  "anomalousProperties": {
+    "summary": "Automatically generated anomaly profile for a standard Pokémon associated with the grass, poison type profile.",
+    "originStatus": "theorized",
+    "properties": [
+      {
+        "propertyId": "AP-01",
+        "name": "Grass-Type Anomalous Expression",
+        "category": "biological",
+        "description": "The entity exhibits anomalous properties associated with its grass classification.",
+        "severity": "moderate",
+        "frequency": "conditional",
+        "verified": false
+      },
+      {
+        "propertyId": "AP-02",
+        "name": "Poison-Type Anomalous Expression",
+        "category": "biological",
+        "description": "The entity produces a biologically active substance with effects beyond known toxicology.",
+        "severity": "high",
+        "frequency": "conditional",
+        "verified": false
+      }
+    ],
+    "threatProfile": {
+      "overallThreatLevel": "high",
+      "hazards": [],
+      "riskSummary": "Risk score 5: grass-type risk profile; poison-type risk profile; dual-type interaction"
+    }
   },
   "containment": {
     "containmentStatus": "contained",
-    "containmentUnit": "Digital Record",
-    "emergencyProcedures": "Restore the record from the cached source response.",
-    "handlingProcedures": "Do not treat canonical data as an anomaly report without review.",
-    "primaryFacility": "Pokémon Data Archive",
-    "specialContainmentProcedures": "Store this record in a controlled local archive."
-  },
-  "description": "The larger its\npetals, the more\ntoxic pollen it\fcontains. Its big\nhead is heavy and\nhard to hold up.",
-  "metadata": {
-    "author": "PokéAPI Importer",
-    "createdAt": "2026-08-24T12:09:31Z",
-    "language": "en",
-    "lastUpdatedAt": "2026-08-24T12:09:31Z",
-    "publicationStatus": "draft",
-    "title": "SCP-PKMN-0045: Vileplume"
-  },
-  "pokemon": {
-    "abilities": [
-      {
-        "isHiddenAbility": false,
-        "name": "chlorophyll",
-        "status": "standard"
-      },
-      {
-        "isHiddenAbility": true,
-        "name": "effect-spore",
-        "status": "standard"
-      }
-    ],
-    "baseStats": {
-      "attack": 80,
-      "defense": 85,
-      "hp": 75,
-      "specialAttack": 110,
-      "specialDefense": 90,
-      "speed": 50
+    "primaryFacility": "Pokémon Anomaly Archive",
+    "containmentUnit": "High-Risk Habitat Simulation Chamber",
+    "specialContainmentProcedures": "Provide a secure open enclosure with reinforced perimeter fencing and remote observation.",
+    "handlingProcedures": "Interaction is restricted to authorized Pokémon handlers and approved research personnel.",
+    "environmentalRequirements": {
+      "habitatType": "grassland"
     },
-    "biologicalSex": "unknown",
-    "form": "Standard",
-    "heightMeters": 1.2,
-    "knownMoves": [
-      {
-        "category": "unknown",
-        "name": "swords-dance",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "cut",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "headbutt",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "body-slam",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "take-down",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "double-edge",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "acid",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "hyper-beam",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "absorb",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "mega-drain",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "leech-seed",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "growth",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "razor-leaf",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "solar-beam",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "poison-powder",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "stun-spore",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "sleep-powder",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "petal-dance",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "toxic",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "rage",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "mimic",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "double-team",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "reflect",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "bide",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "flash",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "rest",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "substitute",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "snore",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "curse",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "flail",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "protect",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "sludge-bomb",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "giga-drain",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "endure",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "charm",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "swagger",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "attract",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "sleep-talk",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "return",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "frustration",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "safeguard",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "sweet-scent",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "synthesis",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "moonlight",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "hidden-power",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "sunny-day",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "facade",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "nature-power",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "helping-hand",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "ingrain",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "secret-power",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "teeter-dance",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "weather-ball",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "aromatherapy",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "tickle",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "bullet-seed",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "magical-leaf",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "natural-gift",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "fling",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "gastro-acid",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "worry-seed",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "seed-bomb",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "drain-punch",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "energy-ball",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "giga-impact",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "leaf-storm",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "captivate",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "grass-knot",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "venoshock",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "sludge-wave",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "acid-spray",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "after-you",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "round",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "petal-blizzard",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "grassy-terrain",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "moonblast",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "confide",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "dazzling-gleam",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "infestation",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "strength-sap",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "solar-blade",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "pollen-puff",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "grassy-glide",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "corrosive-gas",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "tera-blast",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "trailblaze",
-        "status": "unverified",
-        "type": "unknown"
-      }
-    ],
-    "lifeStage": "adult",
-    "nationalDexNumber": 45,
-    "physicalDescription": "The larger its\npetals, the more\ntoxic pollen it\fcontains. Its big\nhead is heavy and\nhard to hold up.",
-    "primaryType": "grass",
-    "regionalDexNumber": 45,
-    "scientificDesignation": null,
-    "secondaryType": "poison",
-    "shinyStatus": "standard",
-    "speciesCategory": null,
-    "speciesName": "Vileplume",
-    "sprites": {
-      "backFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/45.png",
-      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/45.png",
-      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/45.png",
-      "backShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/45.png",
-      "frontFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
-      "frontNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
-      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
-      "frontShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/45.png",
-      "frontShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/45.png",
-      "frontShinyOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/45.png"
-    },
-    "weightKilograms": 18.6
+    "emergencyProcedures": "Activate site lockdown, isolate the habitat, and deploy the entity-specific recovery team."
   },
-  "recordId": "SCP-PKMN-0045",
-  "schemaVersion": "1.0.0",
+  "description": "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
   "status": {
-    "lastVerifiedAt": "2026-08-24T12:09:31Z",
-    "operationalStatus": "archived"
+    "operationalStatus": "archived",
+    "lastVerifiedAt": "2026-08-24T12:52:32Z"
   }
 }

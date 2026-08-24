@@ -1,338 +1,338 @@
 {
-  "anomalousProperties": {
-    "properties": [
-      {
-        "category": "biological",
-        "description": "No additional anomalous property recorded.",
-        "frequency": "unknown",
-        "name": "Baseline Pokémon Biology",
-        "propertyId": "AP-01",
-        "severity": "minimal",
-        "verified": true
-      }
-    ],
-    "summary": "No anomaly has been authored for this imported Pokémon record.",
-    "threatProfile": {
-      "hazards": [],
-      "overallThreatLevel": "negligible"
-    }
+  "schemaVersion": "1.0.0",
+  "recordId": "SCP-PKMN-0951",
+  "generation": {
+    "generator": "scp-pokemon-anomaly-generator",
+    "generatorVersion": "1.1.0",
+    "seed": "1f09c1a026017c56",
+    "source": "https://pokeapi.co/api/v2",
+    "generatedAt": "2026-08-24T12:52:40Z"
+  },
+  "metadata": {
+    "title": "SCP-PKMN-0951: Capsakid",
+    "author": "Automated Foundation Data Division",
+    "language": "en",
+    "createdAt": "2026-08-24T12:52:40Z",
+    "lastUpdatedAt": "2026-08-24T12:52:40Z",
+    "publicationStatus": "draft",
+    "canon": "Generated SCP-Pokémon Fan Continuity"
   },
   "classification": {
+    "objectClass": "safe",
     "containmentClass": "safe",
     "disruptionClass": "dark",
-    "objectClass": "safe",
-    "riskClass": "notice"
+    "riskClass": "notice",
+    "classificationRationale": "grass-type risk profile"
+  },
+  "pokemon": {
+    "speciesName": "Capsakid",
+    "regionalDexNumber": 951,
+    "nationalDexNumber": 951,
+    "form": "Standard",
+    "biologicalSex": "unknown",
+    "lifeStage": "adult",
+    "primaryType": "grass",
+    "secondaryType": null,
+    "speciesCategory": "Spicy Pepper Pokémon",
+    "heightMeters": 0.3,
+    "weightKilograms": 3.0,
+    "physicalDescription": "The more sunlight this Pokémon bathes in, the more spicy chemicals are produced by its body, and thus the spicier its moves become.",
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "isHiddenAbility": false,
+        "status": "standard"
+      },
+      {
+        "name": "insomnia",
+        "isHiddenAbility": false,
+        "status": "standard"
+      },
+      {
+        "name": "klutz",
+        "isHiddenAbility": true,
+        "status": "standard"
+      }
+    ],
+    "knownMoves": [
+      {
+        "name": "headbutt",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "take-down",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "leer",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "bite",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "leech-seed",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "growth",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "razor-leaf",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "solar-beam",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rest",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "super-fang",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "substitute",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "thief",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "protect",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sandstorm",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "giga-drain",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "endure",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rollout",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sleep-talk",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sunny-day",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "crunch",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "facade",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "helping-hand",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "ingrain",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "endeavor",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "bullet-seed",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "magical-leaf",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "worry-seed",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "seed-bomb",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "energy-ball",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "zen-headbutt",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "leaf-storm",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "grass-knot",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rage-powder",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "grassy-terrain",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "leafage",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "stomping-tantrum",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "grassy-glide",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "tera-blast",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "trailblaze",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      }
+    ],
+    "sprites": {
+      "frontNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/951.png",
+      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/951.png",
+      "frontShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/951.png",
+      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/951.png",
+      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/951.png",
+      "frontShinyOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/951.png"
+    }
+  },
+  "anomalousProperties": {
+    "summary": "Automatically generated anomaly profile for a standard Pokémon associated with the grass type profile.",
+    "originStatus": "theorized",
+    "properties": [
+      {
+        "propertyId": "AP-01",
+        "name": "Grass-Type Anomalous Expression",
+        "category": "biological",
+        "description": "The entity exhibits anomalous properties associated with its grass classification.",
+        "severity": "moderate",
+        "frequency": "conditional",
+        "verified": false
+      }
+    ],
+    "threatProfile": {
+      "overallThreatLevel": "low",
+      "hazards": [],
+      "riskSummary": "Risk score 1: grass-type risk profile"
+    }
   },
   "containment": {
     "containmentStatus": "contained",
-    "containmentUnit": "Digital Record",
-    "emergencyProcedures": "Restore the record from the cached source response.",
-    "handlingProcedures": "Do not treat canonical data as an anomaly report without review.",
-    "primaryFacility": "Pokémon Data Archive",
-    "specialContainmentProcedures": "Store this record in a controlled local archive."
+    "primaryFacility": "Pokémon Anomaly Archive",
+    "containmentUnit": "Standard Habitat Simulation Chamber",
+    "specialContainmentProcedures": "Use a sealed standard Pokémon containment chamber until habitat requirements are confirmed.",
+    "handlingProcedures": "Interaction is restricted to authorized Pokémon handlers and approved research personnel.",
+    "environmentalRequirements": {
+      "habitatType": "unknown"
+    },
+    "emergencyProcedures": "Activate site lockdown, isolate the habitat, and deploy the entity-specific recovery team."
   },
   "description": "The more sunlight this Pokémon bathes in, the more spicy chemicals are produced by its body, and thus the spicier its moves become.",
-  "metadata": {
-    "author": "PokéAPI Importer",
-    "createdAt": "2026-08-24T12:16:44Z",
-    "language": "en",
-    "lastUpdatedAt": "2026-08-24T12:16:44Z",
-    "publicationStatus": "draft",
-    "title": "SCP-PKMN-0951: Capsakid"
-  },
-  "pokemon": {
-    "abilities": [
-      {
-        "isHiddenAbility": false,
-        "name": "chlorophyll",
-        "status": "standard"
-      },
-      {
-        "isHiddenAbility": false,
-        "name": "insomnia",
-        "status": "standard"
-      },
-      {
-        "isHiddenAbility": true,
-        "name": "klutz",
-        "status": "standard"
-      }
-    ],
-    "baseStats": {
-      "attack": 62,
-      "defense": 40,
-      "hp": 50,
-      "specialAttack": 62,
-      "specialDefense": 40,
-      "speed": 50
-    },
-    "biologicalSex": "unknown",
-    "form": "Standard",
-    "heightMeters": 0.3,
-    "knownMoves": [
-      {
-        "category": "unknown",
-        "name": "headbutt",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "take-down",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "leer",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "bite",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "leech-seed",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "growth",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "razor-leaf",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "solar-beam",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "rest",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "super-fang",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "substitute",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "thief",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "protect",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "sandstorm",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "giga-drain",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "endure",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "rollout",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "sleep-talk",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "sunny-day",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "crunch",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "facade",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "helping-hand",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "ingrain",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "endeavor",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "bullet-seed",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "magical-leaf",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "worry-seed",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "seed-bomb",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "energy-ball",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "zen-headbutt",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "leaf-storm",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "grass-knot",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "rage-powder",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "grassy-terrain",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "leafage",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "stomping-tantrum",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "grassy-glide",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "tera-blast",
-        "status": "unverified",
-        "type": "unknown"
-      },
-      {
-        "category": "unknown",
-        "name": "trailblaze",
-        "status": "unverified",
-        "type": "unknown"
-      }
-    ],
-    "lifeStage": "adult",
-    "nationalDexNumber": 951,
-    "physicalDescription": "The more sunlight this Pokémon bathes in, the more spicy chemicals are produced by its body, and thus the spicier its moves become.",
-    "primaryType": "grass",
-    "regionalDexNumber": 951,
-    "scientificDesignation": null,
-    "secondaryType": null,
-    "shinyStatus": "standard",
-    "speciesCategory": null,
-    "speciesName": "Capsakid",
-    "sprites": {
-      "backFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/951.png",
-      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/951.png",
-      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/951.png",
-      "backShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/951.png",
-      "frontFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/951.png",
-      "frontNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/951.png",
-      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/951.png",
-      "frontShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/951.png",
-      "frontShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/951.png",
-      "frontShinyOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/951.png"
-    },
-    "weightKilograms": 3.0
-  },
-  "recordId": "SCP-PKMN-0951",
-  "schemaVersion": "1.0.0",
   "status": {
-    "lastVerifiedAt": "2026-08-24T12:16:44Z",
-    "operationalStatus": "archived"
+    "operationalStatus": "archived",
+    "lastVerifiedAt": "2026-08-24T12:52:40Z"
   }
 }
