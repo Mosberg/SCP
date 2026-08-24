@@ -1,0 +1,314 @@
+{
+  "anomalousProperties": {
+    "properties": [
+      {
+        "category": "biological",
+        "description": "No additional anomalous property recorded.",
+        "frequency": "unknown",
+        "name": "Baseline Pokémon Biology",
+        "propertyId": "AP-01",
+        "severity": "minimal",
+        "verified": true
+      }
+    ],
+    "summary": "No anomaly has been authored for this imported Pokémon record.",
+    "threatProfile": {
+      "hazards": [],
+      "overallThreatLevel": "negligible"
+    }
+  },
+  "classification": {
+    "containmentClass": "safe",
+    "disruptionClass": "dark",
+    "objectClass": "safe",
+    "riskClass": "notice"
+  },
+  "containment": {
+    "containmentStatus": "contained",
+    "containmentUnit": "Digital Record",
+    "emergencyProcedures": "Restore the record from the cached source response.",
+    "handlingProcedures": "Do not treat canonical data as an anomaly report without review.",
+    "primaryFacility": "Pokémon Data Archive",
+    "specialContainmentProcedures": "Store this record in a controlled local archive."
+  },
+  "description": "Aided by the soft pads on its feet, it silently raids\nthe food stores of other Pokémon. It survives off\nits ill-gotten gains.",
+  "metadata": {
+    "author": "PokéAPI Importer",
+    "createdAt": "2026-08-24T12:15:48Z",
+    "language": "en",
+    "lastUpdatedAt": "2026-08-24T12:15:48Z",
+    "publicationStatus": "draft",
+    "title": "SCP-PKMN-0827: Nickit"
+  },
+  "pokemon": {
+    "abilities": [
+      {
+        "isHiddenAbility": false,
+        "name": "run-away",
+        "status": "standard"
+      },
+      {
+        "isHiddenAbility": false,
+        "name": "unburden",
+        "status": "standard"
+      },
+      {
+        "isHiddenAbility": true,
+        "name": "stakeout",
+        "status": "standard"
+      }
+    ],
+    "baseStats": {
+      "attack": 28,
+      "defense": 28,
+      "hp": 40,
+      "specialAttack": 47,
+      "specialDefense": 52,
+      "speed": 50
+    },
+    "biologicalSex": "unknown",
+    "form": "Standard",
+    "heightMeters": 0.6,
+    "knownMoves": [
+      {
+        "category": "unknown",
+        "name": "tail-whip",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "dig",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "agility",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "quick-attack",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "screech",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "swift",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "rest",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "substitute",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "thief",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "snore",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "protect",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "endure",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "attract",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "sleep-talk",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "baton-pass",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "beat-up",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "torment",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "facade",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "taunt",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "knock-off",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "fake-tears",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "howl",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "mud-shot",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "assurance",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "sucker-punch",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "night-slash",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "nasty-plot",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "hone-claws",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "foul-play",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "round",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "quick-guard",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "tail-slap",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "snarl",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "play-rough",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "lash-out",
+        "status": "unverified",
+        "type": "unknown"
+      }
+    ],
+    "lifeStage": "adult",
+    "nationalDexNumber": 827,
+    "physicalDescription": "Aided by the soft pads on its feet, it silently raids\nthe food stores of other Pokémon. It survives off\nits ill-gotten gains.",
+    "primaryType": "dark",
+    "regionalDexNumber": 827,
+    "scientificDesignation": null,
+    "secondaryType": null,
+    "shinyStatus": "standard",
+    "speciesCategory": null,
+    "speciesName": "Nickit",
+    "sprites": {
+      "backFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/827.png",
+      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/827.png",
+      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/827.png",
+      "backShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/827.png",
+      "frontFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/827.png",
+      "frontNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/827.png",
+      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/827.png",
+      "frontShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/827.png",
+      "frontShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/827.png",
+      "frontShinyOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/827.png"
+    },
+    "weightKilograms": 8.9
+  },
+  "recordId": "SCP-PKMN-0827",
+  "schemaVersion": "1.0.0",
+  "status": {
+    "lastVerifiedAt": "2026-08-24T12:15:48Z",
+    "operationalStatus": "archived"
+  }
+}

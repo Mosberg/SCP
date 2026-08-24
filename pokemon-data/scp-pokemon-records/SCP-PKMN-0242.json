@@ -1,0 +1,926 @@
+{
+  "anomalousProperties": {
+    "properties": [
+      {
+        "category": "biological",
+        "description": "No additional anomalous property recorded.",
+        "frequency": "unknown",
+        "name": "Baseline Pokémon Biology",
+        "propertyId": "AP-01",
+        "severity": "minimal",
+        "verified": true
+      }
+    ],
+    "summary": "No anomaly has been authored for this imported Pokémon record.",
+    "threatProfile": {
+      "hazards": [],
+      "overallThreatLevel": "negligible"
+    }
+  },
+  "classification": {
+    "containmentClass": "safe",
+    "disruptionClass": "dark",
+    "objectClass": "safe",
+    "riskClass": "notice"
+  },
+  "containment": {
+    "containmentStatus": "contained",
+    "containmentUnit": "Digital Record",
+    "emergencyProcedures": "Restore the record from the cached source response.",
+    "handlingProcedures": "Do not treat canonical data as an anomaly report without review.",
+    "primaryFacility": "Pokémon Data Archive",
+    "specialContainmentProcedures": "Store this record in a controlled local archive."
+  },
+  "description": "Anyone who takes\neven one bite of\nBLISSEY's egg be­\fcomes unfailingly\ncaring and pleas­\nant to everyone.",
+  "metadata": {
+    "author": "PokéAPI Importer",
+    "createdAt": "2026-08-24T12:11:12Z",
+    "language": "en",
+    "lastUpdatedAt": "2026-08-24T12:11:12Z",
+    "publicationStatus": "draft",
+    "title": "SCP-PKMN-0242: Blissey"
+  },
+  "pokemon": {
+    "abilities": [
+      {
+        "isHiddenAbility": false,
+        "name": "natural-cure",
+        "status": "standard"
+      },
+      {
+        "isHiddenAbility": false,
+        "name": "serene-grace",
+        "status": "standard"
+      },
+      {
+        "isHiddenAbility": true,
+        "name": "healer",
+        "status": "standard"
+      }
+    ],
+    "baseStats": {
+      "attack": 10,
+      "defense": 10,
+      "hp": 255,
+      "specialAttack": 75,
+      "specialDefense": 135,
+      "speed": 55
+    },
+    "biologicalSex": "unknown",
+    "form": "Standard",
+    "heightMeters": 1.5,
+    "knownMoves": [
+      {
+        "category": "unknown",
+        "name": "pound",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "double-slap",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "mega-punch",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "fire-punch",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "ice-punch",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "thunder-punch",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "mega-kick",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "headbutt",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "tackle",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "body-slam",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "take-down",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "double-edge",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "tail-whip",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "growl",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "sing",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "flamethrower",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "ice-beam",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "blizzard",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "hyper-beam",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "counter",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "seismic-toss",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "strength",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "solar-beam",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "thunderbolt",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "thunder-wave",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "thunder",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "earthquake",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "toxic",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "psychic",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "mimic",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "double-team",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "minimize",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "defense-curl",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "light-screen",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "metronome",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "egg-bomb",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "fire-blast",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "swift",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "soft-boiled",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "dream-eater",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "flash",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "rest",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "rock-slide",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "tri-attack",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "substitute",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "thief",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "snore",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "curse",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "protect",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "sweet-kiss",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "mud-slap",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "zap-cannon",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "icy-wind",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "sandstorm",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "endure",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "charm",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "rollout",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "swagger",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "attract",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "sleep-talk",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "heal-bell",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "return",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "present",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "frustration",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "safeguard",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "dynamic-punch",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "iron-tail",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "hidden-power",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "rain-dance",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "sunny-day",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "psych-up",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "shadow-ball",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "rock-smash",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "uproar",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "hail",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "facade",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "focus-punch",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "helping-hand",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "trick",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "recycle",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "brick-break",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "endeavor",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "skill-swap",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "refresh",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "snatch",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "secret-power",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "hyper-voice",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "rock-tomb",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "block",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "covet",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "calm-mind",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "shock-wave",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "water-pulse",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "gravity",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "healing-wish",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "natural-gift",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "fling",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "copycat",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "last-resort",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "drain-punch",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "focus-blast",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "giga-impact",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "avalanche",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "zen-headbutt",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "rock-climb",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "captivate",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "stealth-rock",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "grass-knot",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "charge-beam",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "telekinesis",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "round",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "echoed-voice",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "stored-power",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "ally-switch",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "heal-pulse",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "incinerate",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "retaliate",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "bestow",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "bulldoze",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "work-up",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "wild-charge",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "disarming-voice",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "draining-kiss",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "fairy-wind",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "confide",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "electric-terrain",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "dazzling-gleam",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "baby-doll-eyes",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "power-up-punch",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "laser-focus",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "stomping-tantrum",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "life-dew",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "tera-blast",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "snowscape",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "trailblaze",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "chilling-water",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "alluring-voice",
+        "status": "unverified",
+        "type": "unknown"
+      }
+    ],
+    "lifeStage": "adult",
+    "nationalDexNumber": 242,
+    "physicalDescription": "Anyone who takes\neven one bite of\nBLISSEY's egg be­\fcomes unfailingly\ncaring and pleas­\nant to everyone.",
+    "primaryType": "normal",
+    "regionalDexNumber": 242,
+    "scientificDesignation": null,
+    "secondaryType": null,
+    "shinyStatus": "standard",
+    "speciesCategory": null,
+    "speciesName": "Blissey",
+    "sprites": {
+      "backFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/242.png",
+      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/242.png",
+      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/242.png",
+      "backShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/242.png",
+      "frontFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png",
+      "frontNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png",
+      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/242.png",
+      "frontShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/242.png",
+      "frontShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/242.png",
+      "frontShinyOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/242.png"
+    },
+    "weightKilograms": 46.8
+  },
+  "recordId": "SCP-PKMN-0242",
+  "schemaVersion": "1.0.0",
+  "status": {
+    "lastVerifiedAt": "2026-08-24T12:11:12Z",
+    "operationalStatus": "archived"
+  }
+}

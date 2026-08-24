@@ -1,0 +1,362 @@
+{
+  "anomalousProperties": {
+    "properties": [
+      {
+        "category": "biological",
+        "description": "No additional anomalous property recorded.",
+        "frequency": "unknown",
+        "name": "Baseline Pokémon Biology",
+        "propertyId": "AP-01",
+        "severity": "minimal",
+        "verified": true
+      }
+    ],
+    "summary": "No anomaly has been authored for this imported Pokémon record.",
+    "threatProfile": {
+      "hazards": [],
+      "overallThreatLevel": "negligible"
+    }
+  },
+  "classification": {
+    "containmentClass": "safe",
+    "disruptionClass": "dark",
+    "objectClass": "safe",
+    "riskClass": "notice"
+  },
+  "containment": {
+    "containmentStatus": "contained",
+    "containmentUnit": "Digital Record",
+    "emergencyProcedures": "Restore the record from the cached source response.",
+    "handlingProcedures": "Do not treat canonical data as an anomaly report without review.",
+    "primaryFacility": "Pokémon Data Archive",
+    "specialContainmentProcedures": "Store this record in a controlled local archive."
+  },
+  "description": "Apparently the itch of its teething impels it to\nsnap its jaws at anything in front of it.",
+  "metadata": {
+    "author": "PokéAPI Importer",
+    "createdAt": "2026-08-24T12:15:51Z",
+    "language": "en",
+    "lastUpdatedAt": "2026-08-24T12:15:51Z",
+    "publicationStatus": "draft",
+    "title": "SCP-PKMN-0833: Chewtle"
+  },
+  "pokemon": {
+    "abilities": [
+      {
+        "isHiddenAbility": false,
+        "name": "strong-jaw",
+        "status": "standard"
+      },
+      {
+        "isHiddenAbility": false,
+        "name": "shell-armor",
+        "status": "standard"
+      },
+      {
+        "isHiddenAbility": true,
+        "name": "swift-swim",
+        "status": "standard"
+      }
+    ],
+    "baseStats": {
+      "attack": 64,
+      "defense": 50,
+      "hp": 50,
+      "specialAttack": 38,
+      "specialDefense": 38,
+      "speed": 44
+    },
+    "biologicalSex": "unknown",
+    "form": "Standard",
+    "heightMeters": 0.3,
+    "knownMoves": [
+      {
+        "category": "unknown",
+        "name": "headbutt",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "tackle",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "body-slam",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "take-down",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "bite",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "water-gun",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "hydro-pump",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "surf",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "counter",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "waterfall",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "skull-bash",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "rest",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "substitute",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "snore",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "protect",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "scary-face",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "endure",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "false-swipe",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "attract",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "sleep-talk",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "rain-dance",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "crunch",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "whirlpool",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "facade",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "revenge",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "dive",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "mud-shot",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "water-pulse",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "payback",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "assurance",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "gastro-acid",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "poison-jab",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "ice-fang",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "round",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "shell-smash",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "dragon-tail",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "stomping-tantrum",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "liquidation",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "jaw-lock",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "scale-shot",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "skitter-smack",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "tera-blast",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "chilling-water",
+        "status": "unverified",
+        "type": "unknown"
+      }
+    ],
+    "lifeStage": "adult",
+    "nationalDexNumber": 833,
+    "physicalDescription": "Apparently the itch of its teething impels it to\nsnap its jaws at anything in front of it.",
+    "primaryType": "water",
+    "regionalDexNumber": 833,
+    "scientificDesignation": null,
+    "secondaryType": null,
+    "shinyStatus": "standard",
+    "speciesCategory": null,
+    "speciesName": "Chewtle",
+    "sprites": {
+      "backFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/833.png",
+      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/833.png",
+      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/833.png",
+      "backShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/833.png",
+      "frontFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/833.png",
+      "frontNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/833.png",
+      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/833.png",
+      "frontShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/833.png",
+      "frontShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/833.png",
+      "frontShinyOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/833.png"
+    },
+    "weightKilograms": 8.5
+  },
+  "recordId": "SCP-PKMN-0833",
+  "schemaVersion": "1.0.0",
+  "status": {
+    "lastVerifiedAt": "2026-08-24T12:15:51Z",
+    "operationalStatus": "archived"
+  }
+}

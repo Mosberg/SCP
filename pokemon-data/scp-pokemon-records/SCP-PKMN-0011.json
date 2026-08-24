@@ -1,0 +1,124 @@
+{
+  "anomalousProperties": {
+    "properties": [
+      {
+        "category": "biological",
+        "description": "No additional anomalous property recorded.",
+        "frequency": "unknown",
+        "name": "Baseline Pokémon Biology",
+        "propertyId": "AP-01",
+        "severity": "minimal",
+        "verified": true
+      }
+    ],
+    "summary": "No anomaly has been authored for this imported Pokémon record.",
+    "threatProfile": {
+      "hazards": [],
+      "overallThreatLevel": "negligible"
+    }
+  },
+  "classification": {
+    "containmentClass": "safe",
+    "disruptionClass": "dark",
+    "objectClass": "safe",
+    "riskClass": "notice"
+  },
+  "containment": {
+    "containmentStatus": "contained",
+    "containmentUnit": "Digital Record",
+    "emergencyProcedures": "Restore the record from the cached source response.",
+    "handlingProcedures": "Do not treat canonical data as an anomaly report without review.",
+    "primaryFacility": "Pokémon Data Archive",
+    "specialContainmentProcedures": "Store this record in a controlled local archive."
+  },
+  "description": "This POKéMON is\nvulnerable to\nattack while its\fshell is soft,\nexposing its weak\nand tender body.",
+  "metadata": {
+    "author": "PokéAPI Importer",
+    "createdAt": "2026-08-24T12:09:16Z",
+    "language": "en",
+    "lastUpdatedAt": "2026-08-24T12:09:16Z",
+    "publicationStatus": "draft",
+    "title": "SCP-PKMN-0011: Metapod"
+  },
+  "pokemon": {
+    "abilities": [
+      {
+        "isHiddenAbility": false,
+        "name": "shed-skin",
+        "status": "standard"
+      }
+    ],
+    "baseStats": {
+      "attack": 20,
+      "defense": 55,
+      "hp": 50,
+      "specialAttack": 25,
+      "specialDefense": 25,
+      "speed": 30
+    },
+    "biologicalSex": "unknown",
+    "form": "Standard",
+    "heightMeters": 0.7,
+    "knownMoves": [
+      {
+        "category": "unknown",
+        "name": "string-shot",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "harden",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "iron-defense",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "bug-bite",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "electroweb",
+        "status": "unverified",
+        "type": "unknown"
+      }
+    ],
+    "lifeStage": "adult",
+    "nationalDexNumber": 11,
+    "physicalDescription": "This POKéMON is\nvulnerable to\nattack while its\fshell is soft,\nexposing its weak\nand tender body.",
+    "primaryType": "bug",
+    "regionalDexNumber": 11,
+    "scientificDesignation": null,
+    "secondaryType": null,
+    "shinyStatus": "standard",
+    "speciesCategory": null,
+    "speciesName": "Metapod",
+    "sprites": {
+      "backFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/11.png",
+      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/11.png",
+      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/11.png",
+      "backShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/11.png",
+      "frontFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+      "frontNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
+      "frontShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/11.png",
+      "frontShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/11.png",
+      "frontShinyOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/11.png"
+    },
+    "weightKilograms": 9.9
+  },
+  "recordId": "SCP-PKMN-0011",
+  "schemaVersion": "1.0.0",
+  "status": {
+    "lastVerifiedAt": "2026-08-24T12:09:16Z",
+    "operationalStatus": "archived"
+  }
+}

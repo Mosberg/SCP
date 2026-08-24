@@ -1,0 +1,380 @@
+{
+  "anomalousProperties": {
+    "properties": [
+      {
+        "category": "biological",
+        "description": "No additional anomalous property recorded.",
+        "frequency": "unknown",
+        "name": "Baseline Pokémon Biology",
+        "propertyId": "AP-01",
+        "severity": "minimal",
+        "verified": true
+      }
+    ],
+    "summary": "No anomaly has been authored for this imported Pokémon record.",
+    "threatProfile": {
+      "hazards": [],
+      "overallThreatLevel": "negligible"
+    }
+  },
+  "classification": {
+    "containmentClass": "safe",
+    "disruptionClass": "dark",
+    "objectClass": "safe",
+    "riskClass": "notice"
+  },
+  "containment": {
+    "containmentStatus": "contained",
+    "containmentUnit": "Digital Record",
+    "emergencyProcedures": "Restore the record from the cached source response.",
+    "handlingProcedures": "Do not treat canonical data as an anomaly report without review.",
+    "primaryFacility": "Pokémon Data Archive",
+    "specialContainmentProcedures": "Store this record in a controlled local archive."
+  },
+  "description": "It secretly marks potential targets with a scent.\nBy following the scent, it stalks its targets\nand steals from them when they least expect it.",
+  "metadata": {
+    "author": "PokéAPI Importer",
+    "createdAt": "2026-08-24T12:15:50Z",
+    "language": "en",
+    "lastUpdatedAt": "2026-08-24T12:15:50Z",
+    "publicationStatus": "draft",
+    "title": "SCP-PKMN-0828: Thievul"
+  },
+  "pokemon": {
+    "abilities": [
+      {
+        "isHiddenAbility": false,
+        "name": "run-away",
+        "status": "standard"
+      },
+      {
+        "isHiddenAbility": false,
+        "name": "unburden",
+        "status": "standard"
+      },
+      {
+        "isHiddenAbility": true,
+        "name": "stakeout",
+        "status": "standard"
+      }
+    ],
+    "baseStats": {
+      "attack": 58,
+      "defense": 58,
+      "hp": 70,
+      "specialAttack": 87,
+      "specialDefense": 92,
+      "speed": 90
+    },
+    "biologicalSex": "unknown",
+    "form": "Standard",
+    "heightMeters": 1.2,
+    "knownMoves": [
+      {
+        "category": "unknown",
+        "name": "tail-whip",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "hyper-beam",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "dig",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "psychic",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "agility",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "quick-attack",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "screech",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "swift",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "rest",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "substitute",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "thief",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "snore",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "protect",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "endure",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "attract",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "sleep-talk",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "baton-pass",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "crunch",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "shadow-ball",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "beat-up",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "facade",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "taunt",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "fake-tears",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "mud-shot",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "u-turn",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "assurance",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "sucker-punch",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "dark-pulse",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "night-slash",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "giga-impact",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "nasty-plot",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "shadow-claw",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "thunder-fang",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "ice-fang",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "fire-fang",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "grass-knot",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "hone-claws",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "foul-play",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "round",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "acrobatics",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "tail-slap",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "snarl",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "parting-shot",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "play-rough",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "burning-jealousy",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "lash-out",
+        "status": "unverified",
+        "type": "unknown"
+      }
+    ],
+    "lifeStage": "adult",
+    "nationalDexNumber": 828,
+    "physicalDescription": "It secretly marks potential targets with a scent.\nBy following the scent, it stalks its targets\nand steals from them when they least expect it.",
+    "primaryType": "dark",
+    "regionalDexNumber": 828,
+    "scientificDesignation": null,
+    "secondaryType": null,
+    "shinyStatus": "standard",
+    "speciesCategory": null,
+    "speciesName": "Thievul",
+    "sprites": {
+      "backFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/828.png",
+      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/828.png",
+      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/828.png",
+      "backShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/828.png",
+      "frontFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/828.png",
+      "frontNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/828.png",
+      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/828.png",
+      "frontShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/828.png",
+      "frontShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/828.png",
+      "frontShinyOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/828.png"
+    },
+    "weightKilograms": 19.9
+  },
+  "recordId": "SCP-PKMN-0828",
+  "schemaVersion": "1.0.0",
+  "status": {
+    "lastVerifiedAt": "2026-08-24T12:15:50Z",
+    "operationalStatus": "archived"
+  }
+}

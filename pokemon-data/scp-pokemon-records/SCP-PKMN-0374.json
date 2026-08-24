@@ -1,0 +1,147 @@
+{
+  "anomalousProperties": {
+    "properties": [
+      {
+        "category": "biological",
+        "description": "No additional anomalous property recorded.",
+        "frequency": "unknown",
+        "name": "Baseline Pokémon Biology",
+        "propertyId": "AP-01",
+        "severity": "minimal",
+        "verified": true
+      }
+    ],
+    "summary": "No anomaly has been authored for this imported Pokémon record.",
+    "threatProfile": {
+      "hazards": [],
+      "overallThreatLevel": "negligible"
+    }
+  },
+  "classification": {
+    "containmentClass": "safe",
+    "disruptionClass": "dark",
+    "objectClass": "safe",
+    "riskClass": "notice"
+  },
+  "containment": {
+    "containmentStatus": "contained",
+    "containmentUnit": "Digital Record",
+    "emergencyProcedures": "Restore the record from the cached source response.",
+    "handlingProcedures": "Do not treat canonical data as an anomaly report without review.",
+    "primaryFacility": "Pokémon Data Archive",
+    "specialContainmentProcedures": "Store this record in a controlled local archive."
+  },
+  "description": "Instead of blood, a powerful magnetic\nforce courses throughout BELDUM’s\nbody. This POKéMON communicates with\fothers by sending controlled pulses of\nmagnetism.",
+  "metadata": {
+    "author": "PokéAPI Importer",
+    "createdAt": "2026-08-24T12:12:21Z",
+    "language": "en",
+    "lastUpdatedAt": "2026-08-24T12:12:21Z",
+    "publicationStatus": "draft",
+    "title": "SCP-PKMN-0374: Beldum"
+  },
+  "pokemon": {
+    "abilities": [
+      {
+        "isHiddenAbility": false,
+        "name": "clear-body",
+        "status": "standard"
+      },
+      {
+        "isHiddenAbility": true,
+        "name": "light-metal",
+        "status": "standard"
+      }
+    ],
+    "baseStats": {
+      "attack": 55,
+      "defense": 80,
+      "hp": 40,
+      "specialAttack": 35,
+      "specialDefense": 60,
+      "speed": 30
+    },
+    "biologicalSex": "unknown",
+    "form": "Standard",
+    "heightMeters": 0.6,
+    "knownMoves": [
+      {
+        "category": "unknown",
+        "name": "headbutt",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "tackle",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "take-down",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "iron-defense",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "zen-headbutt",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "iron-head",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "steel-beam",
+        "status": "unverified",
+        "type": "unknown"
+      },
+      {
+        "category": "unknown",
+        "name": "tera-blast",
+        "status": "unverified",
+        "type": "unknown"
+      }
+    ],
+    "lifeStage": "adult",
+    "nationalDexNumber": 374,
+    "physicalDescription": "Instead of blood, a powerful magnetic\nforce courses throughout BELDUM’s\nbody. This POKéMON communicates with\fothers by sending controlled pulses of\nmagnetism.",
+    "primaryType": "steel",
+    "regionalDexNumber": 374,
+    "scientificDesignation": null,
+    "secondaryType": "psychic",
+    "shinyStatus": "standard",
+    "speciesCategory": null,
+    "speciesName": "Beldum",
+    "sprites": {
+      "backFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/374.png",
+      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/374.png",
+      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/374.png",
+      "backShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/374.png",
+      "frontFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/374.png",
+      "frontNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/374.png",
+      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/374.png",
+      "frontShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/374.png",
+      "frontShinyFallback": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/374.png",
+      "frontShinyOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/374.png"
+    },
+    "weightKilograms": 95.2
+  },
+  "recordId": "SCP-PKMN-0374",
+  "schemaVersion": "1.0.0",
+  "status": {
+    "lastVerifiedAt": "2026-08-24T12:12:21Z",
+    "operationalStatus": "archived"
+  }
+}

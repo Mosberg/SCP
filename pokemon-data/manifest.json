@@ -1,0 +1,8 @@
+{
+  "generatedAt": "2026-08-24T12:17:20Z",
+  "recordsCompleted": 1025,
+  "recordsRequested": 1025,
+  "schema": "scp-pokemon-anomaly.schema.json",
+  "source": "https://pokeapi.co/api/v2",
+  "spriteDirectory": "sprites"
+}
