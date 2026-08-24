@@ -1,0 +1,532 @@
+{
+  "schemaVersion": "1.0.0",
+  "recordId": "SCP-PKMN-0382",
+  "generation": {
+    "generator": "scp-pokemon-anomaly-generator",
+    "generatorVersion": "1.0.0",
+    "seed": "206e4152a4d4e8cb",
+    "source": "PokéAPI",
+    "generatedAt": "2026-08-24T12:46:05Z"
+  },
+  "metadata": {
+    "title": "SCP-PKMN-0382: Kyogre",
+    "author": "Automated Foundation Data Division",
+    "language": "en",
+    "createdAt": "2026-08-24T12:46:05Z",
+    "lastUpdatedAt": "2026-08-24T12:46:05Z",
+    "publicationStatus": "draft",
+    "canon": "Generated SCP-Pokémon Fan Continuity"
+  },
+  "classification": {
+    "objectClass": "keter",
+    "containmentClass": "keter",
+    "disruptionClass": "keneq",
+    "riskClass": "danger",
+    "classificationRationale": "water-type risk profile; legendary classification; exceptional aggregate base statistics"
+  },
+  "pokemon": {
+    "speciesName": "Kyogre",
+    "regionalDexNumber": 382,
+    "nationalDexNumber": 382,
+    "form": "Standard",
+    "biologicalSex": "unknown",
+    "lifeStage": "adult",
+    "primaryType": "water",
+    "secondaryType": null,
+    "speciesCategory": "Sea Basin Pokémon",
+    "heightMeters": 4.5,
+    "weightKilograms": 352.0,
+    "physicalDescription": "KYOGRE has the power to create massive rain clouds that cover the entire sky and bring about torrential downpours. This POKéMON saved people who were suffering from droughts.",
+    "abilities": [
+      {
+        "name": "drizzle",
+        "isHiddenAbility": false,
+        "status": "standard"
+      }
+    ],
+    "knownMoves": [
+      {
+        "name": "headbutt",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "body-slam",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "take-down",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "double-edge",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "roar",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "hydro-pump",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "surf",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "ice-beam",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "blizzard",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "hyper-beam",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "strength",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "thunderbolt",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "thunder-wave",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "thunder",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "earthquake",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "toxic",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "mimic",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "double-team",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "defense-curl",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "waterfall",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "swift",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rest",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rock-slide",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "substitute",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "snore",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "protect",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "scary-face",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "mud-slap",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "icy-wind",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "endure",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "swagger",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sleep-talk",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "return",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "frustration",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "safeguard",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "hidden-power",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rain-dance",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "psych-up",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "ancient-power",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rock-smash",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "whirlpool",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "uproar",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "hail",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "facade",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "helping-hand",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "brick-break",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "secret-power",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "dive",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rock-tomb",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "water-spout",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "signal-beam",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sheer-cold",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "muddy-water",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "block",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "calm-mind",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "shock-wave",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "water-pulse",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "brine",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "natural-gift",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "aqua-ring",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "aqua-tail",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "giga-impact",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "avalanche",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "iron-head",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "heavy-slam",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "round",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "scald",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "bulldoze",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "confide",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "origin-pulse",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "liquidation",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "tera-blast",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "chilling-water",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      }
+    ],
+    "sprites": {
+      "frontNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/382.png",
+      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/382.png",
+      "frontShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/382.png",
+      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/382.png",
+      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/382.png",
+      "frontShinyOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/382.png"
+    }
+  },
+  "anomalousProperties": {
+    "summary": "Automatically generated anomaly profile for a legendary Pokémon associated with the water type profile.",
+    "originStatus": "theorized",
+    "properties": [
+      {
+        "propertyId": "AP-01",
+        "name": "Water-Type Anomalous Expression",
+        "category": "elemental",
+        "description": "The entity alters liquid behavior or remains functional under conditions that exceed known biology.",
+        "severity": "moderate",
+        "frequency": "conditional",
+        "verified": false
+      }
+    ],
+    "threatProfile": {
+      "overallThreatLevel": "extreme",
+      "hazards": [],
+      "riskSummary": "Risk score 10: water-type risk profile; legendary classification; exceptional aggregate base statistics"
+    }
+  },
+  "containment": {
+    "containmentStatus": "contained",
+    "primaryFacility": "Pokémon Anomaly Archive",
+    "containmentUnit": "High-Risk Habitat Simulation Chamber",
+    "specialContainmentProcedures": "Use a sealed aquatic containment tank with pressure control, filtration, and independent life support. Maintain redundant barriers, continuous observation, and an authorized specialist response team.",
+    "handlingProcedures": "Interaction is restricted to authorized Pokémon handlers and approved research personnel.",
+    "environmentalRequirements": {
+      "habitatType": "sea"
+    },
+    "emergencyProcedures": "Activate site lockdown, isolate the habitat, and deploy the entity-specific recovery team."
+  },
+  "description": "KYOGRE has the power to create massive rain clouds that cover the entire sky and bring about torrential downpours. This POKéMON saved people who were suffering from droughts.",
+  "status": {
+    "operationalStatus": "archived",
+    "lastVerifiedAt": "2026-08-24T12:46:05Z"
+  }
+}

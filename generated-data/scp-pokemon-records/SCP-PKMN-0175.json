@@ -1,0 +1,740 @@
+{
+  "schemaVersion": "1.0.0",
+  "recordId": "SCP-PKMN-0175",
+  "generation": {
+    "generator": "scp-pokemon-anomaly-generator",
+    "generatorVersion": "1.0.0",
+    "seed": "ab9140e3f17bf312",
+    "source": "PokéAPI",
+    "generatedAt": "2026-08-24T12:45:52Z"
+  },
+  "metadata": {
+    "title": "SCP-PKMN-0175: Togepi",
+    "author": "Automated Foundation Data Division",
+    "language": "en",
+    "createdAt": "2026-08-24T12:45:52Z",
+    "lastUpdatedAt": "2026-08-24T12:45:52Z",
+    "publicationStatus": "draft",
+    "canon": "Generated SCP-Pokémon Fan Continuity"
+  },
+  "classification": {
+    "objectClass": "euclid",
+    "containmentClass": "euclid",
+    "disruptionClass": "dark",
+    "riskClass": "caution",
+    "classificationRationale": "fairy-type risk profile"
+  },
+  "pokemon": {
+    "speciesName": "Togepi",
+    "regionalDexNumber": 175,
+    "nationalDexNumber": 175,
+    "form": "Standard",
+    "biologicalSex": "unknown",
+    "lifeStage": "adult",
+    "primaryType": "fairy",
+    "secondaryType": null,
+    "speciesCategory": "Spike Ball Pokémon",
+    "heightMeters": 0.3,
+    "weightKilograms": 1.5,
+    "physicalDescription": "The shell seems to be filled with joy. It is said that it will share good luck when treated kindly.",
+    "abilities": [
+      {
+        "name": "hustle",
+        "isHiddenAbility": false,
+        "status": "standard"
+      },
+      {
+        "name": "serene-grace",
+        "isHiddenAbility": false,
+        "status": "standard"
+      },
+      {
+        "name": "super-luck",
+        "isHiddenAbility": true,
+        "status": "standard"
+      }
+    ],
+    "knownMoves": [
+      {
+        "name": "pound",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "mega-punch",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "mega-kick",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "headbutt",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "tackle",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "body-slam",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "double-edge",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "growl",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "flamethrower",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "peck",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "counter",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "seismic-toss",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "solar-beam",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "thunder-wave",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "toxic",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "psychic",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "mimic",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "double-team",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "defense-curl",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "light-screen",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "reflect",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "metronome",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "mirror-move",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "fire-blast",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "swift",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "soft-boiled",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "dream-eater",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "flash",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rest",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "tri-attack",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "substitute",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "snore",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "curse",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "protect",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sweet-kiss",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "mud-slap",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "zap-cannon",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "foresight",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "detect",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "endure",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "charm",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rollout",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "swagger",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "attract",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sleep-talk",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "heal-bell",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "return",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "present",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "frustration",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "safeguard",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "baton-pass",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "encore",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "morning-sun",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "hidden-power",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rain-dance",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sunny-day",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "psych-up",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "ancient-power",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "shadow-ball",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "future-sight",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rock-smash",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "uproar",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "facade",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "follow-me",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "helping-hand",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "trick",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "wish",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "magic-coat",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "yawn",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "endeavor",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "secret-power",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "hyper-voice",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "signal-beam",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "extrasensory",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "aerial-ace",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "covet",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "calm-mind",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "shock-wave",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "water-pulse",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "natural-gift",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "fling",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "psycho-shift",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "lucky-chant",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "last-resort",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "nasty-plot",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "zen-headbutt",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "captivate",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "grass-knot",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "psyshock",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "telekinesis",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "after-you",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "round",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "echoed-voice",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "stored-power",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "incinerate",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "bestow",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "work-up",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "draining-kiss",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "play-rough",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "fairy-wind",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "moonblast",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "confide",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "mystical-fire",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "dazzling-gleam",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "baby-doll-eyes",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "life-dew",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      }
+    ],
+    "sprites": {
+      "frontNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/175.png",
+      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/175.png",
+      "frontShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/175.png",
+      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/175.png",
+      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/175.png",
+      "frontShinyOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/175.png"
+    }
+  },
+  "anomalousProperties": {
+    "summary": "Automatically generated anomaly profile for a standard Pokémon associated with the fairy type profile.",
+    "originStatus": "theorized",
+    "properties": [
+      {
+        "propertyId": "AP-01",
+        "name": "Fairy-Type Anomalous Expression",
+        "category": "biological",
+        "description": "The entity produces localized emotional, perceptual, or probability-related effects.",
+        "severity": "moderate",
+        "frequency": "conditional",
+        "verified": false
+      }
+    ],
+    "threatProfile": {
+      "overallThreatLevel": "moderate",
+      "hazards": [],
+      "riskSummary": "Risk score 3: fairy-type risk profile"
+    }
+  },
+  "containment": {
+    "containmentStatus": "contained",
+    "primaryFacility": "Pokémon Anomaly Archive",
+    "containmentUnit": "Standard Habitat Simulation Chamber",
+    "specialContainmentProcedures": "Provide a controlled indoor woodland enclosure with monitored vegetation and no unapproved exits.",
+    "handlingProcedures": "Interaction is restricted to authorized Pokémon handlers and approved research personnel.",
+    "environmentalRequirements": {
+      "habitatType": "forest"
+    },
+    "emergencyProcedures": "Activate site lockdown, isolate the habitat, and deploy the entity-specific recovery team."
+  },
+  "description": "The shell seems to be filled with joy. It is said that it will share good luck when treated kindly.",
+  "status": {
+    "operationalStatus": "archived",
+    "lastVerifiedAt": "2026-08-24T12:45:52Z"
+  }
+}

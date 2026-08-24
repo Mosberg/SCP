@@ -1,0 +1,681 @@
+{
+  "schemaVersion": "1.0.0",
+  "recordId": "SCP-PKMN-0136",
+  "generation": {
+    "generator": "scp-pokemon-anomaly-generator",
+    "generatorVersion": "1.0.0",
+    "seed": "f5dafb69e0bc5298",
+    "source": "PokéAPI",
+    "generatedAt": "2026-08-24T12:45:49Z"
+  },
+  "metadata": {
+    "title": "SCP-PKMN-0136: Flareon",
+    "author": "Automated Foundation Data Division",
+    "language": "en",
+    "createdAt": "2026-08-24T12:45:49Z",
+    "lastUpdatedAt": "2026-08-24T12:45:49Z",
+    "publicationStatus": "draft",
+    "canon": "Generated SCP-Pokémon Fan Continuity"
+  },
+  "classification": {
+    "objectClass": "euclid",
+    "containmentClass": "euclid",
+    "disruptionClass": "dark",
+    "riskClass": "caution",
+    "classificationRationale": "fire-type risk profile; elevated aggregate base statistics"
+  },
+  "pokemon": {
+    "speciesName": "Flareon",
+    "regionalDexNumber": 136,
+    "nationalDexNumber": 136,
+    "form": "Standard",
+    "biologicalSex": "unknown",
+    "lifeStage": "adult",
+    "primaryType": "fire",
+    "secondaryType": null,
+    "speciesCategory": "Flame Pokémon",
+    "heightMeters": 0.9,
+    "weightKilograms": 25.0,
+    "physicalDescription": "When storing thermal energy in its body, its temperature could soar to over 1600 degrees.",
+    "abilities": [
+      {
+        "name": "flash-fire",
+        "isHiddenAbility": false,
+        "status": "standard"
+      },
+      {
+        "name": "guts",
+        "isHiddenAbility": true,
+        "status": "standard"
+      }
+    ],
+    "knownMoves": [
+      {
+        "name": "pay-day",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "double-kick",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sand-attack",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "headbutt",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "tackle",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "body-slam",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "take-down",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "double-edge",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "tail-whip",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "leer",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "bite",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "growl",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "roar",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "ember",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "flamethrower",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "hyper-beam",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "strength",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "fire-spin",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "dig",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "toxic",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "quick-attack",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rage",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "mimic",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "double-team",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "reflect",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "focus-energy",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "bide",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "smog",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "fire-blast",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "swift",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "skull-bash",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rest",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "substitute",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "snore",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "curse",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "flail",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "protect",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "scary-face",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "mud-slap",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "zap-cannon",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "detect",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "endure",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "charm",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "swagger",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "attract",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sleep-talk",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "heal-bell",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "return",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "frustration",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "baton-pass",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "iron-tail",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "hidden-power",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rain-dance",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sunny-day",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "shadow-ball",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rock-smash",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "heat-wave",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "will-o-wisp",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "facade",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "helping-hand",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "wish",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "superpower",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "yawn",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "endeavor",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "secret-power",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "hyper-voice",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "weather-ball",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "fake-tears",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "overheat",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "tickle",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "covet",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "calm-mind",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "natural-gift",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "copycat",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "last-resort",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "flare-blitz",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "giga-impact",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "fire-fang",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "lava-plume",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "captivate",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "flame-charge",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "round",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "echoed-voice",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "stored-power",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "incinerate",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "retaliate",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "work-up",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "confide",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "mystical-fire",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "baby-doll-eyes",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "laser-focus",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "burning-jealousy",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "scorching-sands",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "tera-blast",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "trailblaze",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "alluring-voice",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "temper-flare",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      }
+    ],
+    "sprites": {
+      "frontNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
+      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/136.png",
+      "frontShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/136.png",
+      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/136.png",
+      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
+      "frontShinyOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/136.png"
+    }
+  },
+  "anomalousProperties": {
+    "summary": "Automatically generated anomaly profile for a standard Pokémon associated with the fire type profile.",
+    "originStatus": "theorized",
+    "properties": [
+      {
+        "propertyId": "AP-01",
+        "name": "Fire-Type Anomalous Expression",
+        "category": "elemental",
+        "description": "The entity produces or redirects thermal energy without a proportionate metabolic source.",
+        "severity": "high",
+        "frequency": "conditional",
+        "verified": false
+      }
+    ],
+    "threatProfile": {
+      "overallThreatLevel": "moderate",
+      "hazards": [],
+      "riskSummary": "Risk score 4: fire-type risk profile; elevated aggregate base statistics"
+    }
+  },
+  "containment": {
+    "containmentStatus": "contained",
+    "primaryFacility": "Pokémon Anomaly Archive",
+    "containmentUnit": "Standard Habitat Simulation Chamber",
+    "specialContainmentProcedures": "Contain in an insulated urban simulation chamber isolated from public infrastructure.",
+    "handlingProcedures": "Interaction is restricted to authorized Pokémon handlers and approved research personnel.",
+    "environmentalRequirements": {
+      "habitatType": "urban"
+    },
+    "emergencyProcedures": "Activate site lockdown, isolate the habitat, and deploy the entity-specific recovery team."
+  },
+  "description": "When storing thermal energy in its body, its temperature could soar to over 1600 degrees.",
+  "status": {
+    "operationalStatus": "archived",
+    "lastVerifiedAt": "2026-08-24T12:45:49Z"
+  }
+}

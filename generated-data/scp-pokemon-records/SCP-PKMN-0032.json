@@ -1,0 +1,584 @@
+{
+  "schemaVersion": "1.0.0",
+  "recordId": "SCP-PKMN-0032",
+  "generation": {
+    "generator": "scp-pokemon-anomaly-generator",
+    "generatorVersion": "1.0.0",
+    "seed": "5d06208039f5d6b4",
+    "source": "PokéAPI",
+    "generatedAt": "2026-08-24T12:45:43Z"
+  },
+  "metadata": {
+    "title": "SCP-PKMN-0032: Nidoran♂",
+    "author": "Automated Foundation Data Division",
+    "language": "en",
+    "createdAt": "2026-08-24T12:45:43Z",
+    "lastUpdatedAt": "2026-08-24T12:45:43Z",
+    "publicationStatus": "draft",
+    "canon": "Generated SCP-Pokémon Fan Continuity"
+  },
+  "classification": {
+    "objectClass": "euclid",
+    "containmentClass": "euclid",
+    "disruptionClass": "dark",
+    "riskClass": "caution",
+    "classificationRationale": "poison-type risk profile"
+  },
+  "pokemon": {
+    "speciesName": "Nidoran♂",
+    "regionalDexNumber": 32,
+    "nationalDexNumber": 32,
+    "form": "Standard",
+    "biologicalSex": "unknown",
+    "lifeStage": "adult",
+    "primaryType": "poison",
+    "secondaryType": null,
+    "speciesCategory": "Poison Pin Pokémon",
+    "heightMeters": 0.5,
+    "weightKilograms": 9.0,
+    "physicalDescription": "Stiffens its ears to sense danger. The larger its horns, the more powerful its secreted venom.",
+    "abilities": [
+      {
+        "name": "poison-point",
+        "isHiddenAbility": false,
+        "status": "standard"
+      },
+      {
+        "name": "rivalry",
+        "isHiddenAbility": false,
+        "status": "standard"
+      },
+      {
+        "name": "hustle",
+        "isHiddenAbility": true,
+        "status": "standard"
+      }
+    ],
+    "knownMoves": [
+      {
+        "name": "cut",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "double-kick",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "headbutt",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "horn-attack",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "fury-attack",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "horn-drill",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "tackle",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "body-slam",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "take-down",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "thrash",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "double-edge",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "poison-sting",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "leer",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "supersonic",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "disable",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "ice-beam",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "blizzard",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "peck",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "counter",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "strength",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "thunderbolt",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "thunder",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "dig",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "toxic",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "confusion",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rage",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "mimic",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "double-team",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "defense-curl",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "reflect",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "focus-energy",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "bide",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "skull-bash",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "amnesia",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rest",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "super-fang",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "substitute",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "thief",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "snore",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "curse",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "protect",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sludge-bomb",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "mud-slap",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "detect",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "endure",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "swagger",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "attract",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sleep-talk",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "return",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "frustration",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "iron-tail",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "hidden-power",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rain-dance",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sunny-day",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "rock-smash",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "beat-up",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "flatter",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "facade",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "helping-hand",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "secret-power",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "poison-tail",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "shock-wave",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "water-pulse",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "natural-gift",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "sucker-punch",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "toxic-spikes",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "poison-jab",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "earth-power",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "shadow-claw",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "captivate",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "head-smash",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "hone-claws",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "venoshock",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "round",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "echoed-voice",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "chip-away",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "drill-run",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "confide",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "venom-drench",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      },
+      {
+        "name": "smart-strike",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      }
+    ],
+    "sprites": {
+      "frontNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
+      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/32.png",
+      "frontShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/32.png",
+      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/32.png",
+      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
+      "frontShinyOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/32.png"
+    }
+  },
+  "anomalousProperties": {
+    "summary": "Automatically generated anomaly profile for a standard Pokémon associated with the poison type profile.",
+    "originStatus": "theorized",
+    "properties": [
+      {
+        "propertyId": "AP-01",
+        "name": "Poison-Type Anomalous Expression",
+        "category": "biological",
+        "description": "The entity produces a biologically active substance with effects beyond known toxicology.",
+        "severity": "high",
+        "frequency": "conditional",
+        "verified": false
+      }
+    ],
+    "threatProfile": {
+      "overallThreatLevel": "moderate",
+      "hazards": [],
+      "riskSummary": "Risk score 3: poison-type risk profile"
+    }
+  },
+  "containment": {
+    "containmentStatus": "contained",
+    "primaryFacility": "Pokémon Anomaly Archive",
+    "containmentUnit": "Standard Habitat Simulation Chamber",
+    "specialContainmentProcedures": "Provide a secure open enclosure with reinforced perimeter fencing and remote observation.",
+    "handlingProcedures": "Interaction is restricted to authorized Pokémon handlers and approved research personnel.",
+    "environmentalRequirements": {
+      "habitatType": "grassland"
+    },
+    "emergencyProcedures": "Activate site lockdown, isolate the habitat, and deploy the entity-specific recovery team."
+  },
+  "description": "Stiffens its ears to sense danger. The larger its horns, the more powerful its secreted venom.",
+  "status": {
+    "operationalStatus": "archived",
+    "lastVerifiedAt": "2026-08-24T12:45:43Z"
+  }
+}

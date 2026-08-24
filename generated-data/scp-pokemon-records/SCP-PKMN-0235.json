@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "1.0.0",
+  "recordId": "SCP-PKMN-0235",
+  "generation": {
+    "generator": "scp-pokemon-anomaly-generator",
+    "generatorVersion": "1.0.0",
+    "seed": "4d7ea827138ae2e3",
+    "source": "PokéAPI",
+    "generatedAt": "2026-08-24T12:45:56Z"
+  },
+  "metadata": {
+    "title": "SCP-PKMN-0235: Smeargle",
+    "author": "Automated Foundation Data Division",
+    "language": "en",
+    "createdAt": "2026-08-24T12:45:56Z",
+    "lastUpdatedAt": "2026-08-24T12:45:56Z",
+    "publicationStatus": "draft",
+    "canon": "Generated SCP-Pokémon Fan Continuity"
+  },
+  "classification": {
+    "objectClass": "safe",
+    "containmentClass": "safe",
+    "disruptionClass": "dark",
+    "riskClass": "notice",
+    "classificationRationale": "normal-type risk profile"
+  },
+  "pokemon": {
+    "speciesName": "Smeargle",
+    "regionalDexNumber": 235,
+    "nationalDexNumber": 235,
+    "form": "Standard",
+    "biologicalSex": "unknown",
+    "lifeStage": "adult",
+    "primaryType": "normal",
+    "secondaryType": null,
+    "speciesCategory": "Painter Pokémon",
+    "heightMeters": 1.2,
+    "weightKilograms": 58.0,
+    "physicalDescription": "A special fluid oozes from the tip of its tail. It paints the fluid everywhere to mark its territory.",
+    "abilities": [
+      {
+        "name": "own-tempo",
+        "isHiddenAbility": false,
+        "status": "standard"
+      },
+      {
+        "name": "technician",
+        "isHiddenAbility": false,
+        "status": "standard"
+      },
+      {
+        "name": "moody",
+        "isHiddenAbility": true,
+        "status": "standard"
+      }
+    ],
+    "knownMoves": [
+      {
+        "name": "sketch",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      }
+    ],
+    "sprites": {
+      "frontNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/235.png",
+      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/235.png",
+      "frontShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/235.png",
+      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/235.png",
+      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/235.png",
+      "frontShinyOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/235.png"
+    }
+  },
+  "anomalousProperties": {
+    "summary": "Automatically generated anomaly profile for a standard Pokémon associated with the normal type profile.",
+    "originStatus": "theorized",
+    "properties": [
+      {
+        "propertyId": "AP-01",
+        "name": "Normal-Type Anomalous Expression",
+        "category": "biological",
+        "description": "The entity exhibits anomalous properties associated with its normal classification.",
+        "severity": "moderate",
+        "frequency": "conditional",
+        "verified": false
+      }
+    ],
+    "threatProfile": {
+      "overallThreatLevel": "low",
+      "hazards": [],
+      "riskSummary": "Risk score 0: normal-type risk profile"
+    }
+  },
+  "containment": {
+    "containmentStatus": "contained",
+    "primaryFacility": "Pokémon Anomaly Archive",
+    "containmentUnit": "Standard Habitat Simulation Chamber",
+    "specialContainmentProcedures": "Contain in an insulated urban simulation chamber isolated from public infrastructure.",
+    "handlingProcedures": "Interaction is restricted to authorized Pokémon handlers and approved research personnel.",
+    "environmentalRequirements": {
+      "habitatType": "urban"
+    },
+    "emergencyProcedures": "Activate site lockdown, isolate the habitat, and deploy the entity-specific recovery team."
+  },
+  "description": "A special fluid oozes from the tip of its tail. It paints the fluid everywhere to mark its territory.",
+  "status": {
+    "operationalStatus": "archived",
+    "lastVerifiedAt": "2026-08-24T12:45:56Z"
+  }
+}

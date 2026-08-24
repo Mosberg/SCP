@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "1.0.0",
+  "recordId": "SCP-PKMN-0201",
+  "generation": {
+    "generator": "scp-pokemon-anomaly-generator",
+    "generatorVersion": "1.0.0",
+    "seed": "f9514f2dde21149c",
+    "source": "PokéAPI",
+    "generatedAt": "2026-08-24T12:45:54Z"
+  },
+  "metadata": {
+    "title": "SCP-PKMN-0201: Unown",
+    "author": "Automated Foundation Data Division",
+    "language": "en",
+    "createdAt": "2026-08-24T12:45:54Z",
+    "lastUpdatedAt": "2026-08-24T12:45:54Z",
+    "publicationStatus": "draft",
+    "canon": "Generated SCP-Pokémon Fan Continuity"
+  },
+  "classification": {
+    "objectClass": "euclid",
+    "containmentClass": "euclid",
+    "disruptionClass": "dark",
+    "riskClass": "caution",
+    "classificationRationale": "psychic-type risk profile"
+  },
+  "pokemon": {
+    "speciesName": "Unown",
+    "regionalDexNumber": 201,
+    "nationalDexNumber": 201,
+    "form": "Standard",
+    "biologicalSex": "unknown",
+    "lifeStage": "adult",
+    "primaryType": "psychic",
+    "secondaryType": null,
+    "speciesCategory": "Symbol Pokémon",
+    "heightMeters": 0.5,
+    "weightKilograms": 5.0,
+    "physicalDescription": "Their shapes look like hieroglyphs on ancient tab­ lets. It is said that the two are somehow related.",
+    "abilities": [
+      {
+        "name": "levitate",
+        "isHiddenAbility": false,
+        "status": "standard"
+      }
+    ],
+    "knownMoves": [
+      {
+        "name": "hidden-power",
+        "type": "unknown",
+        "category": "unknown",
+        "status": "unverified"
+      }
+    ],
+    "sprites": {
+      "frontNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201.png",
+      "backNormal": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/201.png",
+      "frontShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/201.png",
+      "backShiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/201.png",
+      "frontOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
+      "frontShinyOfficialArtwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/201.png"
+    }
+  },
+  "anomalousProperties": {
+    "summary": "Automatically generated anomaly profile for a standard Pokémon associated with the psychic type profile.",
+    "originStatus": "theorized",
+    "properties": [
+      {
+        "propertyId": "AP-01",
+        "name": "Psychic-Type Anomalous Expression",
+        "category": "biological",
+        "description": "The entity demonstrates non-contact influence over perception, cognition, or information processing.",
+        "severity": "severe",
+        "frequency": "conditional",
+        "verified": false
+      }
+    ],
+    "threatProfile": {
+      "overallThreatLevel": "moderate",
+      "hazards": [],
+      "riskSummary": "Risk score 4: psychic-type risk profile"
+    }
+  },
+  "containment": {
+    "containmentStatus": "contained",
+    "primaryFacility": "Pokémon Anomaly Archive",
+    "containmentUnit": "Standard Habitat Simulation Chamber",
+    "specialContainmentProcedures": "Maintain redundant containment, continuous observation, and a specialist response team.",
+    "handlingProcedures": "Interaction is restricted to authorized Pokémon handlers and approved research personnel.",
+    "environmentalRequirements": {
+      "habitatType": "rare"
+    },
+    "emergencyProcedures": "Activate site lockdown, isolate the habitat, and deploy the entity-specific recovery team."
+  },
+  "description": "Their shapes look like hieroglyphs on ancient tab­ lets. It is said that the two are somehow related.",
+  "status": {
+    "operationalStatus": "archived",
+    "lastVerifiedAt": "2026-08-24T12:45:54Z"
+  }
+}
